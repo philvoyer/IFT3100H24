@@ -1,32 +1,23 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
-*.exe
-*.out
 *.app
+*.d
+*.dll
+*.dylib
+*.exe
+*.gch
+*.la
+*.lai
+*.lib
+*.lo
+*.make
+*.mod
+*.o
+*.out
+*.pch
+*.plist
+*.slo
+*.smod
+*.so
+*.xcconfig
+*.xcodeproj
+.DS_Store
