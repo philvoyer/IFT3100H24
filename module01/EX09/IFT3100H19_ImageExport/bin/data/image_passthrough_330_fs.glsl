@@ -2,7 +2,7 @@
 
 #version 330
 
-// attributs uniformes
+// attribut uniforme
 uniform sampler2D image;
 
 // attribut en entrée
