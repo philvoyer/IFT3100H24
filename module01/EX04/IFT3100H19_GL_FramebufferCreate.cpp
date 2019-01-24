@@ -7,7 +7,7 @@
 // • Un framebuffer prêt à l'utilisation, avec un buffer de rendu couleur et un buffer de profondeur.
 
 // résolution en largeur de la fenêtre d'affichage
-int viewpor_width  = ...;
+int viewport_width  = ...;
 // résolution en hauteur de la fenêtre d'affichage
 int viewport_height = ...;
 
@@ -35,7 +35,7 @@ glGenRenderbuffers(1, &renderbuffer);
 glBindRenderbuffer(GL_RENDERBUFFER, renderbuffer);
 
 // allouer l'espace mémoire du buffer de rendu
-glRenderbufferStorage(GL_RENDERBUFFER, GL_RGBA, viewpor_width, viewport_height);
+glRenderbufferStorage(GL_RENDERBUFFER, GL_RGBA, viewport_width, viewport_height);
 
 // attacher le buffer de rendu au framebuffer
 glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_RENDERBUFFER, renderbuffer);
@@ -49,7 +49,7 @@ glGenRenderbuffers(1, &depthbuffer);
 glBindRenderbuffer(GL_RENDERBUFFER, depthbuffer);
 
 // allouer l'espace mémoire du buffer de profondeur
-glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT16, viewpor_width, viewport_height);
+glRenderbufferStorage(GL_RENDERBUFFER, GL_DEPTH_COMPONENT16, viewport_width, viewport_height);
 
 // attacher le buffer de profondeur au framebuffer
 glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, depthbuffer);
