@@ -34,7 +34,7 @@ void Renderer::draw()
   // sélectionner le shader
   shader.begin();
 
-  // passer les attributs uniformes au shader
+  // passer la texture au shader sous forme d'un attribut uniforme
   shader.setUniformTexture("image", image.getTexture(), 1);
 
   // afficher l'image sur toute la surface de la fenêtre d'affichage
