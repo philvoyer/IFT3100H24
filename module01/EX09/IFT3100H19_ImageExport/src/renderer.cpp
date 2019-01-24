@@ -10,7 +10,7 @@ void Renderer::setup()
   // mode d'échantillonage des coordonnées de texture
   ofDisableArbTex();
 
-  // chargement de code source shaders
+  // chargement du code source des shaders
   shader_passthrough.load(
     "image_passthrough_330_vs.glsl",
     "image_passthrough_330_fs.glsl");
