@@ -262,6 +262,7 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glUseProgram.xhtml
 
 Commande OpenGL : **glVertexAttribPointer**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glVertexAttribPointer.xhtml
+
 ## GLSL
 
 ### Documentation GLSL
@@ -293,8 +294,6 @@ https://www.khronos.org/opengl/wiki/Sampler_(GLSL)
 
 Multitexture  
 https://www.khronos.org/opengl/wiki/Multitexture_with_GLSL
-
-## openFrameworks
 
 ## Technologies
 
