@@ -8,7 +8,7 @@
 #include "application.h"
 
 // point d'entrée de l'application
-int main( )
+int main()
 {
   // création du contexte de rendu (OpenGL 2.1 par défaut)
   ofSetupOpenGL(512, 512, OF_WINDOW);
