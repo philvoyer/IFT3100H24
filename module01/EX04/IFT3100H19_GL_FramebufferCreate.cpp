@@ -6,7 +6,6 @@
 // sortie
 // • Un framebuffer prêt à l'utilisation, avec un buffer de rendu couleur et un buffer de profondeur.
 
-
 // résolution en largeur de la fenêtre d'affichage
 int viewport_width  = ...;
 // résolution en hauteur de la fenêtre d'affichage
