@@ -34,7 +34,7 @@ void Renderer::setup()
   buffer_size = buffer_count * buffer_stride;
 
   // allouer un espace mémoire de taille suffisante pour contenir les données de l'ensemble des gros pixels de l'image
-  fat_pixels = (FatPixel*) std::malloc(buffer_size * buffer_stride);
+  fat_pixels = (FatPixel*) std::malloc(buffer_size);
 
   // initialisation des variables
 
