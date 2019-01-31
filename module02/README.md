@@ -33,3 +33,9 @@ Dans cet exemple, le programme dessine des primitives vectorielles dans une zone
 Ce programme fait la démonstration de deux algorithmes de rastérisation de ligne : DDA et Bresenham.
 
 La fenêtre d'affichage est divisée en une grille de gros pixels qui sont colorés en fonction du résultat de la rastérisation des lignes tracées interactivement par l'utilisateur.
+
+### Exemple 2.6
+
+Ce programme présente un exemple d'une interface graphique qui permet de paramétrer des options de dessin.
+
+Les contrôles de l'interface permettent de modifier la couleur du trait et de l'arrière-plan ainsi que le texte affiché au centre de la fenêtre d'affichage et l'épaisseur de la ligne située juste en dessous.
