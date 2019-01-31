@@ -16,8 +16,6 @@ public:
   ofImage image_right;
 
   ofShader shader;
-  ofShader shader_tint;
-  ofShader shader_invert;
 
   int image_width;
   int image_height;
