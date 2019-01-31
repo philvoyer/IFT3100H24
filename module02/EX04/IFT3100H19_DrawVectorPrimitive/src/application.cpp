@@ -75,27 +75,27 @@ void Application::keyReleased(int key)
   switch (key)
   {
     case 49:  // key 1
-      renderer.draw_mode = VectorialPrimitiveType::pixel;
+      renderer.draw_mode = VectorPrimitiveType::pixel;
       ofLog() << "<mode: pixel>";
       break;
 
     case 50:  // key 2
-      renderer.draw_mode = VectorialPrimitiveType::point;
+      renderer.draw_mode = VectorPrimitiveType::point;
       ofLog() << "<mode: point>";
       break;
 
     case 51:  // key 3
-      renderer.draw_mode = VectorialPrimitiveType::line;
+      renderer.draw_mode = VectorPrimitiveType::line;
       ofLog() << "<mode: line>";
       break;
 
     case 52:  // key 4
-      renderer.draw_mode = VectorialPrimitiveType::rectangle;
+      renderer.draw_mode = VectorPrimitiveType::rectangle;
       ofLog() << "<mode: rectangle>";
       break;
 
     case 53:  // key 5
-      renderer.draw_mode = VectorialPrimitiveType::ellipse;
+      renderer.draw_mode = VectorPrimitiveType::ellipse;
       ofLog() << "<mode: ellipse>";
       break;
 

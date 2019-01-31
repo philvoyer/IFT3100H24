@@ -15,16 +15,16 @@ void Renderer::setup()
   head = 0;
 
   // calculer la taille de la structure générique commune à toutes les primitives vectorielles
-  stride = sizeof(VectorialPrimitive);
+  stride = sizeof(VectorPrimitive);
 
   // calculer le nombre d'octets à allouer en mémoire pour contenir le tableau de primitives vectorielles
   size = count * stride;
 
   // allocation d'un espace mémoire suffisamment grand pour contenir les données de l'ensemble des primitives vectorielles
-  shapes = (VectorialPrimitive*) std::malloc(size * stride);
+  shapes = (VectorPrimitive*) std::malloc(size);
 
   // mode de dessin par défaut
-  draw_mode = VectorialPrimitiveType::rectangle;
+  draw_mode = VectorPrimitiveType::rectangle;
 
   // largeur de la ligne de contour
   stroke_width_default = 2;
@@ -48,7 +48,7 @@ void Renderer::draw()
   {
     switch (shapes[index].type)
     {
-      case VectorialPrimitiveType::pixel:
+      case VectorPrimitiveType::pixel:
 
         ofFill();
         ofSetLineWidth(0);
@@ -61,7 +61,7 @@ void Renderer::draw()
           shapes[index].position2[1]);
         break;
 
-      case VectorialPrimitiveType::point:
+      case VectorPrimitiveType::point:
 
         ofFill();
         ofSetLineWidth(0);
@@ -75,7 +75,7 @@ void Renderer::draw()
           shapes[index].stroke_width);
         break;
 
-      case VectorialPrimitiveType::line:
+      case VectorPrimitiveType::line:
 
         ofNoFill();
         ofSetLineWidth(shapes[index].stroke_width);
@@ -90,7 +90,7 @@ void Renderer::draw()
           shapes[index].position2[1]);
         break;
 
-      case VectorialPrimitiveType::rectangle:
+      case VectorPrimitiveType::rectangle:
 
         ofFill();
         ofSetLineWidth(0);
@@ -116,7 +116,7 @@ void Renderer::draw()
           shapes[index].position2[1]);
         break;
 
-      case VectorialPrimitiveType::ellipse:
+      case VectorPrimitiveType::ellipse:
 
         ofFill();
         ofSetLineWidth(0);
@@ -165,7 +165,7 @@ void Renderer::draw()
 void Renderer::reset()
 {
   for (index = 0; index < count; ++index)
-    shapes[index].type = VectorialPrimitiveType::none;
+    shapes[index].type = VectorPrimitiveType::none;
 
   head = 0;
 
@@ -173,7 +173,7 @@ void Renderer::reset()
 }
 
 // fonction qui ajoute une primitive vectorielle au tableau
-void Renderer::add_vector_shape(VectorialPrimitiveType type)
+void Renderer::add_vector_shape(VectorPrimitiveType type)
 {
   shapes[head].type = type;
 
@@ -195,19 +195,19 @@ void Renderer::add_vector_shape(VectorialPrimitiveType type)
 
   switch (shapes[head].type)
   {
-    case VectorialPrimitiveType::point:
+    case VectorPrimitiveType::point:
       shapes[head].stroke_width = ofRandom(1, 64);
       break;
 
-    case VectorialPrimitiveType::line:
+    case VectorPrimitiveType::line:
       shapes[head].stroke_width = ofRandom(1, 16);
       break;
 
-    case VectorialPrimitiveType::rectangle:
+    case VectorPrimitiveType::rectangle:
       shapes[head].stroke_width = stroke_width_default;
       break;
 
-    case VectorialPrimitiveType::ellipse:
+    case VectorPrimitiveType::ellipse:
       shapes[head].stroke_width = stroke_width_default;
       break;
 

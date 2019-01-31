@@ -6,12 +6,12 @@
 #include "ofMain.h"
 
 // énumération des différents types de primitives vectorielles
-enum class VectorialPrimitiveType {none, pixel, point, line, rectangle, ellipse};
+enum class VectorPrimitiveType {none, pixel, point, line, rectangle, ellipse};
 
 // structure de primitive vectorielle générique
-struct VectorialPrimitive
+struct VectorPrimitive
 {
-  VectorialPrimitiveType type;            // 1 * 4 = 4  octets
+  VectorPrimitiveType type;            // 1 * 4 = 4  octets
   float                  position1[2];    // 2 * 4 = 8  octets
   float                  position2[2];    // 2 * 4 = 8  octets
   float                  stroke_width;    // 1 * 4 = 4  octets
@@ -23,9 +23,9 @@ class Renderer
 {
 public:
 
-  VectorialPrimitiveType draw_mode;
+  VectorPrimitiveType draw_mode;
 
-  VectorialPrimitive* shapes;
+  VectorPrimitive* shapes;
 
   int count;
   int size;
@@ -60,7 +60,7 @@ public:
 
   void reset();
 
-  void add_vector_shape(VectorialPrimitiveType type);
+  void add_vector_shape(VectorPrimitiveType type);
 
   void draw_pixel(float x, float y) const;
   void draw_point(float x, float y, float radius) const;
