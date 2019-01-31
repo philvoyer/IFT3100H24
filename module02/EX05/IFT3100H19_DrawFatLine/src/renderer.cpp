@@ -382,3 +382,8 @@ void Renderer::draw_cursor(float x, float y) const
   ofDrawLine(x, y + offset, x, y + offset + length);
   ofDrawLine(x, y - offset, x, y - offset - length);
 }
+
+Renderer::~Renderer()
+{
+  std::free(fat_pixels);
+}
