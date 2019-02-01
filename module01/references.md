@@ -26,6 +26,10 @@ Espace de couleur CMYK
 https://fr.wikipedia.org/wiki/Quadrichromie
 https://en.wikipedia.org/wiki/CMYK_color_model
 
+Histogramme  
+https://en.wikipedia.org/wiki/Color_histogram
+https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/histogram_calculation/histogram_calculation.html
+
 Format de fichier image  
 https://en.wikipedia.org/wiki/Image_file_formats
 https://en.wikipedia.org/wiki/Comparison_of_graphics_file_formats
