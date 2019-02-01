@@ -84,6 +84,11 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawBezier
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawCurve
 http://openframeworks.cc/documentation/graphics/ofPath/#show_bezierTo
 
+### Texte
+https://openframeworks.cc/documentation/graphics/ofTrueTypeFont/
+https://openframeworks.cc/documentation/graphics/ofTrueTypeFont/#show_drawString
+https://openframeworks.cc/documentation/graphics/ofTrueTypeFont/#show_getStringBoundingBox
+
 ## Forme vectorielle
 
 Processing : Classe pour forme vectorielle  
@@ -134,3 +139,4 @@ https://openframeworks.cc/documentation/ofxGui/
 
 imgui : Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies  
 https://github.com/ocornut/imgui
+
