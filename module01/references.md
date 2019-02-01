@@ -30,23 +30,23 @@ Format de fichier image
 https://en.wikipedia.org/wiki/Image_file_formats
 https://en.wikipedia.org/wiki/Comparison_of_graphics_file_formats
 
-Netpbm Portable Pixmap  
+Netpbm Portable Pixmap (.pbm / .pgm / .ppm)  
 https://fr.wikipedia.org/wiki/Portable_pixmap
 https://en.wikipedia.org/wiki/Netpbm_format
 
-Portable Network Graphics (PNG)  
+Portable Network Graphics (.png)  
 https://fr.wikipedia.org/wiki/Portable_Network_Graphics
 https://en.wikipedia.org/wiki/Portable_Network_Graphics
 
-JPEG  
+JPEG (.jpg)  
 https://fr.wikipedia.org/wiki/JPEG
 https://en.wikipedia.org/wiki/JPEG
 
-Windows bitmap (BMP)  
+Windows bitmap (.bmp)  
 https://fr.wikipedia.org/wiki/Windows_bitmap
 https://en.wikipedia.org/wiki/BMP_file_format
 
-TIFF  
+TIFF (.tiff)  
 https://fr.wikipedia.org/wiki/Tagged_Image_File_Format
 https://en.wikipedia.org/wiki/TIFF
 
