@@ -73,6 +73,7 @@ http://openframeworks.cc/documentation/types/ofStyle/#show_circleResolution
 
 ### Ellipse
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofDrawEllipse
+https://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofSetCircleResolution
 https://processing.org/reference/ellipse_.html
 https://processing.org/reference/ellipseMode_.html
 
