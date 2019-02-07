@@ -138,6 +138,8 @@ http://rosettacode.org/wiki/Xiaolin_Wu's_line_algorithm
 ofxGUI  
 https://openframeworks.cc/documentation/ofxGui/
 
+ofxDatGui  
+https://braitsch.github.io/ofxDatGui/
+
 imgui : Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies  
 https://github.com/ocornut/imgui
-
