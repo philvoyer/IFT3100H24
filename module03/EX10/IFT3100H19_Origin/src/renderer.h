@@ -18,7 +18,5 @@ public:
   void update();
   void draw();
 
-  void draw_scene();
-
   void draw_locator(float scale);
 };
