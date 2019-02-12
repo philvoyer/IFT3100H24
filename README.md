@@ -12,3 +12,7 @@ Techniques de dessin basées sur l’idée de symboliser des instances de primit
 ## Module 3
 
 Étude des principaux outils mathématiques utilisés pour la transformation géométrique dans les espaces 2D et 3D tels que les vecteurs, les matrices et les quaternions. 
+
+## Module 4
+
+Représentation de primitives géométriques et d’objets complexes sous forme de maillages triangulaires, spécification des attributs de sommet, mise en cache de la géométrie et commandes de rendu.
