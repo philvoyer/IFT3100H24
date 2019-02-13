@@ -1,4 +1,4 @@
-# Module 3 : transformation
+# Module 3 : Transformation
 
 Références en lien avec le module 3 : transformation.
 
@@ -70,8 +70,13 @@ https://fr.wikipedia.org/wiki/Blocage_de_cardan
 Gimbal lock  
 https://en.wikipedia.org/wiki/Gimbal_lock
 
-Triangle inequality  
+Inégalité du triangle  
+https://fr.wikipedia.org/wiki/Inégalité_triangulaire  
 https://en.wikipedia.org/wiki/Triangle_inequality
+
+Inégalité de Cauchy-Schwarz
+https://fr.wikipedia.org/wiki/Inégalité_de_Cauchy-Schwarz  
+https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
 
 Formule de rotation de Rodrigues  
 https://fr.wikipedia.org/wiki/Rotation_vectorielle  
@@ -138,6 +143,9 @@ http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofScale
 
 Fonction : ofIsVFlipped  
 http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofIsVFlipped
+
+openFrameworks et GLM  
+https://openframeworks.cc/learning/02_graphics/how_to_use_glm/
 
 ## Librairies
 
