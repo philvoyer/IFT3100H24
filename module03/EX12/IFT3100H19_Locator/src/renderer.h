@@ -8,11 +8,10 @@
 // structure d'un localisateur de transformation
 struct Locator
 {
-  int   state;         // 1 * 4 = 4  octets
   float position[3];   // 3 * 4 = 12 octets
   float rotation[3];   // 3 * 4 = 12 octets
   float proportion[3]; // 3 * 4 = 12 octets
-};                     //       = 40 octets
+};                     //       = 36 octets
 
 class Renderer
 {
@@ -39,10 +38,7 @@ public:
 
   int locator_count;
 
-  int locator_buffer_size;
   int locator_buffer_head;
-
-  int index;
 
   bool is_flip_axis_y;
 
@@ -57,8 +53,6 @@ public:
   void reset();
 
   void dispatch_locators(int count, float range);
-
-  void draw_scene();
 
   void draw_locator(float scale);
 

@@ -9,27 +9,27 @@ void Renderer::setup()
   ofSetBackgroundColor(31);
   ofEnableDepthTest();
 
-  // initialisation des variables
+  // paramètres du programme
+  locator_count = 100;
+
   speed = 100.0f;
 
+  is_flip_axis_y = false;
+  is_active_translation = true;
+  is_active_rotation = false;
+  is_active_proportion = false;
+
+  // initialisation des variables
   offset_x = 0.0f;
   offset_z = 0.0f;
 
   delta_x = speed;
   delta_z = speed;
 
-  is_flip_axis_y = false;
-
-  is_active_translation = true;
-  is_active_rotation = false;
-  is_active_proportion = false;
-
-  locator_count = 100;
-  locator_buffer_size = locator_count;
   locator_buffer_head = 0;
 
   // allocation d'un espace mémoire suffisamment grand pour contenir les données de l'ensemble des localisateurs
-  locators = (Locator*) std::malloc(locator_buffer_size * sizeof(Locator));
+  locators = (Locator*) std::malloc(locator_count * sizeof(Locator));
 
   reset();
 }
@@ -52,7 +52,7 @@ void Renderer::draw()
   // transformer l'origine de la scène au milieu de la fenêtre d'affichage
   ofTranslate(center_x + offset_x, is_flip_axis_y ? -center_y : center_y, offset_z);
 
-  for (index = 0; index < locator_buffer_head; ++index)
+  for (int index = 0; index < locator_buffer_head; ++index)
   {
     ofPushMatrix();
 
@@ -73,9 +73,9 @@ void Renderer::draw()
 
     // assignation des attributs de translation
     node.setPosition(
-                     vector_position.x,
-                     vector_position.y,
-                     vector_position.z);
+      vector_position.x,
+      vector_position.y,
+      vector_position.z);
 
     if (is_active_rotation)
     {
@@ -112,9 +112,9 @@ void Renderer::draw()
 
     // assignation des attributs de proportion
     node.setScale(
-                  vector_proportion.x,
-                  vector_proportion.y,
-                  vector_proportion.z);
+      vector_proportion.x,
+      vector_proportion.y,
+      vector_proportion.z);
 
     // dessiner le localisateur
     node.draw();
@@ -145,7 +145,7 @@ void Renderer::dispatch_locators(int count, float range)
   float scale;
 
   // validations
-  if (count <= 0 || range <= 0 || count > locator_buffer_size)
+  if (count <= 0 || range <= 0 || count > locator_count)
     return;
 
   // calculer la valeur de la moitié du diamètre du cube
@@ -154,7 +154,7 @@ void Renderer::dispatch_locators(int count, float range)
   // configurer le nombre de localisateurs
   locator_buffer_head = count;
 
-  for (index = 0; index < locator_buffer_head; ++index)
+  for (int index = 0; index < locator_buffer_head; ++index)
   {
     // déterminer des valeurs de position aléatoires dans le cube
     vector_position.x = ofRandom(-halfRange, halfRange);
