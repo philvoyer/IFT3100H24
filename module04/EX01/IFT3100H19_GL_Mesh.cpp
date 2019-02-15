@@ -58,5 +58,6 @@ class Mesh
   {
     std::delete vertex_array;
     std::delete triangle_array;
+    std::delete indice_array;
   }
 };
