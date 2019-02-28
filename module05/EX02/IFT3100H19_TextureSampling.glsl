@@ -16,7 +16,7 @@ vec4 sample4 = texture(texture_diffuse, surface_texcoord);
 vec3 sample3 = texture(texture_diffuse, surface_texcoord).rgb;
 
 // échantillonner les composantes rouge et verte de la couleur
-vec3 sample2 = texture(texture_diffuse, surface_texcoord).rg;
+vec2 sample2 = texture(texture_diffuse, surface_texcoord).rg;
 
 // échantillonner le composante rouge de la couleur
 float sample1 = texture(texture_diffuse, surface_texcoord).r;
