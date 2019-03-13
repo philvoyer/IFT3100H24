@@ -117,6 +117,14 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawArrays.xhtm
 Commande OpenGL : **glMultiDrawElements**  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawElements.xhtml
 
+### Face
+
+Commande OpenGL : Ordre des sommets d'un polygone (CW / CCW)  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFrontFace.xhtml
+
+Commande OpenGL : Déterminer quelle face (avant ou arrière) peut être éliminée lorsque non-visible.  
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCullFace.xhtml
+
 ## Wikipédia
 
 Wikipédia: Polygone  
