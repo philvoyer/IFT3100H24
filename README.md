@@ -16,3 +16,7 @@ Techniques de dessin basées sur l’idée de symboliser des instances de primit
 ## Module 4
 
 Représentation de primitives géométriques et d’objets complexes sous forme de maillages triangulaires, spécification des attributs de sommet, mise en cache de la géométrie et commandes de rendu.
+
+## Module 5
+
+Conversion d’image en texture, mise en cache, échantillonnage, compression, traitement et filtrage.
