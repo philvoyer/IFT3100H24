@@ -20,3 +20,7 @@ Représentation de primitives géométriques et d’objets complexes sous forme 
 ## Module 5
 
 Conversion d’image en texture, mise en cache, échantillonnage, compression, traitement et filtrage.
+
+## Module 6
+
+Propriétés de caméra, fenêtre d’affichage, transformation du point de vue dans une scène, projection graphique et techniques d’occlusion.
