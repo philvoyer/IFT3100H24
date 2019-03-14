@@ -55,3 +55,8 @@ https://www.tomdalling.com/blog/modern-opengl/04-cameras-vectors-and-input/
 
 GLM: Deprecated function replacements (équivalents des fonctions du pipelines fixe pour OpenGL 3+)  
 http://glm.g-truc.net/0.9.1/api/a00003.html
+
+Effet vertigo  
+https://en.wikipedia.org/wiki/Dolly_zoom  
+https://fr.wikipedia.org/wiki/Travelling_contrarié  
+https://www.youtube.com/watch?v=u5JBlwlnJX0
