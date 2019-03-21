@@ -25,3 +25,7 @@ Conversion d’image en texture, mise en cache, échantillonnage, compression, t
 ## Module 6
 
 Propriétés de caméra, fenêtre d’affichage, transformation du point de vue dans une scène, projection graphique et techniques d’occlusion.
+
+## Module 7
+
+Illumination à partir des sources de lumière d’une scène et des propriétés du matériau d’une surface.
