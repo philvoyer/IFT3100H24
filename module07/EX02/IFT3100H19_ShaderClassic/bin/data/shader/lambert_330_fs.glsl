@@ -18,13 +18,13 @@ uniform vec3 light_position;
 
 void main()
 {
-  // re-normaliser la normale après interpolation (N)
+  // re-normaliser la normale après interpolation (n)
   vec3 n = normalize(surface_normal);
 
-  // calculer la direction de la surface vers la lumière (L)
+  // calculer la direction de la surface vers la lumière (l)
   vec3 l = normalize(light_position - surface_position);
 
-  // calculer le niveau de réflexion diffuse (N • L)
+  // calculer le niveau de réflexion diffuse (n • l)
   float reflection_diffuse = max(dot(n, l), 0.0);
 
   // déterminer la couleur du fragment

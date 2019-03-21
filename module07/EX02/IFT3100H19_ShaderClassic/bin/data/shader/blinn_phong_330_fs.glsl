@@ -23,13 +23,13 @@ uniform vec3 light_position;
 void main()
 {
   // re-normaliser la normale après interpolation
-  vec3 N = normalize(surface_normal);
+  vec3 n = normalize(surface_normal);
 
-  // calculer la direction de la surface vers la lumière (L)
-  vec3 L = normalize(light_position - surface_position);
+  // calculer la direction de la surface vers la lumière (l)
+  vec3 l = normalize(light_position - surface_position);
 
-  // calculer le niveau de réflexion diffuse (N • L)
-  float reflection_diffuse = max(dot(N, L), 0.0);
+  // calculer le niveau de réflexion diffuse (n • l)
+  float reflection_diffuse = max(dot(n, l), 0.0);
 
   // réflexion spéculaire par défaut
   float reflection_specular = 0.0;
@@ -37,14 +37,14 @@ void main()
   // calculer la réflexion spéculaire seulement s'il y a réflexion diffuse
   if (reflection_diffuse > 0.0)
   {
-    // calculer la direction de la surface vers la caméra (V)
-    vec3 V = normalize(-surface_position);
+    // calculer la direction de la surface vers la caméra (v)
+    vec3 v = normalize(-surface_position);
 
-    // calculer la direction du demi-vecteur de réflection (H) en fonction du vecteur de vue (V) et de lumière (L)
-    vec3 H = normalize(V + L);
+    // calculer la direction du demi-vecteur de réflection (h) en fonction du vecteur de vue (v) et de lumière (l)
+    vec3 h = normalize(v + l);
 
-    // calculer le niveau de réflexion spéculaire (N • H)
-    reflection_specular = pow(max(dot(N, H), 0.0), brightness);
+    // calculer le niveau de réflexion spéculaire (n • h)
+    reflection_specular = pow(max(dot(n, h), 0.0), brightness);
   }
 
   // calculer la couleur du fragment
