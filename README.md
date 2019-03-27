@@ -29,3 +29,7 @@ Propriétés de caméra, fenêtre d’affichage, transformation du point de vue 
 ## Module 7
 
 Illumination à partir des sources de lumière d’une scène et des propriétés du matériau d’une surface.
+
+## Module 8
+
+Techniques de rendu qui utilisent des rayons pour simuler l’illumination directe et indirecte, la réflexion, la réfraction et l’ombrage des surfaces.
