@@ -48,7 +48,7 @@ https://www.chaosgroup.com
 https://www.chaosgroup.com/vray/3ds-max  
 https://www.chaosgroup.com/vray/maya  
 https://www.chaosgroup.com/vray/unreal  
-https://en.wikipedia.org/wiki/V-Ray  
+https://en.wikipedia.org/wiki/V-Ray
 
 Autodesk Arnold  
 https://www.arnoldrenderer.com/arnold/  
