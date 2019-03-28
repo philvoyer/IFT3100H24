@@ -88,3 +88,21 @@ https://fabiensanglard.net/postcard_pathtracer/index.html
 
 Iñigo Quílez: Raymarching  
 http://www.iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm
+
+Nvidia RTX  
+https://developer.nvidia.com/rtx
+
+Microsoft DRX  
+https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
+
+Star Wars elevator demo  
+https://www.youtube.com/watch?v=J3ue35ago3Y  
+https://arstechnica.com/gaming/2018/03/star-wars-demo-shows-off-just-how-great-real-time-raytracing-can-look/
+
+Unity Real Time Raytracing (GDC 2019)  
+https://unity.com/ray-tracing  
+https://www.youtube.com/watch?v=AG7DDXwYpD0
+
+Unreal Real Time Raytracing (GDC 2019)  
+https://www.unrealengine.com/en-US/blog/troll-showcases-unreal-engine-4-22-ray-tracing-with-unprecedented-cinematic-quality-lighting  
+https://www.youtube.com/watch?v=Qjt_MqEOcGM
