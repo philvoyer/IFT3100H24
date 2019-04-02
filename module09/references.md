@@ -42,7 +42,7 @@ https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline
 Spline de Kochanek-Bartels  
 https://en.wikipedia.org/wiki/Kochanek–Bartels_spline
 
-Continuité paramétrique / géométrique
+Continuité paramétrique / géométrique  
 https://en.wikipedia.org/wiki/Smoothness
 https://fr.wikipedia.org/wiki/Classe_de_régularité
 
