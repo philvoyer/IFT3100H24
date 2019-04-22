@@ -76,6 +76,8 @@ https://medium.com/neurohive-computer-vision/materials-for-masses-svbrdf-acquisi
 
 https://seblagarde.wordpress.com/2013/04/29/memo-on-fresnel-equations/
 
+https://www.chaosgroup.com/blog/understanding-glossy-fresnel
+
 https://www.jordanstevenstechart.com/physically-based-rendering
 
 http://www.neilblevins.com/cg_education/ggx/ggx.htm
