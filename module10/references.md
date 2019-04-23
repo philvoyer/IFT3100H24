@@ -85,6 +85,8 @@ http://www.neilblevins.com/cg_education/ggx/ggx.htm
 https://texturehaven.com/textures/  
 https://hdrihaven.com/hdris/
 
+https://renderdoc.org
+
 ## Architecture de rendu
 
 https://fr.wikipedia.org/wiki/Deferred_Shading
