@@ -37,3 +37,7 @@ Techniques de rendu qui utilisent des rayons pour simuler l’illumination direc
 ## Module 9
 
 Techniques de modélisation de géométries continues telles que des courbes et des surfaces paramétriques, triangulation, parcours et échantillonnage à partir d’algorithmes.
+
+## Module 10
+
+Rendu basé sur la physique, réflexion diélectrique, métallicité, rugosité, microfacettes, équation de rendu, BRDF.
