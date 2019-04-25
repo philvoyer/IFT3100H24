@@ -165,7 +165,7 @@ http://openframeworks.cc/documentation/3d/ofPlanePrimitive/
 ## Librairies
 
 Assimp : Open Asset Import Library  
-http://assimp.sourceforge.net
+http://assimp.sourceforge.net  
 https://github.com/assimp/assimp
 
 ## Divers
