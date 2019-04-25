@@ -86,6 +86,10 @@ http://www.kevinbeason.com/smallpt/
 Postcard pathtracer  
 https://fabiensanglard.net/postcard_pathtracer/index.html
 
+Business Card Ray Tracer  
+http://eastfarthing.com/blog/2016-01-12-card/  
+http://fabiensanglard.net/rayTracing_back_of_business_card/
+
 Real-time rendering : Ray Tracing Resources Page  
 http://www.realtimerendering.com/raytracing.html  
 http://www.realtimerendering.com/intersections.html
