@@ -43,7 +43,7 @@ Spline de Kochanek-Bartels
 https://en.wikipedia.org/wiki/Kochanek–Bartels_spline
 
 Continuité paramétrique / géométrique  
-https://en.wikipedia.org/wiki/Smoothness
+https://en.wikipedia.org/wiki/Smoothness  
 https://fr.wikipedia.org/wiki/Classe_de_régularité
 
 ### Divers
