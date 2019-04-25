@@ -51,10 +51,8 @@ https://fr.wikipedia.org/wiki/Occlusion_ambiante
 
 https://graphicrants.blogspot.com/2013/08/specular-brdf-reference.html
 
-https://learnopengl.com/PBR/Theory
-
-https://learnopengl.com/PBR/Lighting
-
+https://learnopengl.com/PBR/Theory  
+https://learnopengl.com/PBR/Lighting  
 https://learnopengl.com/PBR/IBL/Diffuse-irradiance
 
 http://www.alexandre-pestana.com/disney-principled-brdf-implementation/
