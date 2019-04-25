@@ -86,6 +86,10 @@ http://www.kevinbeason.com/smallpt/
 Postcard pathtracer  
 https://fabiensanglard.net/postcard_pathtracer/index.html
 
+Real-time rendering : Ray Tracing Resources Page  
+http://www.realtimerendering.com/raytracing.html  
+http://www.realtimerendering.com/intersections.html
+
 Iñigo Quílez: Raymarching  
 http://www.iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm
 
