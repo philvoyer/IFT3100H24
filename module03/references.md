@@ -74,7 +74,7 @@ Inégalité du triangle
 https://fr.wikipedia.org/wiki/Inégalité_triangulaire  
 https://en.wikipedia.org/wiki/Triangle_inequality
 
-Inégalité de Cauchy-Schwarz
+Inégalité de Cauchy-Schwarz  
 https://fr.wikipedia.org/wiki/Inégalité_de_Cauchy-Schwarz  
 https://en.wikipedia.org/wiki/Cauchy–Schwarz_inequality
 
@@ -182,13 +182,13 @@ L-système
 https://cgjennings.ca/articles/l-systems.html
 
 Mandelbrot  
-https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot
+https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot  
 https://en.wikipedia.org/wiki/Mandelbrot_set
 
 Mandelbox  
-https://fr.wikipedia.org/wiki/Mandelbox
+https://fr.wikipedia.org/wiki/Mandelbox  
 https://en.wikipedia.org/wiki/Mandelbox
 
 Mandelbulb  
-https://fr.wikipedia.org/wiki/Mandelbulb
+https://fr.wikipedia.org/wiki/Mandelbulb  
 https://en.wikipedia.org/wiki/Mandelbulb
