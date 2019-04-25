@@ -11,47 +11,47 @@ Rastérisation
 https://en.wikipedia.org/wiki/Raster_graphics
 
 Espace de couleur  
-https://fr.wikipedia.org/wiki/Espace_de_couleur
+https://fr.wikipedia.org/wiki/Espace_de_couleur  
 https://en.wikipedia.org/wiki/Color_space
 
 Espace de couleur RGB  
-https://fr.wikipedia.org/wiki/Rouge_vert_bleu
+https://fr.wikipedia.org/wiki/Rouge_vert_bleu  
 https://en.wikipedia.org/wiki/RGB_color_model
 
 Espace de couleur HSB  
-https://fr.wikipedia.org/wiki/Teinte_saturation_lumière
+https://fr.wikipedia.org/wiki/Teinte_saturation_lumière  
 https://en.wikipedia.org/wiki/HSL_and_HSV
 
 Espace de couleur CMYK  
-https://fr.wikipedia.org/wiki/Quadrichromie
+https://fr.wikipedia.org/wiki/Quadrichromie  
 https://en.wikipedia.org/wiki/CMYK_color_model
 
 Histogramme  
-https://en.wikipedia.org/wiki/Color_histogram
+https://en.wikipedia.org/wiki/Color_histogram  
 https://docs.opencv.org/2.4/doc/tutorials/imgproc/histograms/histogram_calculation/histogram_calculation.html
 
 Format de fichier image  
-https://en.wikipedia.org/wiki/Image_file_formats
+https://en.wikipedia.org/wiki/Image_file_formats  
 https://en.wikipedia.org/wiki/Comparison_of_graphics_file_formats
 
 Netpbm Portable Pixmap (.pbm / .pgm / .ppm)  
-https://fr.wikipedia.org/wiki/Portable_pixmap
+https://fr.wikipedia.org/wiki/Portable_pixmap  
 https://en.wikipedia.org/wiki/Netpbm_format
 
 Portable Network Graphics (.png)  
-https://fr.wikipedia.org/wiki/Portable_Network_Graphics
+https://fr.wikipedia.org/wiki/Portable_Network_Graphics  
 https://en.wikipedia.org/wiki/Portable_Network_Graphics
 
 JPEG (.jpg)  
-https://fr.wikipedia.org/wiki/JPEG
+https://fr.wikipedia.org/wiki/JPEG  
 https://en.wikipedia.org/wiki/JPEG
 
 Windows bitmap (.bmp)  
-https://fr.wikipedia.org/wiki/Windows_bitmap
+https://fr.wikipedia.org/wiki/Windows_bitmap  
 https://en.wikipedia.org/wiki/BMP_file_format
 
 TIFF (.tiff)  
-https://fr.wikipedia.org/wiki/Tagged_Image_File_Format
+https://fr.wikipedia.org/wiki/Tagged_Image_File_Format  
 https://en.wikipedia.org/wiki/TIFF
 
 ## OpenGL
