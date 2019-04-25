@@ -4,7 +4,7 @@ Références en lien avec le module 6 : caméra.
 
 ## OpenGL
 
-OpenGL: Fenêtre  
+OpenGL: Fenêtre d'affichage  
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glViewport.xhtml
 
 OpenGL: Projection orthogonale (pipeline fixe)  
