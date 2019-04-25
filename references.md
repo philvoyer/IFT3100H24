@@ -1,6 +1,6 @@
 # IFT3100 : Références
 
-Références du cours.
+Références globales du cours.
 
 ## OpenGL
 
@@ -80,11 +80,11 @@ Commande OpenGL : **glBindBuffer**
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBindBuffer.xhtml
 
 Commande OpenGL : **glBindFramebuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindFramebuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindFramebuffer
 
 Commande OpenGL : **glBindRenderbuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glBindRenderbuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glBindRenderbuffer
 
 Commande OpenGL : **glBindTexture**  
@@ -100,23 +100,23 @@ Commande OpenGL : **glBufferSubData**
 https://khronos.org/registry/OpenGL-Refpages/gl4/html/glBufferSubData.xhtml
 
 Commande OpenGL : **glCheckFramebufferStatus**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCheckFramebufferStatus.xhtml  
 https://www.khronos.org/opengl/wiki/Framebuffer_Object#Framebuffer_Completeness
 
 Commande OpenGL : **glClear**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClear.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClear.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glClear
 
 Commande OpenGL : **glClearColor**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearColor.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearColor.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glClearColor
 
 Commande OpenGL : **glClearDepth**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearDepth.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearDepth.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glClearDepth
 
 Commande OpenGL : **glClearStencil**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glClearStencil.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glClearStencil
 
 Commande OpenGL : **glCompileShader**  
@@ -153,7 +153,7 @@ Commande OpenGL : **glEnableVertexAttribArray**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glEnableVertexAttribArray.xhtml
 
 Commande OpenGL : **glFramebufferRenderbuffer**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glFramebufferRenderbuffer.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glFramebufferRenderbuffer
 
 Commande OpenGL : **glGet**  
@@ -169,7 +169,7 @@ Commande OpenGL : **glGetProgram**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetProgram.xhtml
 
 Commande OpenGL : **glGetRenderbufferParameter**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGetRenderbufferParameter.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGetRenderbufferParameter
 
 Commande OpenGL : **glGetShaderInfoLog**  
@@ -200,11 +200,11 @@ Commande OpenGL : **glGenerateMipmap**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenerateMipmap.xhtml
 
 Commande OpenGL : **glGenFramebuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenFramebuffers.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenFramebuffers
 
 Commande OpenGL : **glGenRenderbuffers**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glGenRenderbuffers.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glGenRenderbuffers
 
 Commande OpenGL : **glGenSamplers**  
@@ -232,11 +232,11 @@ Commande OpenGL : **glMultiDrawElements**
 https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glMultiDrawElements.xhtml
 
 Commande OpenGL : **glRenderbufferStorage**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glRenderbufferStorage.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glRenderbufferStorage
 
 Commande OpenGL : **glReadPixels**  
-https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml
+https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glReadPixels.xhtml  
 https://www.khronos.org/opengl/wiki/GLAPI/glReadPixels
 
 Commande OpenGL : **glSamplerParameter**  
@@ -343,3 +343,6 @@ https://threejs.org
 
 Quil  
 http://quil.info/
+
+RenderDoc  
+https://renderdoc.org
