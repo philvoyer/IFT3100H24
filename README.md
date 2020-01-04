@@ -1,6 +1,6 @@
-# IFT3100H19
+# IFT3100H20
 
-Exemples du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2019).
+Exemples du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2020).
 
 ## Module 1
 
