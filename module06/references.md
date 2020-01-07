@@ -1,6 +1,6 @@
-# Module 6 : caméra
+# Module 5 : caméra
 
-Références en lien avec le module 6 : caméra.
+Références en lien avec le module 5 : caméra.
 
 ## OpenGL
 
