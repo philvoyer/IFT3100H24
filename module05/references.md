@@ -1,6 +1,6 @@
-# Module 5 : texture
+# Module 6 : texture
 
-Références en lien avec le module 5 : texture.
+Références en lien avec le module 6 : texture.
 
 ## Concepts OpenGL
 
