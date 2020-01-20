@@ -25,9 +25,9 @@ https://en.wikipedia.org/wiki/HSL_and_HSV
 Espace de couleur YUL  
 https://fr.wikipedia.org/wiki/YUV  
 https://en.wikipedia.org/wiki/YUV  
-https://fr.wikipedia.org/wiki/YCbCr
+https://fr.wikipedia.org/wiki/YCbCr  
 https://en.wikipedia.org/wiki/YCbCr  
-https://fr.wikipedia.org/wiki/YPbPr
+https://fr.wikipedia.org/wiki/YPbPr  
 https://en.wikipedia.org/wiki/YPbPr  
 https://fr.wikipedia.org/wiki/Luminance#Signal_de_luminance_ou_Luma  
 https://en.wikipedia.org/wiki/Luma_(video)
