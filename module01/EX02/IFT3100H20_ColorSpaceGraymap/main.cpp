@@ -3,6 +3,7 @@
 // Les pixels sont colorés selon la valeur d'un xor entre ses coordonnées x et y.
 // Exportation des données de l'image dans un fichier .pgm (portable graymap).
 
+
 #include <iostream>
 #include <fstream>
 #include <vector>
