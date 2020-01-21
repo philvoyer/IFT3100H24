@@ -3,6 +3,7 @@
 // Les pixels sont colorés par interpolation linéaire de deux composantes de couleur sur l'axe horizontal et vertical.
 // Exportation des données de l'image dans un fichier .ppm (portable pixmap).
 
+
 #include <iostream>
 #include <fstream>
 #include <vector>
