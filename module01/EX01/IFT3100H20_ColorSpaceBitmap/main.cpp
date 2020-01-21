@@ -3,6 +3,7 @@
 // Les pixels sont colorés selon le pattern d'un échiquier.
 // Exportation des données de l'image dans un fichier .pbm (portable bitmap).
 
+
 #include <iostream>
 #include <fstream>
 #include <vector>
