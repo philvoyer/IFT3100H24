@@ -1,4 +1,4 @@
-// IFT3100H19_AlmostEmptyProject/main.cpp
+// IFT3100H20_AlmostEmptyProject/main.cpp
 // Exemple d'un projet relativement vide, mais avec une bonne structure de base.
 // Un bon point de départ pour commencer un nouveau projet avec une scène vide.
 // Animation de la couleur d'arrière-plan par interpolation de niveaux de gris en fonction du numéro du frame courant.
