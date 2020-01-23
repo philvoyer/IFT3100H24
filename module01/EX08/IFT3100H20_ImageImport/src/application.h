@@ -1,4 +1,4 @@
-// IFT3100H19_ImageImport/application.h
+// IFT3100H20_ImageImport/application.h
 // Classe principale de l'application.
 
 #pragma once
