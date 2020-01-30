@@ -1,4 +1,4 @@
-// IFT3100H19_DrawZone/renderer.cpp
+// IFT3100H20_DrawZone/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
