@@ -13,6 +13,6 @@ int main()
   // création du contexte de rendu (OpenGL 2.1 par défaut)
   ofSetupOpenGL(512, 512, OF_WINDOW);
 
-  // instancier et lancer l'application (openFrameworks 0.10.1)
+  // instancier et lancer l'application (openFrameworks 0.11.0)
   ofRunApp(new Application());
 }
