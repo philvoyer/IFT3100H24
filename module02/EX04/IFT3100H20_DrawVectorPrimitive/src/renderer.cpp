@@ -1,4 +1,4 @@
-// IFT3100H19_DrawVectorPrimitive/renderer.cpp
+// IFT3100H20_DrawVectorPrimitive/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -9,19 +9,19 @@ void Renderer::setup()
   ofSetBackgroundColor(191);
 
   // nombre maximal de primitives vectorielles dans le tableau
-  count = 100;
+  buffer_count = 100;
 
   // position de la prochaine primitive
-  head = 0;
+  buffer_head = 0;
 
   // calculer la taille de la structure générique commune à toutes les primitives vectorielles
-  stride = sizeof(VectorPrimitive);
+  buffer_stride = sizeof(VectorPrimitive);
 
   // calculer le nombre d'octets à allouer en mémoire pour contenir le tableau de primitives vectorielles
-  size = count * stride;
+  buffer_size = buffer_count * buffer_stride;
 
   // allocation d'un espace mémoire suffisamment grand pour contenir les données de l'ensemble des primitives vectorielles
-  shapes = (VectorPrimitive*) std::malloc(size);
+  shapes = (VectorPrimitive*) std::malloc(buffer_size);
 
   // mode de dessin par défaut
   draw_mode = VectorPrimitiveType::rectangle;
@@ -44,7 +44,7 @@ void Renderer::setup()
 
 void Renderer::draw()
 {
-  for (index = 0; index < count; ++index)
+  for (index = 0; index < buffer_count; ++index)
   {
     switch (shapes[index].type)
     {
@@ -164,10 +164,10 @@ void Renderer::draw()
 // fonction qui vide le tableau de primitives vectorielles
 void Renderer::reset()
 {
-  for (index = 0; index < count; ++index)
+  for (index = 0; index < buffer_count; ++index)
     shapes[index].type = VectorPrimitiveType::none;
 
-  head = 0;
+  buffer_head = 0;
 
   ofLog() << "<reset>";
 }
@@ -175,50 +175,50 @@ void Renderer::reset()
 // fonction qui ajoute une primitive vectorielle au tableau
 void Renderer::add_vector_shape(VectorPrimitiveType type)
 {
-  shapes[head].type = type;
+  shapes[buffer_head].type = type;
 
-  shapes[head].position1[0] = mouse_press_x;
-  shapes[head].position1[1] = mouse_press_y;
+  shapes[buffer_head].position1[0] = mouse_press_x;
+  shapes[buffer_head].position1[1] = mouse_press_y;
 
-  shapes[head].position2[0] = mouse_current_x;
-  shapes[head].position2[1] = mouse_current_y;
+  shapes[buffer_head].position2[0] = mouse_current_x;
+  shapes[buffer_head].position2[1] = mouse_current_y;
 
-  shapes[head].stroke_color[0] = stroke_color_r;
-  shapes[head].stroke_color[1] = stroke_color_g;
-  shapes[head].stroke_color[2] = stroke_color_b;
-  shapes[head].stroke_color[3] = stroke_color_a;
+  shapes[buffer_head].stroke_color[0] = stroke_color_r;
+  shapes[buffer_head].stroke_color[1] = stroke_color_g;
+  shapes[buffer_head].stroke_color[2] = stroke_color_b;
+  shapes[buffer_head].stroke_color[3] = stroke_color_a;
 
-  shapes[head].fill_color[0] = fill_color_r;
-  shapes[head].fill_color[1] = fill_color_g;
-  shapes[head].fill_color[2] = fill_color_b;
-  shapes[head].fill_color[3] = fill_color_a;
+  shapes[buffer_head].fill_color[0] = fill_color_r;
+  shapes[buffer_head].fill_color[1] = fill_color_g;
+  shapes[buffer_head].fill_color[2] = fill_color_b;
+  shapes[buffer_head].fill_color[3] = fill_color_a;
 
-  switch (shapes[head].type)
+  switch (shapes[buffer_head].type)
   {
     case VectorPrimitiveType::point:
-      shapes[head].stroke_width = ofRandom(1, 64);
+      shapes[buffer_head].stroke_width = ofRandom(1, 64);
       break;
 
     case VectorPrimitiveType::line:
-      shapes[head].stroke_width = ofRandom(1, 16);
+      shapes[buffer_head].stroke_width = ofRandom(1, 16);
       break;
 
     case VectorPrimitiveType::rectangle:
-      shapes[head].stroke_width = stroke_width_default;
+      shapes[buffer_head].stroke_width = stroke_width_default;
       break;
 
     case VectorPrimitiveType::ellipse:
-      shapes[head].stroke_width = stroke_width_default;
+      shapes[buffer_head].stroke_width = stroke_width_default;
       break;
 
     default:
-      shapes[head].stroke_width = stroke_width_default;
+      shapes[buffer_head].stroke_width = stroke_width_default;
       break;
   }
 
-  ofLog() << "<new primitive at index: " << head << ">";
+  ofLog() << "<new primitive at index: " << buffer_head << ">";
 
-  head = ++head >= count ? 0: head; // boucler sur le tableau si plein
+  buffer_head = ++buffer_head >= buffer_count ? 0: buffer_head; // boucler sur le tableau si plein
 }
 
 // fonction qui dessine un pixel

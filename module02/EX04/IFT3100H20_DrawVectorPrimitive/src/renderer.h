@@ -1,4 +1,4 @@
-// IFT3100H19_DrawVectorPrimitive/renderer.h
+// IFT3100H20_DrawVectorPrimitive/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
@@ -12,12 +12,12 @@ enum class VectorPrimitiveType {none, pixel, point, line, rectangle, ellipse};
 struct VectorPrimitive
 {
   VectorPrimitiveType type;            // 1 * 4 = 4  octets
-  float                  position1[2];    // 2 * 4 = 8  octets
-  float                  position2[2];    // 2 * 4 = 8  octets
-  float                  stroke_width;    // 1 * 4 = 4  octets
-  unsigned char          stroke_color[4]; // 4 * 1 = 4  octets
-  unsigned char          fill_color[4];   // 4 * 1 = 4  octets
-};                                        //       = 32 octets
+  float               position1[2];    // 2 * 4 = 8  octets
+  float               position2[2];    // 2 * 4 = 8  octets
+  float               stroke_width;    // 1 * 4 = 4  octets
+  unsigned char       stroke_color[4]; // 4 * 1 = 4  octets
+  unsigned char       fill_color[4];   // 4 * 1 = 4  octets
+};                                     //       = 32 octets
 
 class Renderer
 {
@@ -27,12 +27,12 @@ public:
 
   VectorPrimitive* shapes;
 
-  int count;
-  int size;
-  int stride;
-
   int index;
-  int head;
+
+  int buffer_count;
+  int buffer_stride;
+  int buffer_size;
+  int buffer_head;
 
   int mouse_press_x;
   int mouse_press_y;
