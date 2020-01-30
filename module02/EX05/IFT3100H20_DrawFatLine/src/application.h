@@ -1,4 +1,4 @@
-// IFT3100H19_DrawLine/application.h
+// IFT3100H20_DrawLine/application.h
 // Classe principale de l'application.
 
 #pragma once

@@ -1,4 +1,4 @@
-// IFT3100H19_DrawLine/application.cpp
+// IFT3100H20_DrawLine/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
