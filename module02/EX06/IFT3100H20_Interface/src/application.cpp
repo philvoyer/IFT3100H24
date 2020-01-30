@@ -1,4 +1,4 @@
-// IFT3100H19_Interface/application.cpp
+// IFT3100H20_Interface/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
@@ -72,7 +72,7 @@ void Application::button_pressed()
 {
   // réinitialiser la zone de texte
   textbox.set("text", "ift3100");
-  
+
   ofLog() << "<button pressed>";
 }
 

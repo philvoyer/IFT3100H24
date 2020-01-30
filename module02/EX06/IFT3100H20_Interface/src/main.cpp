@@ -1,4 +1,4 @@
-// IFT3100H19_Interface/main.cpp
+// IFT3100H20_Interface/main.cpp
 // Exemple d'une interface graphique qui permet de paramétrer des options de dessin.
 
 #include "ofMain.h"

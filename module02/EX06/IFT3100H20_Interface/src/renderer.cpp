@@ -1,4 +1,4 @@
-// IFT3100H19_Interface/renderer.cpp
+// IFT3100H20_Interface/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -36,13 +36,13 @@ void Renderer::draw()
   // dessiner le texte au centre de la fenêtre d'affichage
   font.drawString(
     text,
-    (ofGetWidth() / 2.0f) - (bounding_box.getWidth() / 2.0f),
+    (ofGetWidth()  / 2.0f) - (bounding_box.getWidth()  / 2.0f),
     (ofGetHeight() / 2.0f) + (bounding_box.getHeight() / 2.0f));
 
   // dessiner une ligne sous le texte
   ofDrawLine(
-    (ofGetWidth() / 2.0f) - (bounding_box.getWidth() / 2.0f),
+    (ofGetWidth()  / 2.0f) - (bounding_box.getWidth()  / 2.0f),
     (ofGetHeight() / 2.0f) + (bounding_box.getHeight() / 2.0f) + line_offset,
-    (ofGetWidth() / 2.0f) + (bounding_box.getWidth() / 2.0f),
+    (ofGetWidth()  / 2.0f) + (bounding_box.getWidth()  / 2.0f),
     (ofGetHeight() / 2.0f) + (bounding_box.getHeight() / 2.0f) + line_offset);
 }
