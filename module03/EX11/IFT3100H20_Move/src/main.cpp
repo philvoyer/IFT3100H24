@@ -1,4 +1,4 @@
-// IFT3100H19_Move/main.cpp
+// IFT3100H20_Move/main.cpp
 // Mouvement dans l'espace sur le plan XZ à partir de l'état courant des flèches du clavier.
 
 #include "ofMain.h"

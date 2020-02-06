@@ -1,4 +1,4 @@
-// IFT3100H19_Move/application.cpp
+// IFT3100H20_Move/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
@@ -101,4 +101,3 @@ void Application::exit()
 {
   ofLog() << "<app::exit>";
 }
-
