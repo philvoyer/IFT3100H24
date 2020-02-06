@@ -1,4 +1,4 @@
-// IFT3100H19_VectorDeclaration.glsl
+// IFT3100H20_VectorDeclaration.glsl
 // Exemples de déclaration de variables de type vecteur en GLSL.
 
 // 1. déclaration d'un vecteur avec trois dimensions qui ont la même valeur initiale
