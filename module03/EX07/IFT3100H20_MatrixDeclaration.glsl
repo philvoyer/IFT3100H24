@@ -1,4 +1,4 @@
-// IFT3100H19_MatrixDeclaration.glsl
+// IFT3100H20_MatrixDeclaration.glsl
 // Exemples de déclaration de variables de type matrice en GLSL.
 
 // 1. matrice identité de dimension 3 par 3
