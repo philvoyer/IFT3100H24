@@ -1,4 +1,4 @@
-// IFT3100H19_VariableDeclaration.glsl
+// IFT3100H20_VariableDeclaration.glsl
 // Exemples de déclaration de variables en GLSL.
 
 // 1. déclaration de variables de type booléen
