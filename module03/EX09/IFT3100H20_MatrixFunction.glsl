@@ -1,8 +1,8 @@
-// IFT3100H19_MatrixFunction.glsl
+// IFT3100H20_MatrixFunction.glsl
 // Exemples de fonctions applicables aux variables de type matrice en GLSL.
 
 // variable locale
-mat4 m = mat4(/*_*/);
+mat4 m = mat4(/*...*/);
 
 // 1. transposition d'une matrice
 mat4 m1 = transpose(m);
