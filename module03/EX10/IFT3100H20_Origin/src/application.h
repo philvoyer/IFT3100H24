@@ -1,4 +1,4 @@
-// IFT3100H19_Origin/application.h
+// IFT3100H20_Origin/application.h
 // Classe principale de l'application.
 
 #pragma once
@@ -15,6 +15,6 @@ public:
   void setup();
   void update();
   void draw();
-  
+
   void exit();
 };

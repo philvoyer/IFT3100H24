@@ -1,4 +1,4 @@
-// IFT3100H19_Origin/main.cpp
+// IFT3100H20_Origin/main.cpp
 // Transformation du système de coordonnées par translation pour modifier la position de l'origine de la scène.
 
 #include "ofMain.h"
