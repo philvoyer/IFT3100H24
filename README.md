@@ -46,6 +46,6 @@ Rendu basé sur la physique, réflexion diélectrique, métallicité, rugosité,
 
 Ce dépôt contient trois types d'exemples :
 
-1. Des extraits de sections de code minimalistes en C++ ou GLSL. Ces exemples ne sont pas exécutables.
+1. Des extraits de sections de code OpenGL minimalistes en C++ ou GLSL. Ces exemples ne sont pas exécutables.
 2. Des exemples en C++ pur, sans autre dépendance que les librairies standards du langage. Un *Makefile* accompagne ces exemples, simplement faire un *make* dans une console pour compiler un exécutable. 
-3. Tous les autres exemples utilisent *openFrameworks 0.10.1*. Simplement cloner ce dépôt dans le répertoire */apps* et utiliser le *projectGenerator* qui accompagne la technologie pour générer les solutions pour votre IDE préféré. Une fois ouvert dans un IDE, supprimer les références ver *ofApp.h* et *ofApp.cpp* car ils ne sont pas utilisés.
+3. Tous les autres exemples utilisent *openFrameworks 0.11.0*. Simplement cloner ce dépôt dans le répertoire */apps* et utiliser le *projectGenerator* qui accompagne la technologie pour générer les solutions pour votre IDE préféré. Une fois ouvert dans un IDE, supprimer les références ver *ofApp.h* et *ofApp.cpp* car ils ne sont pas utilisés.
