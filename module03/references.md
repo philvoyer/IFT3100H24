@@ -155,6 +155,9 @@ http://glm.g-truc.net/0.9.5/index.html
 GLM: Exemples  
 https://glm.g-truc.net/0.9.7/code.html
 
+Eigen  
+https://eigen.tuxfamily.org/dox/
+
 Apple GLKit  
 https://developer.apple.com/documentation/glkit
 
@@ -162,6 +165,9 @@ https://developer.apple.com/documentation/glkit
 
 LearnOpenGL - Coordinate Systems  
 https://learnopengl.com/Getting-started/Coordinate-Systems
+
+LearnOpenGL - Transformations  
+https://learnopengl.com/Getting-started/Transformations
 
 Tutorial : Transformations  
 http://open.gl/transformations
