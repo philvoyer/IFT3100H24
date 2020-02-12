@@ -1,4 +1,4 @@
-// IFT3100H19_EquilateralTriangle/renderer.cpp
+// IFT3100H20_EquilateralTriangle/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"

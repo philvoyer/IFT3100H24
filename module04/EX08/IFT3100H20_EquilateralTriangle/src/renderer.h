@@ -1,4 +1,4 @@
-// IFT3100H19_EquilateralTriangle/renderer.h
+// IFT3100H20_EquilateralTriangle/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
