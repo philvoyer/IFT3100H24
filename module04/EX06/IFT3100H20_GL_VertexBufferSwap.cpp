@@ -1,4 +1,4 @@
-// IFT3100H19_GL_VertexBufferSwap.cpp
+// IFT3100H20_GL_VertexBufferSwap.cpp
 // Exemple d'une section de code qui inverse en alternance deux buffers de géométrie utilisés pour la mise à jour et le rendu afin d'éviter de bloquer le pipeline de rendu.
 
 // entrée
