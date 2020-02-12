@@ -1,4 +1,4 @@
-// IFT3100H19_HelloTriangle/renderer.cpp
+// IFT3100H20_HelloTriangle/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
