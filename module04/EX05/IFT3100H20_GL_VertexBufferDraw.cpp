@@ -1,4 +1,4 @@
-// IFT3100H19_GL_VertexBufferDraw.cpp
+// IFT3100H20_GL_VertexBufferDraw.cpp
 // Exemple de différentes approches pour dessiner un buffer de géométrie.
 
 // entrée
