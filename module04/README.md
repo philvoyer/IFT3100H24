@@ -1,6 +1,5 @@
 # IFT3100H20
 
-
 ## Module 4 : Géométrie
 
 ### Exemple 4.1
