@@ -1,4 +1,4 @@
-// IFT3100H19_RegularPolygon/renderer.cpp
+// IFT3100H20_RegularPolygon/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -96,4 +96,3 @@ void Renderer::draw()
   // dessiner le centre du polygone régulier
   ofDrawEllipse(polygon_center_x, polygon_center_y, point_diameter, point_diameter);
 }
-

@@ -1,4 +1,4 @@
-// IFT3100H19_RegularPolygon/application.h
+// IFT3100H20_RegularPolygon/application.h
 // Classe principale de l'application.
 
 #pragma once
