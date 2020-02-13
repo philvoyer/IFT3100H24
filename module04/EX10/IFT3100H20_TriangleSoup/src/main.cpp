@@ -1,4 +1,4 @@
-// IFT3100H19_TriangleSoup/main.cpp
+// IFT3100H20_TriangleSoup/main.cpp
 // Exemple de génération aléatoire et rendu d'une soupe au triangles.
 
 #include "ofMain.h"
