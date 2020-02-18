@@ -113,7 +113,7 @@ void Renderer::reset()
 
   for (index = 0; index < buffer_count; ++index)
   {
-    index_x = index % fat_pixel_grid_height;
+    index_x = index % fat_pixel_grid_width;
     index_y = index / fat_pixel_grid_width;
 
     fat_pixels[index].position[0] = index_x * fat_pixel_resolution;
@@ -145,7 +145,7 @@ void Renderer::change_fat_pixel_state(int index, PixelState state)
 
     case PixelState::off:
 
-      index_x = index % fat_pixel_grid_height;
+      index_x = index % fat_pixel_grid_width;
       index_y = index / fat_pixel_grid_width;
 
       if ((index_x + index_y) % 2 == 0)
