@@ -21,5 +21,10 @@ vec2 sample2 = texture(texture_diffuse, surface_texcoord).rg;
 // échantillonner le composante rouge de la couleur
 float sample1 = texture(texture_diffuse, surface_texcoord).r;
 
-// échantillonner une couleur RGB avec un swizzle
+// échantillonner une couleur RGB avec un swizzle des composantes
 vec3 sample3 = texture(texture_diffuse, surface_texcoord).brg;
+
+// échantillonner une couleur RGBA avec d'autres étiquettes de composante
+vec3 sample4 = texture(texture_diffuse, surface_texcoord).rgba;
+vec3 sample4 = texture(texture_diffuse, surface_texcoord).xyzw;
+vec3 sample4 = texture(texture_diffuse, surface_texcoord).stpq;
