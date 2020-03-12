@@ -1,9 +1,10 @@
-// IFT3100H19_Convolution/application.cpp
+// IFT3100H20_ImageFilter/application.h
 // Classe principale de l'application.
 
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
 #include "renderer.h"
 
 class Application : public ofBaseApp
@@ -12,11 +13,15 @@ public:
 
   Renderer renderer;
 
+  ofxPanel gui;
+
+  ofParameter<ofColor> color_picker;
+  ofParameter<float> slider;
+
   void setup();
   void update();
   void draw();
-
-  void keyReleased(int key);
-
   void exit();
+
+  void dragEvent(ofDragInfo dragInfo);
 };
