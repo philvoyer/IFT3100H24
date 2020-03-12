@@ -1,4 +1,4 @@
-# IFT3100H19
+# IFT3100H20
 
 ## Module 6 : Texture
 
@@ -12,11 +12,17 @@ Exemple d'une section de code pour échantillonner une texture en GLSL.
 
 ### Exemple 6.3
 
+Exemples d'application de filtres de convolution sur une image.
+
+### Exemple 6.4
+
 Exemple d'un filtre d'image créé avec un shader de fragments.
 
 Le filtre applique une teinte de couleur RGB mixée avec la couleur de l'image d'origine.
 
-### Exemple 6.4
+### Exemple 6.5
 
-Exemples d'application de filtres de convolution sur une image.
+Exemple d'un filtre d'image créé avec un shader de fragments.
+
+Le filtre applique une correction de couleur sur l'image d'origine avec trois techniques : un facteur d'exposition, un mappage tonal (*Reinhard* ou *ACES filmic*) et une correction gamma.
 
