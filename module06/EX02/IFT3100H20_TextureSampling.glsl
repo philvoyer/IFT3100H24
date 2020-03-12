@@ -1,4 +1,4 @@
-// IFT3100H19_TextureSampling.glsl
+// IFT3100H20_TextureSampling.glsl
 // Exemple d'une section de code pour échantillonner une texture en GLSL.
 
 // coordonnées de mapping
