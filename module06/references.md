@@ -143,6 +143,9 @@ http://msdn.microsoft.com/en-us/library/bb694531(v=vs.85).aspx
 Shaders in openFrameworks  
 https://www.scribd.com/doc/54776025/Shaders-in-OpenFrameworks
 
+Android Lesson Six: An Introduction to Texture Filtering  
+https://www.learnopengles.com/android-lesson-six-an-introduction-to-texture-filtering/
+
 ## Conversion de couleur
 
 ### Correction gamma
