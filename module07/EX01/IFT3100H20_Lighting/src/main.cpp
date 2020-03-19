@@ -10,7 +10,7 @@
 #include "ofMain.h"
 #include "application.h"
 
-bool use_gl_fixed_function_pipeline = true;
+bool use_gl_fixed_function_pipeline = false;
 
 int main()
 {
