@@ -150,6 +150,12 @@ void Renderer::draw()
 
   ofPopMatrix();
 
+  // activer l'éclairage dynamique
+  ofEnableLighting();
+
+  // activer les lumières
+  lighting_on();
+
   ofPushMatrix();
 
     // transformer l'origine de la scène au milieu de la fenêtre d'affichage
@@ -169,12 +175,6 @@ void Renderer::draw()
       // rotation locale
       ofRotateDeg(ofGetFrameNum() * 1.0f, 0, 1, 0);
 
-      // activer l'éclairage dynamique
-      ofEnableLighting();
-
-      // activer les lumières
-      lighting_on();
-
       // activer le matériau
       material_cube.begin();
 
@@ -183,12 +183,6 @@ void Renderer::draw()
 
       // désactiver le matériau
       material_cube.end();
-
-      // désactiver les lumières
-      lighting_off();
-
-      // désactiver l'éclairage dynamique
-      ofDisableLighting();
 
     ofPopMatrix();
 
@@ -203,12 +197,6 @@ void Renderer::draw()
       // rotation locale
       ofRotateDeg(ofGetFrameNum() * 1.0f, 0, 1, 0);
 
-      // activer l'éclairage dynamique
-      ofEnableLighting();
-
-      // activer les lumières
-      lighting_on();
-
       // activer le matériau
       material_sphere.begin();
 
@@ -217,12 +205,6 @@ void Renderer::draw()
 
       // désactiver le matériau
       material_sphere.end();
-
-      // désactiver les lumières
-      lighting_off();
-
-      // désactiver l'éclairage dynamique
-      ofDisableLighting();
 
     ofPopMatrix();
 
@@ -246,12 +228,6 @@ void Renderer::draw()
       // désactiver le matériau par défaut du modèle
       teapot.disableMaterials();
 
-      // activer l'éclairage dynamique
-      ofEnableLighting();
-
-      // activer les lumières
-      lighting_on();
-
       // activer le matériau
       material_teapot.begin();
 
@@ -260,16 +236,15 @@ void Renderer::draw()
 
       // désactiver le matériau
       material_teapot.end();
-
-      // désactiver les lumières
-      lighting_off();
-
-      // désactiver l'éclairage dynamique
-      ofDisableLighting();
-
     ofPopMatrix();
 
   ofPopMatrix();
+
+  // désactiver les lumières
+  lighting_off();
+
+  // désactiver l'éclairage dynamique
+  ofDisableLighting();
 }
 
 // désactivation des lumières dynamiques
