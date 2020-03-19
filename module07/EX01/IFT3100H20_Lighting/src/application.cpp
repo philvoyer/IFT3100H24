@@ -1,4 +1,4 @@
-// IFT3100H19_Lighting/application.cpp
+// IFT3100H20_Lighting/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"

@@ -1,4 +1,4 @@
-// IFT3100H19_Lighting/main.cpp
+// IFT3100H20_Lighting/main.cpp
 // Démonstration de différents types de lumières et de matériaux.
 // La scène contient trois modèles : un cube, une sphère et un teapot.
 // Chaque modèle possède son propre matériau.
@@ -10,7 +10,7 @@
 #include "ofMain.h"
 #include "application.h"
 
-bool use_gl_fixed_function_pipeline = false;
+bool use_gl_fixed_function_pipeline = true;
 
 int main()
 {
