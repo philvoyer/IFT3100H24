@@ -1,4 +1,4 @@
-// IFT3100H19_Raytracer/raytracer.cpp
+// IFT3100H20_Raytracer/raytracer.cpp
 // Exemple d'un raytracer minimaliste.
 // Inspiré de smallpt.
 // make : g++ -std=c++11 raytracer.cpp -o raytracer
