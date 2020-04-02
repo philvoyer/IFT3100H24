@@ -1,4 +1,4 @@
-// IFT3100H19_CurveBezier/application.h
+// IFT3100H20_CurveBezier/application.h
 // Classe principale de l'application.
 
 #pragma once
