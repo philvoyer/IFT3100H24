@@ -1,4 +1,4 @@
-// IFT3100H19_PBR/application.cpp
+// IFT3100H20_PBR/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
@@ -137,7 +137,7 @@ void Application::update()
   renderer.tone_mapping_exposure = slider_exposure;
   renderer.tone_mapping_gamma = slider_gamma;
   renderer.tone_mapping_toggle = toggle_tone_mapping;
-  
+
   if (renderer.tone_mapping_toggle)
     toggle_tone_mapping.set("aces filmic", true);
   else
