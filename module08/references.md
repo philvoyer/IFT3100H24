@@ -115,8 +115,17 @@ Unreal Real Time Raytracing (GDC 2019)
 https://www.unrealengine.com/en-US/blog/troll-showcases-unreal-engine-4-22-ray-tracing-with-unprecedented-cinematic-quality-lighting  
 https://www.youtube.com/watch?v=Qjt_MqEOcGM
 
+Raytracing in one weekend  
+https://raytracing.github.io/books/RayTracingInOneWeekend.html
+
+Raytracing the next week  
+https://raytracing.github.io/books/RayTracingTheNextWeek.html
+
 Raytracing gems   
 https://www.realtimerendering.com/raytracinggems/
 
 Ray Tracing Essentials Part 1: Basics of Ray Tracing  
 https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/
+
+NVIDIA Vulkan Ray Tracing Tutorials  
+https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR
