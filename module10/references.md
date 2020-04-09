@@ -83,8 +83,6 @@ http://www.neilblevins.com/cg_education/ggx/ggx.htm
 https://texturehaven.com/textures/  
 https://hdrihaven.com/hdris/
 
-https://renderdoc.org
-
 ## Architecture de rendu
 
 https://fr.wikipedia.org/wiki/Deferred_Shading
@@ -94,3 +92,5 @@ https://en.wikipedia.org/wiki/Deferred_shading
 http://www.realtimerendering.com/blog/deferred-lighting-approaches/
 
 https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342
+
+https://renderdoc.org
