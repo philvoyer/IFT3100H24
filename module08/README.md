@@ -1,4 +1,4 @@
-# IFT3100H19
+# IFT3100H20
 
 ## Module 8 : Lancer de rayons
 
