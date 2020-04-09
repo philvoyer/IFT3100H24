@@ -5,7 +5,6 @@
 #include "ofMain.h"
 #include "application.h"
 
-
 int main()
 {
   ofGLFWWindowSettings windowSettings;
