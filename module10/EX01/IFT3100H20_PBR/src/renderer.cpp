@@ -18,7 +18,7 @@ void Renderer::setup()
   teapot.disableMaterials();
 
   // charger, compiler et linker les sources des shaders
-  shader_pbr.load(
+  shader.load(
     "shader/pbr_330_vs.glsl",
     "shader/pbr_330_fs.glsl");
 
@@ -104,34 +104,33 @@ void Renderer::update()
   }
 
   // passer les attributs uniformes au shader de sommets
-  shader = &shader_pbr;
-  shader->begin();
+  shader.begin();
 
-  shader->setUniform3f("material_color_ambient", material_color_ambient.r/255.0f, material_color_ambient.g/255.0f, material_color_ambient.b/255.0f);
-  shader->setUniform3f("material_color_diffuse", material_color_diffuse.r/255.0f, material_color_diffuse.g/255.0f, material_color_diffuse.b/255.0f);
-  shader->setUniform3f("material_color_specular", material_color_specular.r/255.0f, material_color_specular.g/255.0f, material_color_specular.b/255.0f);
+  shader.setUniform3f("material_color_ambient", material_color_ambient.r/255.0f, material_color_ambient.g/255.0f, material_color_ambient.b/255.0f);
+  shader.setUniform3f("material_color_diffuse", material_color_diffuse.r/255.0f, material_color_diffuse.g/255.0f, material_color_diffuse.b/255.0f);
+  shader.setUniform3f("material_color_specular", material_color_specular.r/255.0f, material_color_specular.g/255.0f, material_color_specular.b/255.0f);
 
-  shader->setUniform1f("material_brightness", material_brightness);
-  shader->setUniform1f("material_metallic", material_metallic);
-  shader->setUniform1f("material_roughness", material_roughness);
-  shader->setUniform1f("material_occlusion", material_occlusion);
+  shader.setUniform1f("material_brightness", material_brightness);
+  shader.setUniform1f("material_metallic", material_metallic);
+  shader.setUniform1f("material_roughness", material_roughness);
+  shader.setUniform1f("material_occlusion", material_occlusion);
 
-  shader->setUniform3f("material_fresnel_ior", material_fresnel_ior);
+  shader.setUniform3f("material_fresnel_ior", material_fresnel_ior);
 
-  shader->setUniformTexture("texture_diffuse", texture_diffuse.getTexture(), 1);
-  shader->setUniformTexture("texture_metallic", texture_metallic.getTexture(), 2);
-  shader->setUniformTexture("texture_roughness", texture_roughness.getTexture(), 3);
-  shader->setUniformTexture("texture_occlusion", texture_occlusion.getTexture(), 4);
+  shader.setUniformTexture("texture_diffuse", texture_diffuse.getTexture(), 1);
+  shader.setUniformTexture("texture_metallic", texture_metallic.getTexture(), 2);
+  shader.setUniformTexture("texture_roughness", texture_roughness.getTexture(), 3);
+  shader.setUniformTexture("texture_occlusion", texture_occlusion.getTexture(), 4);
 
-  shader->setUniform1f("light_intensity", light_intensity);
-  shader->setUniform3f("light_color", light_color.r/255.0f, light_color.g/255.0f, light_color.b/255.0f);
-  shader->setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+  shader.setUniform1f("light_intensity", light_intensity);
+  shader.setUniform3f("light_color", light_color.r/255.0f, light_color.g/255.0f, light_color.b/255.0f);
+  shader.setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
 
-  shader->setUniform1f("tone_mapping_exposure", tone_mapping_exposure);
-  shader->setUniform1f("tone_mapping_gamma", tone_mapping_gamma);
-  shader->setUniform1i("tone_mapping_toggle", tone_mapping_toggle);
+  shader.setUniform1f("tone_mapping_exposure", tone_mapping_exposure);
+  shader.setUniform1f("tone_mapping_gamma", tone_mapping_gamma);
+  shader.setUniform1i("tone_mapping_toggle", tone_mapping_toggle);
 
-  shader->end();
+  shader.end();
 }
 
 void Renderer::draw()
@@ -146,7 +145,7 @@ void Renderer::draw()
   light.enable();
 
   // activer le shader
-  shader->begin();
+  shader.begin();
 
   ofPushMatrix();
 
@@ -207,7 +206,7 @@ void Renderer::draw()
   ofPopMatrix();
 
   // désactiver le shader
-  shader->end();
+  shader.end();
 
   // désactiver la lumière
   light.disable();

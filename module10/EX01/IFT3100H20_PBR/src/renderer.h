@@ -10,9 +10,7 @@ class Renderer
 {
 public:
 
-  ofShader shader_pbr;
-
-  ofShader* shader;
+  ofShader shader;
 
   ofColor material_color_ambient;
   ofColor material_color_diffuse;
