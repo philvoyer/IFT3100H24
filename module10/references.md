@@ -70,7 +70,7 @@ https://aras-p.info/texts/files/201403-GDC_UnityPhysicallyBasedShading_notes.pdf
 
 http://filmicworlds.com/blog/everything-has-fresnel/
 
-https://medium.com/neurohive-computer-vision/materials-for-masses-svbrdf-acquisition-with-a-single-mobile-phone-image-a7ad8bbadb32
+https://shanesimmsart.wordpress.com/2018/03/29/fresnel-reflection/
 
 https://seblagarde.wordpress.com/2013/04/29/memo-on-fresnel-equations/
 
@@ -82,6 +82,8 @@ http://www.neilblevins.com/cg_education/ggx/ggx.htm
 
 https://texturehaven.com/textures/  
 https://hdrihaven.com/hdris/
+
+https://medium.com/neurohive-computer-vision/materials-for-masses-svbrdf-acquisition-with-a-single-mobile-phone-image-a7ad8bbadb32
 
 ## Architecture de rendu
 
