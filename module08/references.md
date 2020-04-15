@@ -41,6 +41,15 @@ http://en.wikipedia.org/wiki/Snell%27s_law
 Volume ray casting  
 http://en.wikipedia.org/wiki/Volume_ray_casting
 
+Intersection rayon - plan  
+https://en.wikipedia.org/wiki/Line–plane_intersection  
+
+Intersection rayon - sphère  
+https://en.wikipedia.org/wiki/Line–sphere_intersection  
+
+Intersection rayon - triangle  
+https://en.wikipedia.org/wiki/Möller–Trumbore_intersection_algorithm
+
 ## Technologies
 
 Chaos group V-Ray  
