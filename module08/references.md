@@ -50,6 +50,9 @@ https://en.wikipedia.org/wiki/Line–sphere_intersection
 Intersection rayon - triangle  
 https://en.wikipedia.org/wiki/Möller–Trumbore_intersection_algorithm
 
+Ray Tracing: Rendering a Triangle  
+https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/barycentric-coordinates?url=3d-basic-rendering/ray-tracing-rendering-a-triangle/barycentric-coordinates
+
 ## Technologies
 
 Chaos group V-Ray  
