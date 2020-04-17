@@ -76,12 +76,12 @@ float trowbridge_reitz(vec3 n, vec3 h, float roughness)
 }
 
 // fonction géométrique pour calculer l'impact de l'occlusion et de l'ombrage des microfacettes
-float schlick_beckmann(float ndv, float roughness)
+float schlick_beckmann(float costheta, float roughness)
 {
   float r = (roughness + 1.0);
   float k = (r * r) / 8.0;
-  float numerator = ndv;
-  float denominator = ndv * (1.0 - k) + k;
+  float numerator = costheta;
+  float denominator = costheta * (1.0 - k) + k;
   return numerator / denominator;
 }
 
