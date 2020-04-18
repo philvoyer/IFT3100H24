@@ -86,13 +86,13 @@ float schlick_beckmann(float costheta, float roughness)
 }
 
 // fonction géométrique avec occlusion et ombrage combinés par la méthode de Smith
-float smith(vec3 n, vec3 v, vec3 l, float roughness)
+float smith(vec3 n, vec3 l, vec3 v, float roughness)
 {
-  float ndv = max(dot(n, v), 0.0);
   float ndl = max(dot(n, l), 0.0);
-  float occlusion = schlick_beckmann(ndv, roughness);
+  float ndv = max(dot(n, v), 0.0);
   float shadow = schlick_beckmann(ndl, roughness);
-  return occlusion * shadow;
+  float occlusion = schlick_beckmann(ndv, roughness);
+  return shadow * occlusion;
 }
 
 // fonction qui calcul l'effet de fresnel
@@ -136,8 +136,8 @@ vec3 brdf_cook_torrance()
   // calculer la direction de la surface vers la caméra (v)
   vec3 v = normalize(-surface_position);
 
-  // calculer la direction du demi-vecteur de réflection (h) en fonction du vecteur de vue (v) et de lumière (l)
-  vec3 h = normalize(v + l);
+  // calculer la direction du demi-vecteur de réflection (h) en fonction du vecteur de lumière (l) et de vue (v)
+  vec3 h = normalize(l + v);
 
   // échantillonage de la texture diffuse
   vec3 texture_sample_diffuse = texture(texture_diffuse, surface_texcoord).rgb;
@@ -187,7 +187,7 @@ vec3 brdf_cook_torrance()
   vec3 f = schlick_fresnel(max(dot(h, v), 0.0), f0);
 
   // calculer la fonction géométrique
-  float g = smith(n, v, l, roughness);
+  float g = smith(n, l, v, roughness);
 
   // calculer le numérateur de l'équation (produit des fonctions d, f et g)
   vec3 numerator = d * f * g;
