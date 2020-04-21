@@ -160,6 +160,7 @@ http://www.g-truc.net/post-0263.html
 https://fr.wikipedia.org/wiki/Mappage_ton_local  
 https://en.wikipedia.org/wiki/Tone_mapping  
 http://api.unrealengine.com/INT/Engine/Rendering/PostProcessEffects/ColorGrading/index.html  
+http://filmicworlds.com/blog/filmic-tonemapping-operators/  
 https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/  
 https://www.oscars.org/science-technology/sci-tech-projects/aces
 
