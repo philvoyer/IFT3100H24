@@ -1,4 +1,4 @@
-// IFT3100H20_GL_ImageExport.cpp
+// IFT3100H21_GL_ImageExport.cpp
 // Exemple d'une section de code pour exporter une image à partir du contenu d'un framebuffer avec OpenGL.
 
 // entrée
