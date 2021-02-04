@@ -1,4 +1,4 @@
-// IFT3100H20_DrawFatLine/main.cpp
+// IFT3100H21_DrawFatLine/main.cpp
 // Démonstration de deux algorithmes de rastérisation de ligne (DDA et Bresenham).
 
 #include "ofMain.h"
