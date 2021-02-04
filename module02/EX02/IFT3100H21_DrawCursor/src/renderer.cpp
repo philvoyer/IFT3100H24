@@ -1,4 +1,4 @@
-// IFT3100H20_DrawCursor/renderer.cpp
+// IFT3100H21_DrawCursor/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
