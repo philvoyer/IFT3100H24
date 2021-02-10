@@ -1,4 +1,4 @@
-// IFT3100H20_VectorFunction.glsl
+// IFT3100H21_VectorFunction.glsl
 // Exemples de fonctions applicables aux variables de type vecteur en GLSL.
 
 // paramètres
