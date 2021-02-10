@@ -1,4 +1,4 @@
-// IFT3100H20_MatrixFunction.glsl
+// IFT3100H21_MatrixFunction.glsl
 // Exemples de fonctions applicables aux variables de type matrice en GLSL.
 
 // variable locale
