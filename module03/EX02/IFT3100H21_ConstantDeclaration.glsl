@@ -1,4 +1,4 @@
-// IFT3100H20_ConstantDeclaration.glsl
+// IFT3100H21_ConstantDeclaration.glsl
 // Exemples de déclaration de variables constantes en GLSL.
 
 // 1. constantes scalaires (nombres entiers)
