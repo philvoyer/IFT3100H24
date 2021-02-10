@@ -1,4 +1,4 @@
-// IFT3100H20_Origin/application.h
+// IFT3100H21_Origin/application.h
 // Classe principale de l'application.
 
 #pragma once
