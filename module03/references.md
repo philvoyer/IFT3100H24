@@ -190,7 +190,8 @@ https://engineering.riotgames.com/news/profiling-measurement-and-analysis
 ## Divers
 
 L-système  
-https://cgjennings.ca/articles/l-systems.html
+https://cgjennings.ca/articles/l-systems.html  
+http://paulbourke.net/fractals/lsys/
 
 Mandelbrot  
 https://fr.wikipedia.org/wiki/Ensemble_de_Mandelbrot  
