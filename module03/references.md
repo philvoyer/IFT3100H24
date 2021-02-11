@@ -206,3 +206,6 @@ https://en.wikipedia.org/wiki/Mandelbox
 Mandelbulb  
 https://fr.wikipedia.org/wiki/Mandelbulb  
 https://en.wikipedia.org/wiki/Mandelbulb
+
+Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?  
+https://youtu.be/t9dLqfrj7lg
