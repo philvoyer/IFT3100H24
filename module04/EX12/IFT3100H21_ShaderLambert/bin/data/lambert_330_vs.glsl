@@ -1,4 +1,4 @@
-// IFT3100H20 ~ lambert_330_vs.glsl
+// IFT3100H21 ~ lambert_330_vs.glsl
 
 #version 330
 
