@@ -1,4 +1,4 @@
-// IFT3100H20_HelloTriangle/application.h
+// IFT3100H21_HelloTriangle/application.h
 // Classe principale de l'application.
 
 #pragma once
