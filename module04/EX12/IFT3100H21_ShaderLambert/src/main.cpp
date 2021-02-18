@@ -1,4 +1,4 @@
-// IFT3100H20_ShaderLambert/main.cpp
+// IFT3100H21_ShaderLambert/main.cpp
 // Exemple d'importation et de rendu d'un teapot avec un shader de Lambert.
 // Le fichier de géométrie du teapot et les shaders sont dans le répertoire ./bin/data.
 
