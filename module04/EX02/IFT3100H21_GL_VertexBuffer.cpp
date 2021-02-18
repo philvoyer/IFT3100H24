@@ -1,4 +1,4 @@
-// IFT3100H20_GL_VertexBufferCreate.cpp
+// IFT3100H21_GL_VertexBufferCreate.cpp
 // Exemple d'une section de code pour créer d'un buffer de géométrie (vbo).
 
 // entrée
