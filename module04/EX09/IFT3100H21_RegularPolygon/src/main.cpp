@@ -1,4 +1,4 @@
-// IFT3100H20_RegularPolygon/main.cpp
+// IFT3100H21_RegularPolygon/main.cpp
 // Exemple de dessin des polygones réguliers du triangle au dodécagone (3-12 arêtes).
 
 #include "ofMain.h"
