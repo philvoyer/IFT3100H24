@@ -84,3 +84,6 @@ https://www.youtube.com/watch?v=LKnqECcg6Gw
 
 HSV Color Space  
 https://www.ronja-tutorials.com/2019/04/16/hsv-colorspace.html
+
+Scratchapixel : Simple Image Manipulations  
+https://www.scratchapixel.com/lessons/digital-imaging/simple-image-manipulations/image-processing
