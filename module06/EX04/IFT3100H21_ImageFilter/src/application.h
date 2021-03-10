@@ -1,4 +1,4 @@
-// IFT3100H20_ImageFilter/application.h
+// IFT3100H21_ImageFilter/application.h
 // Classe principale de l'application.
 
 #pragma once

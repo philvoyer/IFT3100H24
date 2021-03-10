@@ -1,4 +1,4 @@
-// IFT3100H20_ImageFilter/application.cpp
+// IFT3100H21_ImageFilter/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
