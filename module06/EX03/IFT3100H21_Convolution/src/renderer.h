@@ -1,4 +1,4 @@
-// IFT3100H20_Convolution/renderer.h
+// IFT3100H21_Convolution/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
