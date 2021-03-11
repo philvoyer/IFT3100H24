@@ -123,29 +123,6 @@ http://openframeworks.cc/ofBook/chapters/openGL.html#textures
 ofEnableNormalizedTexCoords  
 http://openframeworks.cc/documentation/gl/ofTexture/#show_ofEnableNormalizedTexCoords
 
-## Divers
-
-open.gl : Texture et configuration des paramètres  
-http://open.gl/textures
-
-opengl-tutorial : Cube avec texture  
-http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
-
-Nvidia : OpenGL Cube Map Texturing (1999)  
-http://www.nvidia.com/object/cube_map_ogl_tutorial.html
-
-Unreal : Comparaison de techniques de compression  
-https://udn.epicgames.com/Two/TextureComparison.html
-
-MSDN: Block compression  
-http://msdn.microsoft.com/en-us/library/bb694531(v=vs.85).aspx
-
-Shaders in openFrameworks  
-https://www.scribd.com/doc/54776025/Shaders-in-OpenFrameworks
-
-Android Lesson Six: An Introduction to Texture Filtering  
-https://www.learnopengles.com/android-lesson-six-an-introduction-to-texture-filtering/
-
 ## Conversion de couleur
 
 ### Correction gamma
@@ -185,3 +162,38 @@ SMAA
 http://iryoku.com/mlaa/  
 http://iryoku.com/smaa/  
 http://iryoku.com/aacourse/
+
+## Divers
+
+open.gl : Texture et configuration des paramètres  
+http://open.gl/textures
+
+opengl-tutorial : Cube avec texture  
+http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
+
+Nvidia : OpenGL Cube Map Texturing (1999)  
+http://www.nvidia.com/object/cube_map_ogl_tutorial.html
+
+Unreal : Comparaison de techniques de compression  
+https://udn.epicgames.com/Two/TextureComparison.html
+
+MSDN: Block compression  
+http://msdn.microsoft.com/en-us/library/bb694531(v=vs.85).aspx
+
+Shaders in openFrameworks  
+https://www.scribd.com/doc/54776025/Shaders-in-OpenFrameworks
+
+Android Lesson Six: An Introduction to Texture Filtering  
+https://www.learnopengles.com/android-lesson-six-an-introduction-to-texture-filtering/
+
+Heterogeneous compute case study: image convolution filtering  
+https://www.imgtec.com/blog/heterogeneous-compute-case-study-image-convolution-filtering/
+
+Types of Convolution Kernels : Simplified  
+https://towardsdatascience.com/types-of-convolution-kernels-simplified-f040cb307c37
+
+Gimp: Convolution Matrix  
+https://docs.gimp.org/2.6/en/plug-in-convmatrix.html
+
+github / vdumoulin / conv arithmetic  
+https://github.com/vdumoulin/conv_arithmetic
