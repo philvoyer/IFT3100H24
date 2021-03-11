@@ -195,5 +195,5 @@ https://towardsdatascience.com/types-of-convolution-kernels-simplified-f040cb307
 Gimp: Convolution Matrix  
 https://docs.gimp.org/2.6/en/plug-in-convmatrix.html
 
-github / vdumoulin / conv arithmetic  
+github: vdumoulin / conv arithmetic  
 https://github.com/vdumoulin/conv_arithmetic
