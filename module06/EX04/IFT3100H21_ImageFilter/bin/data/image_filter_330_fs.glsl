@@ -1,4 +1,4 @@
-// IFT3100H20 ~ image_filter_330_fs.glsl
+// IFT3100H21 ~ image_filter_330_fs.glsl
 
 #version 330
 
