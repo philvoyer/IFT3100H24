@@ -1,4 +1,4 @@
-// IFT3100H20 ~ phong_330_vs.glsl
+// IFT3100H21 ~ phong_330_vs.glsl
 
 #version 330
 

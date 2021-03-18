@@ -1,4 +1,4 @@
-// IFT3100H20_ShaderClassic/application.h
+// IFT3100H21_ShaderClassic/application.h
 // Classe principale de l'application.
 
 #pragma once

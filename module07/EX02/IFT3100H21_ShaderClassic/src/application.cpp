@@ -1,4 +1,4 @@
-// IFT3100H20_ShaderClassic/application.cpp
+// IFT3100H21_ShaderClassic/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
