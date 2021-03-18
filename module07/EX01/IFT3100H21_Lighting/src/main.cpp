@@ -1,4 +1,4 @@
-// IFT3100H20_Lighting/main.cpp
+// IFT3100H21_Lighting/main.cpp
 // Démonstration de différents types de lumières et de matériaux.
 // La scène contient trois modèles : un cube, une sphère et un teapot.
 // Chaque modèle possède son propre matériau.

@@ -1,4 +1,4 @@
-// IFT3100H20_Lighting/application.h
+// IFT3100H21_Lighting/application.h
 // Classe principale de l'application.
 
 #pragma once

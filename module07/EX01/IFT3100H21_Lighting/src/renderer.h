@@ -1,4 +1,4 @@
-// IFT3100H20_Lighting/renderer.h
+// IFT3100H21_Lighting/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
