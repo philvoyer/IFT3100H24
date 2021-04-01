@@ -1,4 +1,4 @@
-// IFT3100H20_CurveBezier/application.cpp
+// IFT3100H21_CurveBezier/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
