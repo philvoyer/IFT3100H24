@@ -1,4 +1,4 @@
-// IFT3100H20 ~ pbr_330_fs.glsl
+// IFT3100H21 ~ pbr_330_fs.glsl
 
 #version 330
 

@@ -1,4 +1,4 @@
-// IFT3100H20_PBR/application.cpp
+// IFT3100H21_PBR/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"

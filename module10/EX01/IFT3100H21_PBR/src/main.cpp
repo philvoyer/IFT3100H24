@@ -1,4 +1,4 @@
-// IFT3100H20_PBR/main.cpp
+// IFT3100H21_PBR/main.cpp
 // Dans cet exemple, différents maillages géométriques sont rendus avec un modèle d'illumination de type PBR.
 // Le modèle d'illumination est celui qui est couramment appelé GGX.
 // La fonction BRDF est celle de Cook-Torrance.
