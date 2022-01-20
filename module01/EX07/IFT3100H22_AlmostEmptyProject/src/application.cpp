@@ -1,4 +1,4 @@
-// IFT3100H21_AlmostEmptyProject/application.cpp
+// IFT3100H22_AlmostEmptyProject/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
