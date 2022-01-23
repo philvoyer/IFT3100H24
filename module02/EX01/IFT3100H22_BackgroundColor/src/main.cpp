@@ -1,4 +1,4 @@
-// IFT3100H21_BackgroundColor/main.cpp
+// IFT3100H22_BackgroundColor/main.cpp
 // Exemple de configuration de la couleur d'arrière-plan avec une couleur fixe ou aléatoire.
 
 #include "ofMain.h"
