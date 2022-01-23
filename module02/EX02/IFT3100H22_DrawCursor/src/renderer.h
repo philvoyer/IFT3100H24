@@ -1,4 +1,4 @@
-// IFT3100H21_DrawCursor/renderer.h
+// IFT3100H22_DrawCursor/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
