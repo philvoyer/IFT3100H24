@@ -1,4 +1,4 @@
-// IFT3100H21_DrawZone/application.h
+// IFT3100H22_DrawZone/application.h
 // Classe principale de l'application.
 
 #pragma once
