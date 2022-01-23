@@ -1,4 +1,4 @@
-// IFT3100H21_DrawVectorPrimitive/renderer.cpp
+// IFT3100H22_DrawVectorPrimitive/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
