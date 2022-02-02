@@ -1,4 +1,4 @@
-// IFT3100H21_MatrixComponent.glsl
+// IFT3100H22_MatrixComponent.glsl
 // Exemples d’accès aux composantes d’une matrice en GLSL.
 
 // déclaration d'une variable de type matrice de 4 par 4 composantes
