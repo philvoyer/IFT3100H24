@@ -1,4 +1,4 @@
-// IFT3100H21_VectorComponent.glsl
+// IFT3100H22_VectorComponent.glsl
 // Exemples d’accès aux composantes d’un vecteur en GLSL.
 
 // variables locales
