@@ -1,5 +1,5 @@
 // IFT3100H22_HelloTriangle/main.cpp
-// Exemple où un triangle par seconde est dessinée à des positions aléatoires dans la fenêtre d'affichage.
+// Exemple où un triangle par seconde est dessiné à des positions aléatoires dans la fenêtre d'affichage.
 
 #include "ofMain.h"
 #include "application.h"
