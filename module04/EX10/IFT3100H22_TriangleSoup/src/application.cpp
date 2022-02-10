@@ -1,4 +1,4 @@
-// IFT3100H21_TriangleSoup/application.cpp
+// IFT3100H22_TriangleSoup/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
