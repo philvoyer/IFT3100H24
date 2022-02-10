@@ -28,7 +28,7 @@ Exemple d'une section de code qui inverse en alternance deux buffers de géomét
 
 ### Exemple 4.7
 
-Exemple où un triangle par seconde est dessinée à des positions aléatoires dans la fenêtre d'affichage.
+Exemple où un triangle par seconde est dessiné à des positions aléatoires dans la fenêtre d'affichage.
 
 ### Exemple 4.8
 
