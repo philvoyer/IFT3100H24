@@ -1,4 +1,4 @@
-// IFT3100H21_RegularPolygon/application.cpp
+// IFT3100H22_RegularPolygon/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
