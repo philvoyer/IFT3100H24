@@ -1,4 +1,4 @@
-// IFT3100H21_ShaderLambert/renderer.h
+// IFT3100H22_ShaderLambert/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
