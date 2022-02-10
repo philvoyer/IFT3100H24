@@ -1,4 +1,4 @@
-// IFT3100H21_Teapot/renderer.cpp
+// IFT3100H22_Teapot/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
