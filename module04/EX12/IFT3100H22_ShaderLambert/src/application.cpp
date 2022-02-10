@@ -5,6 +5,8 @@
 
 void Application::setup()
 {
+  ofSetWindowTitle("teapot avec shader de Lambert");
+
   renderer.setup();
 }
 
