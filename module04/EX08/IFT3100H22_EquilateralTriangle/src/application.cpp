@@ -1,4 +1,4 @@
-// IFT3100H21_EquilateralTriangle/application.cpp
+// IFT3100H22_EquilateralTriangle/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
