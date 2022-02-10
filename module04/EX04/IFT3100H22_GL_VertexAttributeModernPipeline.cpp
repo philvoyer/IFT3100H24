@@ -1,4 +1,4 @@
-// IFT3100H21_GL_VertexBufferBindModernPipeline.cpp
+// IFT3100H22_GL_VertexBufferBindModernPipeline.cpp
 // Exemple d'une section de code pour assigner les pointeurs vers chaque attribut de la structure de sommet d'un buffer de géométrie (pipeline moderne).
 
 // entrée
