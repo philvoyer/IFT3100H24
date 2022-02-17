@@ -1,4 +1,4 @@
-// IFT3100H21_CameraFrustum/application.h
+// IFT3100H22_CameraFrustum/application.h
 // Classe principale de l'application.
 
 #pragma once

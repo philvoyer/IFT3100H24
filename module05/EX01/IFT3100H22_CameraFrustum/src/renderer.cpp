@@ -1,4 +1,4 @@
-// IFT3100H21_CameraFrustum/renderer.cpp
+// IFT3100H22_CameraFrustum/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
