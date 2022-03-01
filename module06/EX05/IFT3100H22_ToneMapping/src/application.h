@@ -1,4 +1,4 @@
-// IFT3100H21_ToneMapping/application.h
+// IFT3100H22_ToneMapping/application.h
 // Classe principale de l'application.
 
 #pragma once

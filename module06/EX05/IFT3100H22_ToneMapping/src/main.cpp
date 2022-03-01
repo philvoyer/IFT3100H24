@@ -1,4 +1,4 @@
-// IFT3100H21_ToneMapping/main.cpp
+// IFT3100H22_ToneMapping/main.cpp
 // Exemple d'un filtre d'image créé avec un shader de fragments.
 // Le filtre applique une teinte de couleur RGB mixée avec la couleur de l'image d'origine.
 

@@ -1,4 +1,4 @@
-// IFT3100H21_ToneMapping/application.cpp
+// IFT3100H22_ToneMapping/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
