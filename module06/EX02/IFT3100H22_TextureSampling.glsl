@@ -1,10 +1,10 @@
-// IFT3100H21_TextureSampling.glsl
+// IFT3100H22_TextureSampling.glsl
 // Exemple d'une section de code pour échantillonner une texture en GLSL.
 
-// coordonnées de mapping
+// exemple de déclaration des coordonnées de mapping en provenance d'une structure de sommets
 in vec2 surface_texcoord;
 
-// texture diffuse
+// exemple d'un échantillonneur de texture
 uniform sampler2D texture_diffuse;
 
 // échantillonnage de la texture
