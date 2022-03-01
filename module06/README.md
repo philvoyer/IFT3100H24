@@ -1,4 +1,4 @@
-# IFT3100H21
+# IFT3100H22
 
 ## Module 6 : Texture
 
