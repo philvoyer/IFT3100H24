@@ -70,6 +70,9 @@ void Renderer::filter()
   // indices du kernel
   int i, j;
 
+  // indices d'échantillonnage;
+  int xi, yj;
+
   // index des composantes de couleur
   int c;
 
@@ -119,8 +122,16 @@ void Renderer::filter()
         // itération sur les rangées du kernel de convolution
         for (i = -kernel_offset; i <= kernel_offset; ++i)
         {
+          // calculer les indices d'échantillonnage
+          xi = x - i;
+          yj = y - j;
+
+          // traitement de la bordure
+          if (xi < 0 || xi > image_width || yj < 0 || yj > image_height)
+            continue;
+
           // déterminer l'index du pixel de l'image source à lire
-          pixel_index_img_src = (image_width * (y-j) + (x-i)) * color_component_count;
+          pixel_index_img_src = (image_width * yj + xi) * color_component_count;
 
           // lire la couleur du pixel de l'image source
           pixel_color_src = pixel_array_src.getColor(pixel_index_img_src);
