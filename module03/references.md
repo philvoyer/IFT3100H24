@@ -182,7 +182,7 @@ Tutorial : How to Rotate a Vertex by a Quaternion in GLSL
 https://www.geeks3d.com/20141201/how-to-rotate-a-vertex-by-a-quaternion-in-glsl/
 
 Article : Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations  
-https://seanmiddleditch.com/matrices-handedness-pre-and-post-multiplication-row-vs-column-major-and-notations/
+https://seanmiddleditch.github.io/matrices-handedness-pre-and-post-multiplication-row-vs-column-major-and-notations/
 
 Profiling : measurement and analysis (produit matriciel)  
 https://engineering.riotgames.com/news/profiling-measurement-and-analysis
