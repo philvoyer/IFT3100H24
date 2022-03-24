@@ -531,7 +531,7 @@ void init()
   // allocation de la mémoire de l'image en fonction des paramètres du programme
   image.resize(image_width, image_height);
 
-  std::cout << "image resize to " << image.width << "x" << image.height << " (" << image.count << " pixels) " << image.size << " MB)" << std::endl;
+  std::cout << "image resize to " << image.width << "x" << image.height << " (" << image.count << " pixels, " << image.size << " MB)" << std::endl;
 
   // calibration de la caméra
   camera.viewport_width = image.width;
