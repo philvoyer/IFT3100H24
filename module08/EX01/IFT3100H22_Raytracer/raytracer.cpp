@@ -601,7 +601,7 @@ void render()
             r2 = 2.0 * random01(rng);
             dy = r2 < 1.0 ? sqrt(r2) - 1.0 : 1.0 - sqrt(2.0 - r2);
 
-            // calculer la distance de ...
+            // calculer la distance de l'échantillon
             distance = camera.axis_x * (((sx + 0.5 + dx) / 2.0 + x) / image_width - 0.5) +
                        camera.axis_y * (((sy + 0.5 + dy) / 2.0 + y) / image_height - 0.5) + camera.axis_z;
 
