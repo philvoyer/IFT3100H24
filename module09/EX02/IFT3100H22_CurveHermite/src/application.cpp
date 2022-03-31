@@ -17,7 +17,7 @@ void Application::setup()
 
 void Application::update()
 {
-  ofSetWindowTitle("courbe " + renderer.curve_name + " (↑↓←→ 1-6 r)");
+  ofSetWindowTitle("courbe " + renderer.curve_name + " (↑↓←→ 1-8 r spacebar)");
 
   time_current = ofGetElapsedTimef();
   time_elapsed = time_current - time_last;

@@ -91,6 +91,7 @@ void Renderer::setup()
 
   motion_speed = 250.0f;
 
+  oscillation = 0.5f;
   oscillation_frequency = 5000.0f;
   oscillation_amplitude = 0.5;
 
@@ -215,7 +216,8 @@ void Renderer::update()
   }
 
   // mise à jour de l'oscillateur
-  oscillation = oscillation_amplitude + oscillate(ofGetElapsedTimeMillis(), oscillation_frequency, oscillation_amplitude);
+  if (isAnimationActive)
+    oscillation = oscillation_amplitude + oscillate(ofGetElapsedTimeMillis(), oscillation_frequency, oscillation_amplitude);
 
   // animation de la tête de lecture en fonction de la valeur courante de l'oscillateur
   switch (interpolation_type)
