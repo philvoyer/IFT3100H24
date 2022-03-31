@@ -1,4 +1,4 @@
-// IFT3100H21_CurveHermite/application.cpp
+// IFT3100H22_CurveHermite/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
@@ -110,6 +110,16 @@ void Application::keyReleased(int key)
       renderer.curve_type = CurveType::bezier_cubic;
       break;
 
+    case 55: // touche 7
+      ofLog() << "<select interpolation type : lerp>";
+      renderer.interpolation_type = InterpolationType::lerp;
+      break;
+
+    case 56: // touche 8
+      ofLog() << "<select interpolation type : smoothstep>";
+      renderer.interpolation_type = InterpolationType::smoothstep;
+      break;
+
     case 114: // touche r
       renderer.reset();
       break;
@@ -128,6 +138,10 @@ void Application::keyReleased(int key)
 
     case OF_KEY_DOWN: // touche ↓
       is_key_press_down = false;
+      break;
+
+    case ' ' : // touche spacebar
+      renderer.isAnimationActive = !renderer.isAnimationActive;
       break;
 
     default:
