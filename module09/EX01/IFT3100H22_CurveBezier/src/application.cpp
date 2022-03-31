@@ -1,4 +1,4 @@
-// IFT3100H21_CurveBezier/application.cpp
+// IFT3100H22_CurveBezier/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
@@ -100,14 +100,24 @@ void Application::keyReleased(int key)
 
     case 53: // touche 5
       ofLog() << "<select curve type : bezier quadratic>";
-      renderer.curve_id = CurveType::bezier_quadratic;
+      renderer.curve_type = CurveType::bezier_quadratic;
       renderer.reset();
       break;
 
     case 54: // touche 6
       ofLog() << "<select curve type : bezier cubic>";
-      renderer.curve_id = CurveType::bezier_cubic;
+      renderer.curve_type = CurveType::bezier_cubic;
       renderer.reset();
+      break;
+
+    case 55: // touche 7
+      ofLog() << "<select interpolation type : lerp>";
+      renderer.interpolation_type = InterpolationType::lerp;
+      break;
+
+    case 56: // touche 8
+      ofLog() << "<select interpolation type : smoothstep>";
+      renderer.interpolation_type = InterpolationType::smoothstep;
       break;
 
     case 114: // touche r
@@ -128,6 +138,10 @@ void Application::keyReleased(int key)
 
     case OF_KEY_DOWN: // touche ↓
       is_key_press_down = false;
+      break;
+
+    case ' ' : // touche spacebar
+      renderer.isAnimationActive = !renderer.isAnimationActive;
       break;
 
     default:

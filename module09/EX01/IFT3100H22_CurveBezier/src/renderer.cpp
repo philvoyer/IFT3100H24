@@ -1,14 +1,79 @@
-// IFT3100H21_CurveBezier/renderer.cpp
+// IFT3100H22_CurveBezier/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
+
+// fonction d'évaluation d'une courbe de Bézier quadratique (3 points de contrôle)
+void bezier_quadratic(
+  float t,
+  float p1x, float p1y, float p1z,
+  float p2x, float p2y, float p2z,
+  float p3x, float p3y, float p3z,
+  float&  x,  float& y, float&  z)
+{
+  float u = 1 - t;
+
+  x = u * (u * p1x + t * p2x) + t * (u * p2x + t * p3x);
+  y = u * (u * p1y + t * p2y) + t * (u * p2y + t * p3y);
+  z = u * (u * p1z + t * p2z) + t * (u * p2z + t * p3z);
+}
+
+// fonction d'évaluation d'une courbe de Bézier cubique (4 points de contrôle)
+void bezier_cubic(
+  float t,
+  float p1x, float p1y, float p1z,
+  float p2x, float p2y, float p2z,
+  float p3x, float p3y, float p3z,
+  float p4x, float p4y, float p4z,
+  float&  x,  float& y, float&  z)
+{
+  float u = 1 - t;
+  float uu = u * u;
+  float uuu = uu * u;
+  float tt = t * t;
+  float ttt = tt * t;
+
+  x = uuu * p1x + 3 * uu * t * p2x + 3 * u * tt * p3x + ttt * p4x;
+  y = uuu * p1y + 3 * uu * t * p2y + 3 * u * tt * p3y + ttt * p4y;
+  z = uuu * p1z + 3 * uu * t * p2z + 3 * u * tt * p3z + ttt * p4z;
+}
+
+// fonction d'oscillation
+float oscillate(float time, float frequency, float amplitude)
+{
+  return sinf(time * 2.0f * PI / frequency) * amplitude;
+}
+
+// fonction qui calcule une interpolation linéaire entre deux valeurs numériques
+float interpolation_linear(float value1, float value2, float t)
+{
+  if (t < 0.0f)
+    return value1;
+
+  if (t > 1.0f)
+    return value2;
+
+  return (1.0f - t) * value1 + t * value2;
+}
+
+// fonction qui calcule une interpolation entre deux valeurs numériques avec la fonction 'smoothstep'
+float interpolation_smoothstep(float value1, float value2, float t)
+{
+  if (t < 0.0f)
+    return t = 0.0f;
+
+  if (t > 1.0f)
+    return t = 1.0f;
+
+  t = t * t * (3.0f - 2.0f * t);
+
+  return (1.0 - t) * value1 + t * value2;
+}
 
 void Renderer::setup()
 {
   ofSetFrameRate(60);
   ofSetBackgroundColor(0);
-  ofSetSphereResolution(32);
-  ofDisableDepthTest();
 
   // paramètres
   line_resolution = 100;
@@ -21,12 +86,17 @@ void Renderer::setup()
 
   motion_speed = 250.0f;
 
+  oscillation_frequency = 5000.0f;
+  oscillation_amplitude = 0.5;
+
+  isAnimationActive = true;
+
   // initialisation des sommets de la ligne
   for (index = 0; index <= line_resolution; ++index)
     line_renderer.addVertex(ofPoint());
 
   // courbe au lancement de l'application
-  curve_id = CurveType::bezier_quadratic;
+  curve_type = CurveType::bezier_quadratic;
 
   // initialisation de la scène
   reset();
@@ -55,7 +125,7 @@ void Renderer::reset()
   initial_position5 = {w_7_8, h_4_5, 0};
 
   // paramètres selon le type de courbe
-  switch (curve_id)
+  switch (curve_type)
   {
     case CurveType::bezier_quadratic:
 
@@ -98,7 +168,7 @@ void Renderer::update()
   for (index = 0; index <= line_resolution; ++index)
   {
     // paramètres selon le type de courbe
-    switch (curve_id)
+    switch (curve_type)
     {
       case CurveType::bezier_quadratic:
 
@@ -132,6 +202,54 @@ void Renderer::update()
     // affecter la position du point sur la courbe
     line_renderer[index] = position;
   }
+
+  // mise à jour de l'oscillateur
+  oscillation = oscillation_amplitude + oscillate(ofGetElapsedTimeMillis(), oscillation_frequency, oscillation_amplitude);
+
+  // animation de la tête de lecture en fonction de la valeur courante de l'oscillateur
+  switch (interpolation_type)
+  {
+    case InterpolationType::lerp:
+      playhead = interpolation_linear(0.0f, 1.0f, oscillation);
+      break;
+
+    case InterpolationType::smoothstep:
+      playhead = interpolation_smoothstep(0.0f, 1.0f, oscillation);
+      break;
+
+    default:
+      break;
+  }
+
+  // calculer la position courante de l'animation sur la courbe
+  switch (curve_type)
+  {
+    case CurveType::bezier_quadratic:
+
+      bezier_quadratic(
+        playhead,
+        ctrl_point1.x, ctrl_point1.y, ctrl_point1.z,
+        ctrl_point2.x, ctrl_point2.y, ctrl_point2.z,
+        ctrl_point3.x, ctrl_point3.y, ctrl_point3.z,
+        playhead_position.x, playhead_position.y, playhead_position.z);
+
+      break;
+
+    case CurveType::bezier_cubic:
+
+      bezier_cubic(
+        playhead,
+        ctrl_point1.x, ctrl_point1.y, ctrl_point1.z,
+        ctrl_point2.x, ctrl_point2.y, ctrl_point2.z,
+        ctrl_point3.x, ctrl_point3.y, ctrl_point3.z,
+        ctrl_point4.x, ctrl_point4.y, ctrl_point4.z,
+        playhead_position.x, playhead_position.y, playhead_position.z);
+
+      break;
+
+    default:
+      break;
+  }
 }
 
 void Renderer::draw()
@@ -163,4 +281,8 @@ void Renderer::draw()
   ofDrawEllipse(ctrl_point2.x, ctrl_point2.y, radius, radius);
   ofDrawEllipse(ctrl_point3.x, ctrl_point3.y, radius, radius);
   ofDrawEllipse(ctrl_point4.x, ctrl_point4.y, radius, radius);
+
+  // dessiner un repère à la position courante de l'animation sur la courbe
+  ofSetColor(255);
+  ofDrawEllipse(playhead_position.x, playhead_position.y, radius / 1.0f, radius / 1.0f);
 }
