@@ -1,4 +1,4 @@
-// IFT3100H21 ~ pbr_330_fs.glsl
+// IFT3100H22 ~ pbr_330_fs.glsl
 
 #version 330
 
@@ -121,14 +121,11 @@ vec3 tone_mapping_aces_filmic(vec3 x)
 // fonction qui calcule un modèle d'illumination de type pbr avec brdf de cook-torrance
 vec3 brdf_cook_torrance()
 {
-  // calculer la distance entre la position de la lumière et la position de la surface
-  vec3 delta = light_position - surface_position;
-
   // re-normaliser la normale après interpolation
   vec3 n = normalize(surface_normal);
 
   // calculer la direction de la surface vers la lumière (l)
-  vec3 l = normalize(delta);
+  vec3 l = normalize(light_position - surface_position);
 
   // calculer le niveau de réflexion diffuse (n • l)
   float diffuse = max(dot(n, l), 0.0);
@@ -142,7 +139,7 @@ vec3 brdf_cook_torrance()
   // échantillonage de la texture diffuse
   vec3 texture_sample_diffuse = texture(texture_diffuse, surface_texcoord).rgb;
 
-  // conversion de la couleur de l'espace gamma vers l'espace linéaire
+  // conversion de l'échantillon de la texture diffuse de l'espace gamma vers l'espace linéaire
   texture_sample_diffuse = pow(texture_sample_diffuse, vec3(tone_mapping_gamma));
 
   // échantillonage de la texture de métallicité
@@ -159,7 +156,7 @@ vec3 brdf_cook_torrance()
   float roughness = material_roughness * texture_sample_roughness;
   float occlusion = material_occlusion * texture_sample_occlusion;
 
-  // teinte de l'échantillon de la texture diffuse avec la couleur diffuse du matériau
+  // combiner l'échantillon de la texture diffuse avec la couleur diffuse du matériau
   vec3 albedo = material_color_diffuse * texture_sample_diffuse;
 
   // calculer la réflexion ambiante
@@ -195,7 +192,7 @@ vec3 brdf_cook_torrance()
   // calculer le dénominateur de l'équation (facteur de normalisation)
   float denominator = 4.0 * max(dot(n, v), 0.0) * diffuse;
 
-  // calculer la valeur de la brdf de cook-torrance
+  // calculer la valeur de la fonction brdf de cook-torrance
   vec3 specular = numerator / max(denominator, 0.001);
 
   // mixer avec la couleur spéculaire du matériau
@@ -224,7 +221,7 @@ void main()
   // évaluation du modèle d'illumination
   vec3 color = brdf_cook_torrance();
 
-  // ajustement de l'exposition
+  // ajustement de la couleur en fonction du facteur d'exposition
   color = vec3(1.0) - exp(-color * tone_mapping_exposure);
 
   // mappage tonal de la couleur hdr vers ldr
