@@ -85,6 +85,9 @@ https://hdrihaven.com/hdris/
 
 https://medium.com/neurohive-computer-vision/materials-for-masses-svbrdf-acquisition-with-a-single-mobile-phone-image-a7ad8bbadb32
 
+https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/PhysicallyBased/  
+https://docs.unrealengine.com/5.0/en-US/physically-based-materials-in-unreal-engine/
+
 ## Architecture de rendu
 
 https://fr.wikipedia.org/wiki/Deferred_Shading
