@@ -80,6 +80,7 @@ https://www.jordanstevenstechart.com/physically-based-rendering
 
 http://www.neilblevins.com/cg_education/ggx/ggx.htm
 
+https://polyhaven.com/textures  
 https://texturehaven.com/textures/  
 https://hdrihaven.com/hdris/
 
