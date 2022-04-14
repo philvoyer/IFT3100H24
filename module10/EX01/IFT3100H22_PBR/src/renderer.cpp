@@ -95,7 +95,7 @@ void Renderer::update()
   {
     // transformer la lumière
     light.setGlobalPosition(
-      ofMap(ofGetMouseX() / (float) ofGetWidth(), 0.0f, 1.0f, -center_x, center_y),
+      ofMap(ofGetMouseX() / (float) ofGetWidth(), 0.0f, 1.0f, -center_x, center_x),
       ofMap(ofGetMouseY() / (float) ofGetHeight(), 0.0f, 1.0f, -center_y, center_y),
       -offset_z * 1.0f);
   }
