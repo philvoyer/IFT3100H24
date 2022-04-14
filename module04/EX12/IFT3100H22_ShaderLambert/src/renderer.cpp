@@ -50,7 +50,7 @@ void Renderer::update()
   shader.begin();
   shader.setUniform3f("color_ambient",  0.1f, 0.1f, 0.1f);
   shader.setUniform3f("color_diffuse",  color_picker->r / 255.0f, color_picker->g / 255.0f, color_picker->b / 255.0f);
-  shader.setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+  shader.setUniform3f("light_position", light.getGlobalPosition());
 
   shader.end();
 }
