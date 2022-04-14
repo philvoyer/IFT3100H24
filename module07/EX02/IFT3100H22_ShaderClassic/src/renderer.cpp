@@ -108,7 +108,7 @@ void Renderer::update()
       shader->begin();
       shader->setUniform3f("color_ambient", 0.1f, 0.1f, 0.1f);
       shader->setUniform3f("color_diffuse", 0.6f, 0.6f, 0.6f);
-      shader->setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("light_position", light.getGlobalPosition());
       shader->end();
       break;
 
@@ -120,7 +120,7 @@ void Renderer::update()
       shader->setUniform3f("color_diffuse", 0.6f, 0.6f, 0.0f);
       shader->setUniform3f("color_specular", 1.0f, 1.0f, 0.0f);
       shader->setUniform1f("brightness", oscillation);
-      shader->setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("light_position", light.getGlobalPosition());
       shader->end();
       break;
 
@@ -132,7 +132,7 @@ void Renderer::update()
       shader->setUniform3f("color_diffuse", 0.6f, 0.0f, 0.6f);
       shader->setUniform3f("color_specular", 1.0f, 1.0f, 0.0f);
       shader->setUniform1f("brightness", oscillation);
-      shader->setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("light_position", light.getGlobalPosition());
       shader->end();
       break;
 
@@ -144,7 +144,7 @@ void Renderer::update()
       shader->setUniform3f("color_diffuse", 0.0f, 0.6f, 0.6f);
       shader->setUniform3f("color_specular", 1.0f, 1.0f, 0.0f);
       shader->setUniform1f("brightness", oscillation);
-      shader->setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+      shader->setUniform3f("light_position", light.getGlobalPosition());
       shader->end();
       break;
 
