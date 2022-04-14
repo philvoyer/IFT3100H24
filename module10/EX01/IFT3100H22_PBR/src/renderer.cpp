@@ -41,7 +41,7 @@ void Renderer::reset()
   speed_motion = 150.0f;
   speed_rotation = 50.0f;
   initial_x = 0.0f;
-  initial_y = -100.0f;
+  initial_z = -100.0f;
   rotation_y = 0.0f;
   scale_cube = 110.0f;
   scale_sphere = 90.0f;
@@ -74,16 +74,13 @@ void Renderer::reset()
   tone_mapping_toggle = true;
 
   // initialisation des variables
-  offset_x = initial_x;
-  offset_z = initial_y;
-
   delta_x = speed_motion;
   delta_y = speed_rotation;
   delta_z = speed_motion;
 
   // position initiale de la caméra
   offset_x = initial_x;
-  offset_z = initial_y;
+  offset_z = initial_z;
 
   ofLog() << "<reset>";
 }
@@ -100,7 +97,7 @@ void Renderer::update()
     light.setGlobalPosition(
       ofMap(ofGetMouseX() / (float) ofGetWidth(), 0.0f, 1.0f, -center_x, center_y),
       ofMap(ofGetMouseY() / (float) ofGetHeight(), 0.0f, 1.0f, -center_y, center_y),
-      -offset_z * 1.5f);
+      -offset_z * 1.0f);
   }
 
   // passer les attributs uniformes au shader de sommets

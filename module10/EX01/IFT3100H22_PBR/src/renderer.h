@@ -60,7 +60,7 @@ public:
   float rotation_y;
 
   float initial_x;
-  float initial_y;
+  float initial_z;
 
   float center_x;
   float center_y;
