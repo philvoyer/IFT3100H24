@@ -88,7 +88,8 @@ void Application::reset()
   slider_fresnel_ior.set("fresnel ior", renderer.material_fresnel_ior, glm::vec3(0.0f), glm::vec3(1.0f));
 
   color_picker_light_color.set("color", renderer.light_color, ofColor(0, 0), ofColor(255, 255));
-  slider_light_intensity.set("intensity", renderer.light_intensity, 0.0f, 100.0f);
+  slider_light_intensity.set("intensity", renderer.light_intensity, 0.0f, 10.0f);
+
   toggle_light_motion.set("motion", renderer.light_motion);
 
   slider_exposure.set("exposure", 1.0f, 0.0f, 5.0f);

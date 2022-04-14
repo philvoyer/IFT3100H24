@@ -4,6 +4,10 @@
 
 #define PI 3.14159265358979323846264338327950288
 
+const float light_attenuation_factor_constant = 1.0;
+const float light_attenuation_factor_linear = 0.0014;
+const float light_attenuation_factor_quadratic = 0.000007;
+
 // attributs de surface interpolés à partir des valeurs en sortie du shader de sommet
 in vec3 surface_position;
 in vec3 surface_normal;
@@ -160,13 +164,13 @@ vec3 brdf_cook_torrance()
   vec3 ambient = material_color_ambient * albedo * occlusion;
 
   // distance entre la position de la lumière et de la surface
-  float light_distance = length(l);
+  float light_distance = length(light_position - surface_position);
 
   // calculer l'atténuation de l'intensité de la lumière en fonction de la distance
-  float light_attenuation = 1.0 / (light_distance * light_distance);
+  float light_attenuation = 1.0 / light_attenuation_factor_constant + light_attenuation_factor_linear * light_distance + light_attenuation_factor_quadratic * (light_distance * light_distance);
 
   // calculer la radiance de la lumière
-  vec3 radiance = light_color * light_intensity * light_attenuation;
+  vec3 radiance = light_color * light_attenuation * light_intensity;
 
   // calculer le niveau de réflexion diffuse (n • l)
   float diffuse_reflection = max(dot(n, l), 0.0);

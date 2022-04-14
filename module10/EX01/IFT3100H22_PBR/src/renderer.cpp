@@ -66,7 +66,7 @@ void Renderer::reset()
 
   // paramètres de la lumière
   light_color = ofColor(255, 255, 255);
-  light_intensity = 10.0f;
+  light_intensity = 1.0f;
   light_motion = true;
 
   // paramètres de mappage tonal
@@ -124,7 +124,7 @@ void Renderer::update()
 
   shader.setUniform1f("light_intensity", light_intensity);
   shader.setUniform3f("light_color", light_color.r/255.0f, light_color.g/255.0f, light_color.b/255.0f);
-  shader.setUniform3f("light_position", glm::vec4(light.getGlobalPosition(), 0.0f) * ofGetCurrentMatrix(OF_MATRIX_MODELVIEW));
+  shader.setUniform3f("light_position", light.getGlobalPosition());
 
   shader.setUniform1f("tone_mapping_exposure", tone_mapping_exposure);
   shader.setUniform1f("tone_mapping_gamma", tone_mapping_gamma);
