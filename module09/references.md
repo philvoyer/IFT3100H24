@@ -112,3 +112,6 @@ https://learnopengl.com/Advanced-Lighting/Normal-Mapping
 
 Computing Tangent Space Basis Vectors for an Arbitrary Mesh (Lengyel’s Method)  
 http://www.terathon.com/code/tangent.html
+
+Simulateur de courbe de Bézier  
+https://cubic-bezier.com/
