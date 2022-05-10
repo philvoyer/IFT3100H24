@@ -195,5 +195,8 @@ https://docs.gimp.org/2.6/en/plug-in-convmatrix.html
 github: vdumoulin / conv arithmetic  
 https://github.com/vdumoulin/conv_arithmetic
 
-Article sur le filtrage anisotropique
+Article sur le filtrage anisotropique  
 https://paroj.github.io/gltut/Texturing/Tut15%20Anisotropy.html
+
+tonemapper — A tool for exploring and applying various tonemapping operators  
+https://github.com/tizian/tonemapper
