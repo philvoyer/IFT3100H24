@@ -1,6 +1,6 @@
-# IFT3100H22
+# IFT3100H23
 
-Exemples du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2022).
+Exemples du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2023).
 
 ## Module 1
 
