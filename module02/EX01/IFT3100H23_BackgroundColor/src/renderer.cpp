@@ -125,9 +125,9 @@ void Renderer::clear_to_random()
   {
     has_changed = false;
 
-    clear_color_r = (int) ofRandom(0, 256);
-    clear_color_g = (int) ofRandom(0, 256);
-    clear_color_b = (int) ofRandom(0, 256);
+    clear_color_r = (int) ofRandom(0, 255);
+    clear_color_g = (int) ofRandom(0, 255);
+    clear_color_b = (int) ofRandom(0, 255);
   }
 
   clear();
