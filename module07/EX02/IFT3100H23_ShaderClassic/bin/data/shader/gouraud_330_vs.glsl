@@ -1,4 +1,4 @@
-// IFT3100H22 ~ gouraud_330_vs.glsl
+// IFT3100H23 ~ gouraud_330_vs.glsl
 
 #version 330
 
