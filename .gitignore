@@ -20,4 +20,5 @@
 *.so
 *.xcconfig
 *.xcodeproj
+of.entitlements
 .DS_Store
