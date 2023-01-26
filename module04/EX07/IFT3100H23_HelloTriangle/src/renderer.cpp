@@ -24,9 +24,9 @@ void Renderer::update()
   vertex3_y = ofRandom(0, framebuffer_height);
 
   // couleur aléatoire pour la zone de remplissage
-  color_r = ofRandom(0, 256);
-  color_g = ofRandom(0, 256);
-  color_b = ofRandom(0, 256);
+  color_r = ofRandom(0, 255);
+  color_g = ofRandom(0, 255);
+  color_b = ofRandom(0, 255);
 
   ofLog() << setprecision(4) << "<triangle: v1:("
           << vertex1_x << ", " << vertex1_y << ") v2:("
