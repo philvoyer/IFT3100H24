@@ -2,7 +2,7 @@
 
 #version 330
 
-#define PI 3.14159265358979323846264338327950288
+const float PI = 3.1415926535897932384626433832795;
 
 const float light_attenuation_factor_constant = 0.01;
 const float light_attenuation_factor_linear = 0.000001;
