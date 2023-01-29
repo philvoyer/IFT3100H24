@@ -1,7 +1,7 @@
-// IFT3100H23_VectorComponent.glsl
+// IFT3100H23_GLSL_VectorComponent.glsl
 // Exemples d’accès aux composantes d’un vecteur en GLSL.
 
-// variables locales
+// déclaration de variables
 vec3 v = vec3(1.0, 2.0, 3.0);
 vec3 result;
 float component;
