@@ -15,10 +15,10 @@ void Renderer::setup()
   ofSetCircleResolution(64);
 
   // valeurs d'oscillation initiales
-  amplitude_x = 0.0f;
-  amplitude_y = 0.0f;
+  amplitude_x = 127.0f;
+  amplitude_y = 63.0f;
   frequency_x = 3.0f;
-  frequency_y = 3.0f;
+  frequency_y = 6.0f;
 
   // initialisation des couleurs
   color_cpu.set(255, 0, 0, 127);
@@ -45,7 +45,7 @@ void Renderer::update()
 
 void Renderer::draw()
 {
-  // couleur par défaut (blanc)
+  // couleur des lignes
   ofSetColor(255);
 
   // dessiner 2 lignes à partir des coins de la fenêtre d'affichage
@@ -60,6 +60,9 @@ void Renderer::draw()
 
   // activer la zone de remplissage
   ofFill();
+
+  // couleur du cercle fixe
+  ofSetColor(0, 0, 255, 127);
 
   // dessiner le cercle fixe
   ofDrawEllipse(ofGetWidth() / 2.0f, ofGetHeight() / 2.0f, radius, radius);
