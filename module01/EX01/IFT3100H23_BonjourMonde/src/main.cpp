@@ -2,7 +2,7 @@
 // Exemple d'un programme minimaliste.
 // Les événements du clavier et de la souris changent les 3 composantes d'une couleur RGB aléatoire.
 // La couleur aléatoire est appliquée comme couleur d'arrière-plan.
-// L'inverse de la couleur aléatoire est utilisée comme teinte.
+// L'inverse de la couleur aléatoire est utilisé comme teinte.
 // La teinte est appliquée sur différentes primitives vectorielles avec un shader.
 
 #include "ofMain.h"
