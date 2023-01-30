@@ -154,3 +154,8 @@ https://www.wxwidgets.org
 
 QT  
 https://www.qt.io
+
+## Divers 
+
+Drawing Lines is Hard  
+https://mattdesl.svbtle.com/drawing-lines-is-hard
