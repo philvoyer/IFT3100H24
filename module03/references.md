@@ -209,3 +209,6 @@ https://en.wikipedia.org/wiki/Mandelbulb
 
 Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?  
 https://youtu.be/t9dLqfrj7lg
+
+A faster quaternion-vector multiplication  
+https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/
