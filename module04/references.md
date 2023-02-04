@@ -144,7 +144,7 @@ http://en.wikipedia.org/wiki/Rasterisation
 https://fr.wikipedia.org/wiki/Rastérisation
 
 Wikipédia: Triangulation d'un polygone  
-https://fr.wikipedia.org/wiki/Triangulation_d%27un_polygone
+https://fr.wikipedia.org/wiki/Triangulation_d%27un_polygone  
 https://en.wikipedia.org/wiki/Polygon_triangulation
 
 Wikipédia: Modèles 3D classiques  
