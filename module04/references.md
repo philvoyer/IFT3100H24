@@ -128,28 +128,27 @@ https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/glCullFace.xhtml
 ## Wikipédia
 
 Wikipédia: Polygone  
-http://fr.wikipedia.org/wiki/Polygone
-
-Wikipedia: Polygone  
+http://fr.wikipedia.org/wiki/Polygone  
 http://en.wikipedia.org/wiki/Polygon
 
 Wikipédia: Vertex buffer  
-http://fr.wikipedia.org/wiki/Vertex_Buffer_Object
-
-Wikipedia: Vertex buffer  
+http://fr.wikipedia.org/wiki/Vertex_Buffer_Object  
 http://en.wikipedia.org/wiki/Vertex_Buffer_Object
 
 Wikipédia: Maillage géométrique  
 http://fr.wikipedia.org/wiki/Maillage_(structure_de_donn%C3%A9es)
-
-Wikipedia: Maillage géométrique  
 http://en.wikipedia.org/wiki/Polygon_mesh
 
-Wikipedia: Modèles 3D couramment utilisés pour faire des test en infographie  
+Wikipédia: Modèles 3D couramment utilisés pour faire des test en infographie  
 http://en.wikipedia.org/wiki/List_of_common_3D_test_models
 
-Wikipedia: Rasterisation  
-http://en.wikipedia.org/wiki/Rasterisation
+Wikipédia: Rasterisation  
+http://en.wikipedia.org/wiki/Rasterisation  
+https://fr.wikipedia.org/wiki/Rastérisation
+
+Wikipédia: Triangulation d'un polygone  
+https://fr.wikipedia.org/wiki/Triangulation_d%27un_polygone
+https://en.wikipedia.org/wiki/Polygon_triangulation
 
 ## openFrameworks
 
