@@ -1,4 +1,4 @@
-// IFT3100H23_ShaderLambert/application.h
+// IFT3100H23_LambertTeapot/application.h
 // Classe principale de l'application.
 
 #pragma once

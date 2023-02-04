@@ -1,4 +1,4 @@
-// IFT3100H23_ShaderLambert/renderer.cpp
+// IFT3100H23_LambertTeapot/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -15,7 +15,7 @@ void Renderer::setup()
   use_rotation = true;
 
   // chargement du modèle
-  teapot.loadModel("teapot.obj");
+  teapot.load("teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();

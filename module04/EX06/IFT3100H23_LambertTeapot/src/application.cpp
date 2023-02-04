@@ -1,4 +1,4 @@
-// IFT3100H23_ShaderLambert/application.cpp
+// IFT3100H23_LambertTeapot/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"

@@ -1,4 +1,4 @@
-// IFT3100H23_ShaderLambert/renderer.h
+// IFT3100H23_LambertTeapot/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
