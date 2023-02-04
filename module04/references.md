@@ -136,11 +136,8 @@ http://fr.wikipedia.org/wiki/Vertex_Buffer_Object
 http://en.wikipedia.org/wiki/Vertex_Buffer_Object
 
 Wikipédia: Maillage géométrique  
-http://fr.wikipedia.org/wiki/Maillage_(structure_de_donn%C3%A9es)
+http://fr.wikipedia.org/wiki/Maillage_(structure_de_donn%C3%A9es)  
 http://en.wikipedia.org/wiki/Polygon_mesh
-
-Wikipédia: Modèles 3D couramment utilisés pour faire des test en infographie  
-http://en.wikipedia.org/wiki/List_of_common_3D_test_models
 
 Wikipédia: Rasterisation  
 http://en.wikipedia.org/wiki/Rasterisation  
@@ -149,6 +146,9 @@ https://fr.wikipedia.org/wiki/Rastérisation
 Wikipédia: Triangulation d'un polygone  
 https://fr.wikipedia.org/wiki/Triangulation_d%27un_polygone
 https://en.wikipedia.org/wiki/Polygon_triangulation
+
+Wikipédia: Modèles 3D classiques  
+http://en.wikipedia.org/wiki/List_of_common_3D_test_models
 
 ## openFrameworks
 
