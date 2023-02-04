@@ -152,14 +152,23 @@ http://en.wikipedia.org/wiki/List_of_common_3D_test_models
 
 ## openFrameworks
 
-ofEnableDepthTest  
-http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofEnableDepthTest
+ofPolyline  
+https://openframeworks.cc/documentation/graphics/ofPolyline/
+
+ofPath  
+https://openframeworks.cc/documentation/graphics/ofPath/
 
 of3dPrimitive  
 http://openframeworks.cc/documentation/3d/of3dPrimitive/
 
 ofPlanePrimitive  
 http://openframeworks.cc/documentation/3d/ofPlanePrimitive/
+
+ofMesh  
+https://openframeworks.cc/documentation/3d/ofMesh/
+
+ofEnableDepthTest  
+http://openframeworks.cc/documentation/graphics/ofGraphics/#show_ofEnableDepthTest
 
 ## Librairies
 
