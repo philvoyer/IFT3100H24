@@ -1,4 +1,4 @@
-// IFT3100H23_HelloTriangle/main.cpp
+// IFT3100H23_BonjourTriangle/main.cpp
 // Exemple où un triangle par seconde est dessiné à des positions aléatoires dans la fenêtre d'affichage.
 
 #include "ofMain.h"

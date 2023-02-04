@@ -1,4 +1,4 @@
-// IFT3100H23_HelloTriangle/renderer.h
+// IFT3100H23_BonjourTriangle/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
