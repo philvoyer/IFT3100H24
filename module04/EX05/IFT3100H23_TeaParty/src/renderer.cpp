@@ -41,7 +41,7 @@ void Renderer::setup()
   locators = (Locator*) std::malloc(teapot_count * sizeof(Locator));
 
   // chargement du modèle 3D en mémoire
-  teapot.load("teapot.obj");
+  teapot.loadModel("teapot.obj");
 
   reset();
 }
