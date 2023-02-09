@@ -60,9 +60,6 @@ void Renderer::dispatch_random_triangle(int count, float range)
   if (count <= 0 || range <= 0.0f || count > triangle_buffer_size)
     return;
 
-  // calculer la valeur de la moitié du diamètre du cube
-  float halfRange = range / 2.0f;
-
   // configurer le nombre de triangles
   triangle_buffer_head = count;
 
@@ -81,7 +78,7 @@ void Renderer::dispatch_random_triangle(int count, float range)
       vector_origin.z = std::abs(vector_origin.z) * -1.0f;
 
     // proportion de la soupe
-    vector_origin *= soup_radius;
+    vector_origin *= range;
 
     // déterminer des valeurs de position aléatoires pour les trois sommets du triangle
     vector_position1.x = vector_origin.x + ofRandom(-triangle_radius, triangle_radius);
