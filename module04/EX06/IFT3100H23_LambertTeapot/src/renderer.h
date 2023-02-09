@@ -5,26 +5,29 @@
 
 #include "ofMain.h"
 #include "ofxAssimpModelLoader.h"
-#include "ofxGui.h"
 
 class Renderer
 {
 public:
 
   ofShader shader;
+  ofShader shader_lambert;
+  ofShader shader_normal;
 
   ofLight light;
 
   ofxAssimpModelLoader teapot;
 
-  ofxPanel gui;
-
-  ofParameter<ofColor> color_picker;
+  ofColor color_background;
+  ofColor color_ambient;
+  ofColor color_diffuse;
 
   float center_x;
   float center_y;
 
   float scale_teapot;
+
+  float rotation_speed;
 
   bool use_rotation;
 

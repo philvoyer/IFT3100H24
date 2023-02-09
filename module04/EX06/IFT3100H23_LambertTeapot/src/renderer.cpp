@@ -7,11 +7,11 @@ void Renderer::setup()
 {
   ofSetFrameRate(60);
   ofSetWindowShape(512, 512);
-  ofSetBackgroundColor(15);
   ofSetLogLevel(OF_LOG_VERBOSE);
 
   // paramètres
   scale_teapot = 1.5f;
+  rotation_speed = 0.3f;
   use_rotation = true;
 
   // chargement du modèle
@@ -21,11 +21,11 @@ void Renderer::setup()
   teapot.disableMaterials();
 
   // chargement du shader
-  shader.load("lambert_330_vs.glsl", "lambert_330_fs.glsl");
+  shader_lambert.load("lambert_330_vs.glsl", "lambert_330_fs.glsl");
+  shader_normal.load("draw_normal_330_vs.glsl", "draw_normal_330_fs.glsl");
 
-  // initialisation de l'interface graphique
-  gui.setup();
-  gui.add(color_picker.set("diffuse color", ofColor(174, 223, 134), ofColor(0, 0), ofColor(255, 255)));
+  // sélectionner le shader courant
+  shader = shader_lambert;
 }
 
 void Renderer::update()
@@ -39,24 +39,19 @@ void Renderer::update()
   teapot.setPosition(center_x, center_y + 90, 0);
 
   if (use_rotation)
-    teapot.setRotation(0, ofGetFrameNum() * 0.3f, 0.0f, 1.0f, 0.0f);
+    teapot.setRotation(0, ofGetFrameNum() * rotation_speed, 0.0f, 1.0f, 0.0f);
 
   // configuration de la lumière
   light.setPointLight();
   light.setDiffuseColor(255);
   light.setGlobalPosition(center_x, center_y, 255.0f);
-
-  // passer les attributs uniformes du shader
-  shader.begin();
-  shader.setUniform3f("color_ambient",  0.1f, 0.1f, 0.1f);
-  shader.setUniform3f("color_diffuse",  color_picker->r / 255.0f, color_picker->g / 255.0f, color_picker->b / 255.0f);
-  shader.setUniform3f("light_position", light.getGlobalPosition());
-
-  shader.end();
 }
 
 void Renderer::draw()
 {
+  // couleur de l'arrière-plan
+  ofSetBackgroundColor(color_background.r, color_background.g, color_background.b);
+
   // activer l'occlusion en profondeur
   ofEnableDepthTest();
 
@@ -68,6 +63,11 @@ void Renderer::draw()
 
   // activer le shader
   shader.begin();
+
+  // passer les attributs uniformes du shader
+  shader.setUniform3f("color_ambient",  color_ambient.r / 255.0f, color_ambient.g / 255.0f, color_ambient.b / 255.0f);
+  shader.setUniform3f("color_diffuse",  color_diffuse.r / 255.0f, color_diffuse.g / 255.0f, color_diffuse.b / 255.0f);
+  shader.setUniform3f("light_position", light.getGlobalPosition());
 
   // dessiner le teapot
   teapot.draw(OF_MESH_FILL);
@@ -83,7 +83,4 @@ void Renderer::draw()
 
   // désactiver l'occlusion en profondeur
   ofDisableDepthTest();
-
-  // dessiner l'interface graphique
-  gui.draw();
 }

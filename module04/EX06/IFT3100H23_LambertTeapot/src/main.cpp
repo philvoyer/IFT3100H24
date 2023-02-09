@@ -1,5 +1,6 @@
 // IFT3100H23_LambertTeapot/main.cpp
 // Exemple d'importation et de rendu d'un teapot avec un shader de Lambert.
+// Un autre shader permet aussi de visualiser les normales sur la surface du modèle par conversion des composantes XYZ en couleur RGB.
 // Le fichier de géométrie du teapot et les shaders sont dans le répertoire ./bin/data.
 
 #include "ofMain.h"
