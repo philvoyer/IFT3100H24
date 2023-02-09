@@ -20,22 +20,21 @@ Exemple de génération aléatoire et rendu d'une soupe aux triangles.
 
 ### Exemple 4.5 (TeaParty)
 
-Exemple de chargement et de rendu de plusieurs instances d'un modèle importé à partir d'un fichier de géométrie externe (un teapot en format .obj).
+Exemple de chargement et de rendu de plusieurs instances d'un modèle importé à partir d'un fichier de géométrie externe (un teapot en format `.obj`).
 
 ### Exemple 4.6 (LambertTeapot)
 
 Exemple d'importation et de rendu d'un teapot avec un shader de Lambert.
 
-Le shader est disponible en deux versions, soit une version de base pour OpenGL 2.1 (GLSL 120) et une version moderne pour OpenGL 3.3 (GLSL 330).
+Un autre shader permet aussi de visualiser les normales sur la surface du modèle par conversion des composantes XYZ en couleur RGB.
 
-Le fichier de géométrie du teapot et les shaders sont dans le répertoire ./bin/data.
+Le fichier de géométrie du teapot et les shaders sont dans le répertoire `./bin/data`.
 
 ### Exemple 4.7 (GL_Mesh)
 
 Exemple d'une classe minimaliste pour stocker les données des sommets d'un maillage triangulaire.
 
 ### Exemple 4.8 (GL_VertexBuffer)
-)
 
 Exemple d'une section de code pour créer d'un buffer de géométrie (vbo).
 
@@ -48,7 +47,6 @@ Exemple d'une section de code pour assigner les pointeurs vers chaque attribut d
 Exemple d'une section de code pour assigner les pointeurs vers chaque attribut de la structure de sommet d'un buffer de géométrie (pipeline moderne).
 
 ### Exemple 4.11 (GL_VertexBufferDraw)
-)
 
 Exemple de différentes approches pour dessiner un buffer de géométrie.
 
