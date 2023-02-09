@@ -31,8 +31,8 @@ void Renderer::update()
   ofLog() << setprecision(4) << "<triangle: v1:("
           << vertex1_x << ", " << vertex1_y << ") v2:("
           << vertex2_x << ", " << vertex2_y << ") v3:("
-          << vertex3_x << ", " << vertex3_y << ") color: >"
-          << color_r << ", " << color_g << ", " << color_b << ">";
+          << vertex3_x << ", " << vertex3_y << ") color:("
+          << color_r << ", " << color_g << ", " << color_b << ")>";
 }
 
 void Renderer::draw()
