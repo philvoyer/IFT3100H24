@@ -18,7 +18,7 @@ public:
   ofCamera camera_left;
   ofCamera camera_right;
   ofCamera camera_top;
-  ofCamera camera_down;
+  ofCamera camera_bottom;
 
   ofCamera* camera;
 
@@ -60,6 +60,7 @@ public:
   bool is_visible_axes;
   bool is_visible_grid;
   bool is_visible_camera;
+  bool is_visible_frustum;
   bool is_visible_box;
   bool is_visible_locator;
   bool is_visible_text;

@@ -255,7 +255,9 @@ void Application::keyReleased(int key)
       renderer.is_visible_text = !renderer.is_visible_text;
       ofLog() << "<toggle text:" << renderer.is_visible_text << ">";
       renderer.is_visible_camera = !renderer.is_visible_camera;
-      ofLog() << "<toggle camera gizmo:" << renderer.is_visible_camera << ">";
+      ofLog() << "<toggle camera is visible:" << renderer.is_visible_camera << ">";
+      renderer.is_visible_frustum = !renderer.is_visible_frustum;
+      ofLog() << "<toggle frustum is visible:" << renderer.is_visible_frustum << ">";
       break;
 
     case 117: // touche u

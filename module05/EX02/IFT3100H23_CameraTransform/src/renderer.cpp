@@ -28,6 +28,7 @@ void Renderer::setup()
   is_visible_axes = false;
   is_visible_grid = false;
   is_visible_camera = false;
+  is_visible_frustum = false;
   is_visible_box = true;
   is_visible_locator = false;
   is_visible_text = false;
@@ -74,7 +75,7 @@ void Renderer::reset()
   camera_left.setPosition(-offset_camera, 0, 0);
   camera_right.setPosition(offset_camera, 0, 0);
   camera_top.setPosition(0, offset_camera, 0);
-  camera_down.setPosition(0, -offset_camera, 0);
+  camera_bottom.setPosition(0, -offset_camera, 0);
 
   // orientation de chaque caméra
   camera_front.lookAt(camera_target);
@@ -82,7 +83,7 @@ void Renderer::reset()
   camera_left.lookAt(camera_target);
   camera_right.lookAt(camera_target);
   camera_top.lookAt(camera_target, ofVec3f(1, 0, 0));
-  camera_down.lookAt(camera_target, ofVec3f(1, 0, 0));
+  camera_bottom.lookAt(camera_target, ofVec3f(1, 0, 0));
 
   // caméra par défaut
   camera_active = Camera::front;
@@ -172,7 +173,24 @@ void Renderer::draw()
     if (camera_active != Camera::top)
       camera_top.draw();
     if (camera_active != Camera::down)
-      camera_down.draw();
+      camera_bottom.draw();
+  }
+
+  // dessiner le frustum de vision de toutes les caméras sauf celle qui est active
+  if (is_visible_frustum)
+  {
+    if (camera_active != Camera::front)
+      camera_front.drawFrustum();
+    if (camera_active != Camera::back)
+      camera_back.drawFrustum();
+    if (camera_active != Camera::left)
+      camera_left.drawFrustum();
+    if (camera_active != Camera::right)
+      camera_right.drawFrustum();
+    if (camera_active != Camera::top)
+      camera_top.drawFrustum();
+    if (camera_active != Camera::down)
+      camera_bottom.drawFrustum();
   }
 
   // dessiner une zone de texte avec le nom des caméras
@@ -189,7 +207,7 @@ void Renderer::draw()
     if (camera_active != Camera::top)
       ofDrawBitmapString(" camera top", camera_top.getPosition());
     if (camera_active != Camera::down)
-      ofDrawBitmapString(" camera down", camera_down.getPosition());
+      ofDrawBitmapString(" camera down", camera_bottom.getPosition());
   }
 
   // dessiner le contenu de la scène
@@ -253,7 +271,7 @@ void Renderer::setup_camera()
       break;
 
     case Camera::down:
-      camera = &camera_down;
+      camera = &camera_bottom;
       camera_name = "bas";
       break;
 
