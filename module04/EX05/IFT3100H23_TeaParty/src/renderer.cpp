@@ -216,7 +216,7 @@ void Renderer::draw_locator(float scale)
   ofFill();
   ofSetColor(127);
   ofPushMatrix();
-  ofScale(scale, scale);
+  ofScale(scale, scale, scale);
   node.setPosition(0.0f, 0.0f, 0.0f);
   node.draw();
   ofPopMatrix();
