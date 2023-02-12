@@ -1,11 +1,11 @@
-# IFT3100H22
+# IFT3100H23
 
 ## Module 5 : Caméra
 
-### Exemple 5.1
+### Exemple 5.1 (CameraFrustum)
 
 Exemple qui permet de visualiser et paramétrer la forme d'un frustum de vision d'une caméra en vue de haut.
 
-### Exemple 5.2
+### Exemple 5.2 (CameraTransform)
 
 Exemple d'une scène avec différentes caméras interactives.
