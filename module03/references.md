@@ -212,3 +212,6 @@ https://youtu.be/t9dLqfrj7lg
 
 A faster quaternion-vector multiplication  
 https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/
+
+Left- vs. Right-handed coordinate systems  
+https://www.evl.uic.edu/ralph/508S98/coordinates.html
