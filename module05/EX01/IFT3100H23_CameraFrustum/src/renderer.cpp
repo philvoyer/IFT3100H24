@@ -16,26 +16,15 @@ void Renderer::reset()
   // pamamètres de dessin
   circle_radius = 5.0f;
   stroke_width = 3.0f;
-  color_frustum_in = ofColor(0, 255, 0);
-  color_frustum_out = ofColor(255, 0, 0);
 
   // attributs de la caméra
   camera_position.z = 0.0f;
-  camera_resolution_w = 1920.0f;
-  camera_resolution_h = 1080.0f;
+  camera_viewport_x = 1920.0f;
+  camera_viewport_y = 1080.0f;
   camera_clip_n = 10.0f;
   camera_clip_f = 100.0f;
   camera_fov = 60.0f;
-  camera_zoom = 1.0f / tanf(glm::radians(camera_fov) / 2.0f);
-
-  // initialisation du ui
-  gui.setup();
-  gui.add(ui_camera_clip_n.setup("camera near", camera_clip_n, 0.0f, ofGetHeight()));
-  gui.add(ui_camera_clip_f.setup("camera far", camera_clip_f, 0.0f, ofGetHeight()));
-  gui.add(ui_camera_fov_h.setup("camera fov", camera_fov, 0.0f, 180.0f));
-  gui.add(ui_camera_zoom_h.setup("camera zoom", camera_zoom, 0.0f, 10.0f));
-  gui.add(color_stroke.set("color stroke", ofColor(255), ofColor(0, 0), ofColor(255, 255)));
-  gui.add(color_fill.set("color fill", (255.0f, 255.0f, 0.0f, 127.0f), ofColor(0, 0), ofColor(255, 255)));
+  camera_zoom = compute_zoom_from_fov(camera_fov);
 }
 
 void Renderer::update()
@@ -44,7 +33,7 @@ void Renderer::update()
   scale_factor = ofGetHeight() * 0.005f;
 
   // calculer le ratio d'aspect de la fenêtre d'affichage
-  camera_aspect_ratio = camera_resolution_w / camera_resolution_h;
+  camera_aspect_ratio = camera_viewport_x / camera_viewport_y;
 
   // position de la caméra
   camera_position.x = ofGetWidth() / 2.0f;
@@ -53,38 +42,6 @@ void Renderer::update()
   // position vers laquelle la caméra est orientée
   camera_target.x = camera_position.x;
   camera_target.y = position_clip_f_c.y;
-
-  // ajustement manuel du plan d'occlusion avant
-  if (camera_clip_n != ui_camera_clip_n)
-  {
-    camera_clip_n = ui_camera_clip_n;
-  }
-
-  // ajustement manuel du plan d'occlusion arrière
-  if (camera_clip_f != ui_camera_clip_f)
-  {
-    camera_clip_f = ui_camera_clip_f;
-  }
-
-  // ajustement manuel du champ de vision
-  if (camera_fov != ui_camera_fov_h)
-  {
-    camera_fov = ui_camera_fov_h;
-
-    // recalculer le zoom
-    camera_zoom = 1.0f / tanf(glm::radians(camera_fov) / 2.0f);
-    ui_camera_zoom_h = camera_zoom;
-  }
-
-  // ajustement manuel du zoom
-  if (camera_zoom != ui_camera_zoom_h)
-  {
-    camera_zoom = ui_camera_zoom_h;
-
-    // recalculer le champ de vision
-    camera_fov = glm::degrees(2.0f * atanf(1.0f / camera_zoom));
-    ui_camera_fov_h = camera_fov;
-  }
 
   // calculer la position de l'intersection entre la ligne de vue et les plans d'occlusion avant et arrière
   position_clip_n_c.x = camera_position.x;
@@ -116,6 +73,7 @@ void Renderer::update()
   camera_frustum_outline.addVertex(position_clip_f_l.x, position_clip_f_l.y);
   camera_frustum_outline.close();
 
+  // générer des matrices à partir de l'état courant des attributs de caméra
   generate_matrix();
 }
 
@@ -165,12 +123,9 @@ void Renderer::draw()
   ofDrawCircle(position_clip_f_r.x, position_clip_f_c.y, circle_radius);
 
   ofPopMatrix();
-
-  // dessiner l'interface graphique
-  gui.draw();
 }
 
-// fonction qui construit différentes matrices à partir des états courants du programme
+// fonction qui construit différentes matrices à partir de l'état courant des attributs de caméra
 void Renderer::generate_matrix()
 {
   // construire une matrice de modèle
@@ -189,4 +144,16 @@ void Renderer::generate_matrix()
   glm::mat4 matrix_model_view_projection = matrix_projection * matrix_view * matrix_model;
 
   // ces matrices peuvent ensuite être passées à un shader de sommets sous forme d'attributs uniformes
+}
+
+// fonction qui calcul un angle de champs de vision à partir d'un facteur de zoom
+float Renderer::compute_fov_from_zoom(float zoom)
+{
+  return glm::degrees(2.0f * atanf(1.0f / camera_zoom));;
+}
+
+// fonction qui calcul un facteur de zoom à partir d'una ngle de champs de vision
+float Renderer::compute_zoom_from_fov(float fov)
+{
+  return 1.0f / tanf(glm::radians(camera_fov) / 2.0f);;
 }

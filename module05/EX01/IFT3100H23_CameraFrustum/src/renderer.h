@@ -5,8 +5,6 @@
 
 #include "ofMain.h"
 
-#include "ofxGui.h"
-
 #include <glm/vec3.hpp>
 #include <glm/mat4x4.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -15,19 +13,13 @@ class Renderer
 {
 public:
 
-  ofxPanel gui;
-
-  ofParameter<ofColor> color_stroke;
-  ofParameter<ofColor> color_fill;
-  ofParameter<ofColor> color_frustum_in;
-  ofParameter<ofColor> color_frustum_out;
-
-  ofxFloatSlider ui_camera_fov_h;
-  ofxFloatSlider ui_camera_zoom_h;
-  ofxFloatSlider ui_camera_clip_n;
-  ofxFloatSlider ui_camera_clip_f;
-
   ofPolyline camera_frustum_outline;
+
+  ofColor color_stroke;
+  ofColor color_fill;
+
+  float camera_viewport_x;
+  float camera_viewport_y;
 
   float camera_clip_n;
   float camera_clip_f;
@@ -67,4 +59,7 @@ public:
   void draw();
 
   void generate_matrix();
+
+  float compute_fov_from_zoom(float zoom);
+  float compute_zoom_from_fov(float fov);
 };
