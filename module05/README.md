@@ -9,3 +9,7 @@ Exemple qui permet de visualiser et paramétrer la forme d'un frustum de vision 
 ### Exemple 5.2 (CameraTransform)
 
 Exemple d'une scène avec différentes caméras interactives.
+
+### Exemple 5.3 (CameraProjection)
+
+Exemple d'une scène avec projection en perspective.
