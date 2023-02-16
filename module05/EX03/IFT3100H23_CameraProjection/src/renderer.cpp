@@ -26,7 +26,7 @@ void Renderer::setup()
   offset_z = 0.0f;
 
   // chargement du modèle
-  teapot.load("teapot.obj");
+  teapot.loadModel("teapot.obj");
 
   // désactiver le matériau par défaut du modèle
   teapot.disableMaterials();
