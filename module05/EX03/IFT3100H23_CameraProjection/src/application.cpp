@@ -42,7 +42,7 @@ void Application::setup()
 
   gui.add(&ui_group_camera);
 
-  font.load("Consolas Bold.ttf", 12, true, true);
+  font.loadModel("Consolas Bold.ttf", 12, true, true);
 }
 
 void Application::update()
