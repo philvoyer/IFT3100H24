@@ -62,6 +62,8 @@ public:
 
   bool camera_state_change;
 
+  std::string camera_name;
+
   void setup();
   void update();
   void update_camera();

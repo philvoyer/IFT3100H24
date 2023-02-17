@@ -5,14 +5,14 @@
 
 void Application::setup()
 {
-  ofSetWindowTitle("camera projection (1234 ↑↓←→)");
-
   is_key_press_up = false;
   is_key_press_down = false;
   is_key_press_left = false;
   is_key_press_right = false;
 
   renderer.setup();
+
+  ofSetWindowTitle("camera projection (1234 ↑↓←→) with " + renderer.camera_name);
 
   gui.setup();
 
@@ -245,7 +245,9 @@ void Application::keyReleased(int key)
 
     case 52:  // touche 4
       renderer.camera_is_active = !renderer.camera_is_active;
-      ofLog() << "<select shader: depth>";
+      renderer.camera_name = renderer.camera_is_active ? "ofCamera" : "default camera";
+      ofSetWindowTitle("camera projection (1234 ↑↓←→) with " + renderer.camera_name);
+      ofLog() << "<select camera: " << renderer.camera_name << ">";
       break;
 
     case OF_KEY_LEFT: // key ←

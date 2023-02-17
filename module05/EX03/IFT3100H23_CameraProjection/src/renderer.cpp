@@ -17,9 +17,9 @@ void Renderer::setup()
   // caméra
   camera_setup_perspective(ofGetWidth(), ofGetHeight(), 60.0f, 0.0f, 0.0f);
   camera_is_active = true;
+  camera_name = camera_is_active ? "ofCamera" : "default camera";
 
   // mouvement
-
   delta_x = speed;
   delta_z = speed;
   offset_x = 0.0f;
