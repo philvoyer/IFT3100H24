@@ -29,7 +29,7 @@ void Renderer::setup()
 
   // sélectionner le filtre de convolution par défaut
   kernel_type = ConvolutionKernel::identity;
-  kernel_name = "identity";
+  kernel_name = "identité";
 
   // appliquer le filtre de convolution par défaut
   filter();
@@ -191,5 +191,5 @@ void Renderer::filter()
   // écrire les pixels dans l'image de destination
   image_destination.setFromPixels(pixel_array_dst);
 
-  ofLog() << "<convolution filter done>";
+  ofLog() << "<filtre de convolution complété (" << kernel_name << ")>";
 }
