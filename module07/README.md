@@ -1,4 +1,4 @@
-# IFT3100H22
+# IFT3100H23
 
 ## Module 7 : Illumination classique
 
@@ -14,7 +14,7 @@ L'éclairage de la scène est une lumière ambiante, une directionnelle, une pon
 
 Le programme peut soit utiliser les fonctions du pipeline fixe (OpenGL 2.1) ou les shaders par défaut de openFrameworks (OpenGL 3.3).
 
-Avec les fonctions du pipeline fixe, le modèle d'illumination est Blinn-Phong calculé au niveau des sommets.
+Avec les fonctions du pipeline fixe, le modèle d'illumination est Blinn-Phong calculé au niveau des sommets (méthode de Gouraud).
 
 Avec le shader par défaut de openFrameworks, le modèle d'illumination est Blinn-Phong calculé au niveau des fragments.
 
@@ -28,6 +28,6 @@ Démonstration de 5 modèles d'illumination classiques implémentés avec des sh
 - modèle d'illumination de Phong et
 - modèle d'illumination de Blinn-Phong.
 
-Le facteur de brillance spéculaire est animé par oscillation.
+Pour les modèles avec réflexion spéculaire, le facteur de brillance est animé par oscillation.
 
-La position de la source de lumière est interactive.
+La position de la source de lumière est déterminée en fonction de la position du curseur.
