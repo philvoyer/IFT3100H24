@@ -1,10 +1,10 @@
 // IFT3100H23_Lighting/main.cpp
-// Démonstration de différents types de lumières et de matériaux.
+// Démonstration de différents types de lumières et de matériaux du pipeline fixe de OpenGL (version 2.1).
 // La scène contient trois modèles : un cube, une sphère et un teapot.
 // Chaque modèle possède son propre matériau.
 // L'éclairage de la scène est une lumière ambiante, une directionnelle, une ponctuelle et un projecteur.
 // Le programme peut soit utiliser les fonctions du pipeline fixe (OpenGL 2.1) ou les shaders par défaut de openFrameworks (OpenGL 3.3).
-// Avec les fonctions du pipeline fixe, le modèle d'illumination est Blinn-Phong calculé au niveau des sommets.
+// Avec les fonctions du pipeline fixe, le modèle d'illumination est Blinn-Phong calculé au niveau des sommets (méthode de Gouraud).
 // Avec le shader par défaut de openFrameworks, le modèle d'illumination est Blinn-Phong calculé au niveau des fragments.
 
 #include "ofMain.h"
