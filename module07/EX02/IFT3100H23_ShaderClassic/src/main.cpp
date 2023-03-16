@@ -5,8 +5,8 @@
 // - modèle d'illumination de Gouraud,
 // - modèle d'illumination de Phong et
 // - modèle d'illumination de Blinn-Phong.
-// Le facteur de brillance spéculaire est animé par oscillation.
-// La position de la source de lumière est interactive.
+// Pour les modèles avec réflexion spéculaire, le facteur de brillance est animé par oscillation.
+// La position de la source de lumière est déterminée en fonction de la position du curseur.
 
 #include "ofMain.h"
 #include "application.h"
