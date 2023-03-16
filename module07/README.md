@@ -2,7 +2,7 @@
 
 ## Module 7 : Illumination classique
 
-### Exemple 7.1
+### Exemple 7.1 (Lighting)
 
 Démonstration de différents types de lumières et de matériaux du pipeline fixe de OpenGL (version 2.1).
 
@@ -18,7 +18,7 @@ Avec les fonctions du pipeline fixe, le modèle d'illumination est Blinn-Phong c
 
 Avec le shader par défaut de openFrameworks, le modèle d'illumination est Blinn-Phong calculé au niveau des fragments.
 
-### Exemple 7.2
+### Exemple 7.2 (ShaderClassic)
 
 Démonstration de 5 modèles d'illumination classiques implémentés avec des shaders :
 
