@@ -1,9 +1,11 @@
-# IFT3100H22
+# IFT3100H23
 
-## Module 8 : Lancer de rayons
+## Module 9 : Topologie
 
-### Exemple 8.1
+### Exemple 9.1 (CurveBezier)
 
-Exemple d'un raytracer minimaliste.
+Exemple d'une courbe de Bézier quadratique et d'une courbe de Bézier cubique.
 
-Inspiré de *smallpt*.
+### Exemple 9.2 (CurveHermite)
+
+Exemple d'une courbe de Hermite cubique et d'une courbe de Bézier cubique.
