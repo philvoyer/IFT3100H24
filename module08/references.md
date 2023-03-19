@@ -1,143 +1,120 @@
-# Module 8 : Lancer de rayons
+# Module 8 : Topologie
 
-Références en lien avec le module 8 : lancer de rayons.
+Références en lien avec le module 8 : topologie.
 
-## Wikipédia
+## Courbe paramétrique
 
-Raytracing  
-http://en.wikipedia.org/wiki/Ray_tracing_(graphics)
+### Wikipédia
 
-Ray casting  
-https://en.wikipedia.org/wiki/Ray_casting
+Splines  
+https://fr.wikipedia.org/wiki/Spline  
+https://en.wikipedia.org/wiki/Spline_(mathematics)  
+https://fr.wikipedia.org/wiki/Catégorie:Spline  
+https://en.wikipedia.org/wiki/Category:Splines_(mathematics)
 
-Path tracing  
-https://fr.wikipedia.org/wiki/Path_tracing  
-https://en.wikipedia.org/wiki/Path_tracing
+Courbe de Bézier  
+https://fr.wikipedia.org/wiki/Courbe_de_Bézier  
+https://en.wikipedia.org/wiki/Bézier_curve
 
-Raytracing distribué  
-https://en.wikipedia.org/wiki/Distributed_ray_tracing
+B-spline  
+https://fr.wikipedia.org/wiki/B-spline  
+https://en.wikipedia.org/wiki/B-spline
 
-Illumination globale  
-https://fr.wikipedia.org/wiki/Illumination_globale  
-https://en.wikipedia.org/wiki/Global_illumination​
+NURBS  
+https://fr.wikipedia.org/wiki/NURBS  
+https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline
 
-Radiosité  
-https://en.wikipedia.org/wiki/Radiosity_(computer_graphics)​
+Polynôme de Bernstein  
+https://fr.wikipedia.org/wiki/Polynôme_de_Bernstein  
+https://en.wikipedia.org/wiki/Bernstein_polynomial
 
-Monte Carlo  
-https://fr.wikipedia.org/wiki/M%C3%A9thode_de_Monte-Carlo  
-https://en.wikipedia.org/wiki/Monte_Carlo_method#Computer_graphics  
-https://en.wikipedia.org/wiki/Metropolis_light_transport
+Algorithme de Casteljau  
+https://fr.wikipedia.org/wiki/Algorithme_de_Casteljau  
+https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm
 
-Raymarching  
-https://en.wikipedia.org/wiki/Volume_ray_casting
+Courbe de Hermite  
+https://fr.wikipedia.org/wiki/Spline_cubique_d%27Hermite  
+https://en.wikipedia.org/wiki/Cubic_Hermite_spline
 
-Réfraction  
-http://en.wikipedia.org/wiki/Refraction
+Spline de Catmull-Rom  
+https://en.wikipedia.org/wiki/Centripetal_Catmull–Rom_spline
 
-Loi de Snell (réfraction)  
-http://en.wikipedia.org/wiki/Snell%27s_law
+Spline de Kochanek-Bartels  
+https://en.wikipedia.org/wiki/Kochanek–Bartels_spline
 
-Volume ray casting  
-http://en.wikipedia.org/wiki/Volume_ray_casting
+Continuité paramétrique / géométrique  
+https://en.wikipedia.org/wiki/Smoothness  
+https://fr.wikipedia.org/wiki/Classe_de_régularité
 
-Intersection rayon - plan  
-https://en.wikipedia.org/wiki/Line–plane_intersection  
+### Divers
 
-Intersection rayon - sphère  
-https://en.wikipedia.org/wiki/Line–sphere_intersection  
+Exemple interactif d’une courbe B-Spline  
+http://jsxgraph.uni-bayreuth.de/wiki/index.php/B-splines
 
-Intersection rayon - triangle  
-https://en.wikipedia.org/wiki/Möller–Trumbore_intersection_algorithm
+## Surface paramétrique
 
-Ray Tracing: Rendering a Triangle  
-https://www.scratchapixel.com/lessons/3d-basic-rendering/ray-tracing-rendering-a-triangle/barycentric-coordinates?url=3d-basic-rendering/ray-tracing-rendering-a-triangle/barycentric-coordinates
+### Wikipédia
 
-## Technologies
+Surface de Bézier bicubique  
+https://fr.wikipedia.org/wiki/Surface_de_Bézier  
+https://en.wikipedia.org/wiki/Bézier_surface
 
-Chaos group V-Ray  
-https://www.chaosgroup.com  
-https://www.chaosgroup.com/vray/3ds-max  
-https://www.chaosgroup.com/vray/maya  
-https://www.chaosgroup.com/vray/unreal  
-https://en.wikipedia.org/wiki/V-Ray
+Surface de Coons  
+https://en.wikipedia.org/wiki/Coons_patch
 
-Autodesk Arnold  
-https://www.arnoldrenderer.com/arnold/  
-https://en.wikipedia.org/wiki/Arnold_%28software%29
+## Sous-division de surface
 
-Nvidia Iray  
-https://www.nvidia.com/en-us/design-visualization/iray/  
-https://www.nvidia.com/en-us/design-visualization/iray/features/
+### Wikipédia
 
-Nvidia Optix  
-https://developer.nvidia.com/optix
-​
-Corona  
-https://corona-renderer.com/  
-https://corona-renderer.com/features  
-https://corona-renderer.com/features/rendering-quality
+Catmull-Clark  
+https://en.wikipedia.org/wiki/Catmull–Clark_subdivision_surface
 
-Redshift  
-https://www.redshift3d.com/  
-https://www.redshift3d.com/product  
-https://www.redshift3d.com/product/features#all​
+### Divers
 
-POV Ray  
-http://povray.org  
-https://en.wikipedia.org/wiki/POV-Ray
+Feature Adaptive GPU Rendering of Catmull-Clark Subdivision Surfaces  
+https://www.youtube.com/watch?v=uogAzQoVdNU
 
-Autodesk Maya Architectural Shaders  
-http://download.autodesk.com/us/maya/2010help/mr/shaders/architectural/arch_mtl.html
+Subdivision Surfaces: Overview  
+https://www.youtube.com/watch?v=ckOTl2GcS-E
 
-## Divers
+## Effet de relief
 
-smallpt: un raytracer de 100 lignes de code  
-http://www.kevinbeason.com/smallpt/
+### Wikipédia
 
-Postcard pathtracer  
-https://fabiensanglard.net/postcard_pathtracer/index.html
+Displacement mapping  
+https://fr.wikipedia.org/wiki/Displacement_mapping  
+https://en.wikipedia.org/wiki/Displacement_mapping  
+https://en.wikipedia.org/wiki/Heightmap  
+https://fr.wikipedia.org/wiki/Champ_de_hauteur
 
-Business Card Ray Tracer  
-http://eastfarthing.com/blog/2016-01-12-card/  
-http://fabiensanglard.net/rayTracing_back_of_business_card/
+Bump mapping  
+https://fr.wikipedia.org/wiki/Placage_de_relief  
+https://en.wikipedia.org/wiki/Bump_mapping
 
-Real-time rendering : Ray Tracing Resources Page  
-http://www.realtimerendering.com/raytracing.html  
-http://www.realtimerendering.com/intersections.html
+Normal mapping  
+https://fr.wikipedia.org/wiki/Normal_mapping  
+https://en.wikipedia.org/wiki/Normal_mapping
 
-Iñigo Quílez: Raymarching  
-http://www.iquilezles.org/www/articles/raymarchingdf/raymarchingdf.htm
+Parallax mapping  
+https://fr.wikipedia.org/wiki/Parallax_mapping  
+https://en.wikipedia.org/wiki/Parallax_mapping
 
-Nvidia RTX  
-https://developer.nvidia.com/rtx
+### Divers
 
-Microsoft DRX  
-https://devblogs.microsoft.com/directx/announcing-microsoft-directx-raytracing/
+OpenGL tutorial : Normal Mapping  
+http://www.opengl-tutorial.org/intermediate-tutorials/tutorial-13-normal-mapping/
 
-Star Wars elevator demo  
-https://www.youtube.com/watch?v=J3ue35ago3Y  
-https://arstechnica.com/gaming/2018/03/star-wars-demo-shows-off-just-how-great-real-time-raytracing-can-look/
+Learn OpenGL : Parallax Mapping  
+https://learnopengl.com/Advanced-Lighting/Parallax-Mapping
 
-Unity Real Time Raytracing (GDC 2019)  
-https://unity.com/ray-tracing  
-https://www.youtube.com/watch?v=AG7DDXwYpD0
+Learn OpenGL : Normal Mapping  
+https://learnopengl.com/Advanced-Lighting/Normal-Mapping
 
-Unreal Real Time Raytracing (GDC 2019)  
-https://www.unrealengine.com/en-US/blog/troll-showcases-unreal-engine-4-22-ray-tracing-with-unprecedented-cinematic-quality-lighting  
-https://www.youtube.com/watch?v=Qjt_MqEOcGM
+Computing Tangent Space Basis Vectors for an Arbitrary Mesh (Lengyel’s Method)  
+http://www.terathon.com/code/tangent.html
 
-Raytracing in one weekend  
-https://raytracing.github.io/books/RayTracingInOneWeekend.html
+YouTube : The Beauty of Bézier Curves  
+https://www.youtube.com/watch?v=aVwxzDHniEw
 
-Raytracing the next week  
-https://raytracing.github.io/books/RayTracingTheNextWeek.html
-
-Raytracing gems   
-https://www.realtimerendering.com/raytracinggems/
-
-Ray Tracing Essentials Part 1: Basics of Ray Tracing  
-https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tracing/
-
-NVIDIA Vulkan Ray Tracing Tutorials  
-https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR
+Simulateur de courbe de Bézier  
+https://cubic-bezier.com/
