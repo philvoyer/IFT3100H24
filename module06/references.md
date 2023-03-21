@@ -174,6 +174,9 @@ https://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
 Nvidia : OpenGL Cube Map Texturing (1999)  
 https://developer.nvidia.com/gpugems/gpugems/part-iii-materials/chapter-19-image-based-lighting
 
+LearnOpenGL : Cubemaps  
+https://learnopengl.com/Advanced-OpenGL/Cubemaps
+
 Unreal : Comparaison de techniques de compression  
 https://udn.epicgames.com/Two/TextureComparison.html
 
