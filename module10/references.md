@@ -57,7 +57,8 @@ https://learnopengl.com/PBR/IBL/Diffuse-irradiance
 
 http://www.alexandre-pestana.com/disney-principled-brdf-implementation/
 
-https://disney-animation.s3.amazonaws.com/library/s2012_pbs_disney_brdf_notes_v2.pdf  
+https://disney-animation.s3.amazonaws.com/library/s2012_pbs_disney_brdf_notes_v2.pdf
+
 https://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_slides_v2.pdf
 
 https://www.gdcvault.com/play/1024478/PBR-Diffuse-Lighting-for-GGX
@@ -86,8 +87,13 @@ https://hdrihaven.com/hdris/
 
 https://medium.com/neurohive-computer-vision/materials-for-masses-svbrdf-acquisition-with-a-single-mobile-phone-image-a7ad8bbadb32
 
-https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/PhysicallyBased/  
-https://docs.unrealengine.com/5.0/en-US/physically-based-materials-in-unreal-engine/
+https://learn.unity.com/tutorial/creating-physically-based-materials-unity-2019-3
+
+https://docs.unity3d.com/2022.2/Documentation/Manual/StandardShaderMaterialCharts.html
+
+https://docs.unrealengine.com/5.1/en-US/physically-based-materials-in-unreal-engine/
+
+https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html
 
 ## Architecture de rendu
 
