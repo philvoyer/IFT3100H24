@@ -113,6 +113,12 @@ https://learnopengl.com/Advanced-Lighting/Normal-Mapping
 Computing Tangent Space Basis Vectors for an Arbitrary Mesh (Lengyel’s Method)  
 http://www.terathon.com/code/tangent.html
 
+Normal Mapping without Precomputed Tangent Space Vectors  
+https://www.geeks3d.com/20130122/normal-mapping-without-precomputed-tangent-space-vectors/
+
+Followup: Normal Mapping Without Precomputed Tangents  
+http://www.thetenthplanet.de/archives/1180
+
 YouTube : The Beauty of Bézier Curves  
 https://www.youtube.com/watch?v=aVwxzDHniEw
 
