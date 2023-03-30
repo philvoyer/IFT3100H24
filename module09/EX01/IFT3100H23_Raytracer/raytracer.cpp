@@ -19,7 +19,7 @@
 
 // paramètres du programme
 const int max_depth = 5;
-const double camera_fov = 0.5135;
+const double camera_fov = 0.5135; // ~30 degrés
 constexpr double gamma_correction = 1 / 2.2;
 
 // variables du programme
