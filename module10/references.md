@@ -95,6 +95,8 @@ https://docs.unrealengine.com/5.1/en-US/physically-based-materials-in-unreal-eng
 
 https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html
 
+https://github.com/google/filament
+
 https://substance3d.adobe.com/tutorials/courses/the-pbr-guide-part-1
 
 https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/
