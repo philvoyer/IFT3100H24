@@ -32,11 +32,11 @@ Illumination à partir des sources de lumière d’une scène et des propriété
 
 ## Module 8
 
-Techniques de rendu qui utilisent des rayons pour simuler l’illumination directe et indirecte, la réflexion, la réfraction et l’ombrage des surfaces.
+Techniques de modélisation de géométries continues telles que des courbes et des surfaces paramétriques, triangulation, parcours et échantillonnage à partir d’algorithmes.
 
 ## Module 9
 
-Techniques de modélisation de géométries continues telles que des courbes et des surfaces paramétriques, triangulation, parcours et échantillonnage à partir d’algorithmes.
+Techniques de rendu qui utilisent des rayons pour simuler l’illumination directe et indirecte, la réflexion, la réfraction et l’ombrage des surfaces.
 
 ## Module 10
 
