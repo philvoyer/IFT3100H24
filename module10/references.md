@@ -57,9 +57,9 @@ https://learnopengl.com/PBR/IBL/Diffuse-irradiance
 
 http://www.alexandre-pestana.com/disney-principled-brdf-implementation/
 
-https://disney-animation.s3.amazonaws.com/library/s2012_pbs_disney_brdf_notes_v2.pdf
-
 https://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_slides_v2.pdf
+
+https://github.com/wdas/brdf
 
 https://www.gdcvault.com/play/1024478/PBR-Diffuse-Lighting-for-GGX
 
@@ -70,6 +70,8 @@ https://www.trentreed.net/blog/physically-based-shading-and-image-based-lighting
 https://aras-p.info/texts/files/201403-GDC_UnityPhysicallyBasedShading_notes.pdf
 
 http://filmicworlds.com/blog/everything-has-fresnel/
+
+http://filmicworlds.com/blog/optimizing-ggx-shaders-with-dotlh/
 
 https://shanesimmsart.wordpress.com/2018/03/29/fresnel-reflection/
 
