@@ -141,3 +141,6 @@ https://news.developer.nvidia.com/ray-tracing-essentials-part-1-basics-of-ray-tr
 
 NVIDIA Vulkan Ray Tracing Tutorials  
 https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR
+
+Sebastian Lague - Coding Adventure: Ray Tracing  
+https://www.youtube.com/watch?v=Qz0KTGYJtUk
