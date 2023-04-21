@@ -157,5 +157,8 @@ https://www.qt.io
 
 ## Divers
 
+SVG-Edit  
+https://svgedit.netlify.app/editor/index.html
+
 Drawing Lines is Hard  
 https://mattdesl.svbtle.com/drawing-lines-is-hard
