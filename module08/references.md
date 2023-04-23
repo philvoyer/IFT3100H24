@@ -128,5 +128,8 @@ https://www.youtube.com/watch?v=aVwxzDHniEw
 Simulateur de courbe de Bézier  
 https://cubic-bezier.com/
 
+Bartosz Ciechanowski : Curves and Surfaces  
+https://ciechanow.ski/curves-and-surfaces/
+
 DCEL  
 http://www.holmes3d.net/graphics/dcel/
