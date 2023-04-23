@@ -77,6 +77,9 @@ https://www.youtube.com/watch?v=uogAzQoVdNU
 Subdivision Surfaces: Overview  
 https://www.youtube.com/watch?v=ckOTl2GcS-E
 
+Doubly connected edge list  
+https://en.wikipedia.org/wiki/Doubly_connected_edge_list
+
 ## Effet de relief
 
 ### Wikipédia
@@ -124,3 +127,6 @@ https://www.youtube.com/watch?v=aVwxzDHniEw
 
 Simulateur de courbe de Bézier  
 https://cubic-bezier.com/
+
+DCEL  
+http://www.holmes3d.net/graphics/dcel/
