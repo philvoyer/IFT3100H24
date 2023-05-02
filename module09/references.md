@@ -144,3 +144,6 @@ https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR
 
 Sebastian Lague - Coding Adventure: Ray Tracing  
 https://www.youtube.com/watch?v=Qz0KTGYJtUk
+
+CodeParade - How to Make 3D Fractals  
+https://www.youtube.com/watch?v=svLzmFuSBhk
