@@ -1,6 +1,6 @@
-# IFT3100H23
+# IFT3100H24
 
-Exemples du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2023).
+Exemples et références du cours 'IFT-3100 Infographie' de l'Université Laval (édition hiver 2024).
 
 ## Module 1
 
@@ -12,7 +12,7 @@ Techniques de dessin basées sur l’idée de symboliser des instances de primit
 
 ## Module 3
 
-Étude des principaux outils mathématiques utilisés pour la transformation géométrique dans les espaces 2D et 3D tels que les vecteurs, les matrices et les quaternions. 
+Étude des principaux outils mathématiques utilisés pour la transformation géométrique dans les espaces 2D et 3D tels que les vecteurs, les matrices et les quaternions.
 
 ## Module 4
 
@@ -47,5 +47,5 @@ Rendu basé sur la physique, réflexion diélectrique, métallicité, rugosité,
 Ce dépôt contient trois types d'exemples :
 
 1. Des extraits de sections de code OpenGL minimalistes en C++ ou GLSL. Ces exemples ne sont pas exécutables.
-2. Des exemples en C++ pur, sans autre dépendance que les librairies standards du langage. Un *Makefile* accompagne ces exemples, simplement faire un *make* dans une console pour compiler un exécutable. 
+2. Des exemples en C++ pur, sans autre dépendance que les librairies standards du langage. Un *Makefile* accompagne ces exemples, simplement faire un *make* dans une console pour compiler un exécutable.
 3. Tous les autres exemples utilisent *openFrameworks 0.11.2*. Simplement cloner ce dépôt dans le répertoire */apps* et utiliser le *projectGenerator* qui accompagne la technologie pour générer les solutions de votre IDE préféré. Une fois ouvert dans un IDE, supprimer les références vers les fichiers *ofApp.h* et *ofApp.cpp* car ils ne sont pas utilisés.
