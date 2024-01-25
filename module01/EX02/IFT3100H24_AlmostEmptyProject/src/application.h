@@ -1,4 +1,4 @@
-// IFT3100H23_AlmostEmptyProject/application.h
+// IFT3100H24_AlmostEmptyProject/application.h
 // Classe principale de l'application.
 
 #pragma once
