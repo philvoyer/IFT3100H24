@@ -1,4 +1,4 @@
-// IFT3100H23_ColorSpacePixmap\main.cpp
+// IFT3100H24_ColorSpacePixmap\main.cpp
 // Génération procédurale d'une image dans un espace de couleur RGB (256 variations par composante de couleur).
 // Les pixels sont colorés par interpolation linéaire de deux composantes de couleur sur l'axe horizontal et vertical.
 // Exportation des données de l'image dans un fichier .ppm (portable pixmap).
