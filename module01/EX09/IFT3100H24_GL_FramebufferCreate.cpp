@@ -1,4 +1,4 @@
-// IFT3100H23_GL_FramebufferCreate.cpp
+// IFT3100H24_GL_FramebufferCreate.cpp
 // Exemple d'une section de code pour créer et configurer un framebuffer avec OpenGL.
 
 // entrée
