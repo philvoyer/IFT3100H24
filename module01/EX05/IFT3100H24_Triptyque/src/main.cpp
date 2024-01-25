@@ -1,4 +1,4 @@
-// IFT3100H23_Triptyque/main.cpp
+// IFT3100H24_Triptyque/main.cpp
 // Exemple d'échantillonnage dans une image chargée en mémoire pour en extraire 3 nouvelles images.
 // Ces nouvelles images sont ensuite dessinées de gauche à droite avec un espacement horizontal et vertical.
 // Un shader est utilisé pour appliquer une teinte sur les images.

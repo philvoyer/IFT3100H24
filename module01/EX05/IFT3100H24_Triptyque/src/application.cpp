@@ -1,4 +1,4 @@
-// IFT3100H23_Triptyque/application.cpp
+// IFT3100H24_Triptyque/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
