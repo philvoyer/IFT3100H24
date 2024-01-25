@@ -24,9 +24,9 @@ Afin d'avoir un peu de rétroaction à l'exécution, il y a une animation de la 
 
 Il y a aussi une trace dans la console à chaque frame qui permet de voir la valeur courante de différentes données temporelles.
 
-Notamment : le numéro du frame courant, le temps écoulé depuis le début de l'exécution du programme, le temps écoulé depuis le frame précédent et une estimation de la cadence de rafraichissement, avec 60 mises à jour par seconde comme objectif.
+Notamment : le numéro du frame courant, le temps écoulé depuis le début de l'exécution du programme, le temps écoulé depuis le frame précédent et une estimation de la cadence de rafraîchissement, avec 60 mises à jour par seconde comme objectif.
 
-Notez qu'une trace dans la console à chaque mise à jour à un impact négatif sur les performances et que cela devrait normalement être évité. 
+Notez qu'une trace dans la console à chaque mise à jour à un impact négatif sur les performances et que cela devrait normalement être évité.
 
 ### Exemple 1.3 (ImageImport)
 
