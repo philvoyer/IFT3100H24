@@ -1,4 +1,4 @@
-// IFT3100H23_ImageExport/main.cpp
+// IFT3100H24_ImageExport/main.cpp
 // Exemple d'exportation du contenu de la fenêtre d'affichage dans un fichier image situé dans le répertoire ./bin/data.
 // L'exportation est déclenchée lorsque la barre d'espacement est relâchée.
 // Un filtre permet d'inverser la couleur du contenu de la fenêtre d'affichage.

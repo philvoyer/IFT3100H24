@@ -1,4 +1,4 @@
-// IFT3100H23 ~ image_invert_330_vs.glsl
+// IFT3100H24 ~ image_invert_330_vs.glsl
 
 #version 330
 

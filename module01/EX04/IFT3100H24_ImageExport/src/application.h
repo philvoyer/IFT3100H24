@@ -1,4 +1,4 @@
-// IFT3100H23_ImageExport/application.h
+// IFT3100H24_ImageExport/application.h
 // Classe principale de l'application.
 
 #pragma once

@@ -1,4 +1,4 @@
-// IFT3100H23_ImageExport/renderer.h
+// IFT3100H24_ImageExport/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
