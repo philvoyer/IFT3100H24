@@ -1,4 +1,4 @@
-// IFT3100H23_DrawVectorPrimitive/application.h
+// IFT3100H24_DrawVectorPrimitive/application.h
 // Classe principale de l'application.
 
 #pragma once

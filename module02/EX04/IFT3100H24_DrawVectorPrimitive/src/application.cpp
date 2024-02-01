@@ -1,4 +1,4 @@
-// IFT3100H23_DrawVectorPrimitive/application.cpp
+// IFT3100H24_DrawVectorPrimitive/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
