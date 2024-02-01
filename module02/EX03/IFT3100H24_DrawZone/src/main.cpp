@@ -1,4 +1,4 @@
-// IFT3100H23_DrawZone/main.cpp
+// IFT3100H24_DrawZone/main.cpp
 // Dessiner une zone rectangulaire en fonction de la position où un des boutons du périphérique de pointage a été appuyé
 // et de la position courante du curseur, tout en restant dans les limites du canevas.
 

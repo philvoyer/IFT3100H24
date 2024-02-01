@@ -1,4 +1,4 @@
-// IFT3100H23_DrawZone/renderer.h
+// IFT3100H24_DrawZone/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
