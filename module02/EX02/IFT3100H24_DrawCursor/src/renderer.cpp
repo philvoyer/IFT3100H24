@@ -15,9 +15,6 @@ void Renderer::setup()
 
 void Renderer::draw()
 {
-  // épaisseur du trait
-  ofSetLineWidth(2);
-
   // afficher le curseur
   draw_cursor(mouse_current_x, mouse_current_y);
 }
@@ -28,6 +25,9 @@ void Renderer::draw_cursor(float x, float y) const
   // paramètres de dessin
   float length = 10.0f;
   float offset = 5.0f;
+
+  // épaisseur du trait
+  ofSetLineWidth(2);
 
   // dessiner le curseur en rouge si un des boutons du périphérique de pointage est appuyé
   if (is_mouse_button_pressed)
