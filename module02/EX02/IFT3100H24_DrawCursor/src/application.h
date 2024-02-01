@@ -1,4 +1,4 @@
-// IFT3100H23_DrawCursor/application.h
+// IFT3100H24_DrawCursor/application.h
 // Classe principale de l'application.
 
 #pragma once

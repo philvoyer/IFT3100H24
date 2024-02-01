@@ -1,4 +1,4 @@
-// IFT3100H23_DrawCursor/application.cpp
+// IFT3100H24_DrawCursor/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
