@@ -1,4 +1,4 @@
-// IFT3100H23_BackgroundColor/application.h
+// IFT3100H24_BackgroundColor/application.h
 // Classe principale de l'application.
 
 #pragma once
