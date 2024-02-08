@@ -1,11 +1,11 @@
-// IFT3100H23_Oscillator/renderer.cpp
+// IFT3100H24_Oscillator/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
 
 void Renderer::setup()
 {
-  // fréquence de rafraichissement du rendu de la fenêtre d'affichage par seconde
+  // fréquence de rafraîchissement du rendu de la fenêtre d'affichage par seconde
   ofSetFrameRate(60);
 
   // résolution de la fenêtre d'affichage en fonction de l'image

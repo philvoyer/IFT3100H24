@@ -1,4 +1,4 @@
-// IFT3100H23_Oscillator/main.cpp
+// IFT3100H24_Oscillator/main.cpp
 // Dans cet exemple, deux approches différentes sont utilisées pour animer un modèle par oscillation.
 // Un cercle rouge est animé par le CPU avec une fonction d'oscillation implémentée en C++ et
 // un cercle vert est animé par le GPU avec la même fonction implémentée en GLSL dans un shader de sommets.

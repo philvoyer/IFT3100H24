@@ -1,4 +1,4 @@
-// IFT3100H23 ~ vertex_oscillator_330_vs.glsl
+// IFT3100H24 ~ vertex_oscillator_330_vs.glsl
 
 #version 330
 
