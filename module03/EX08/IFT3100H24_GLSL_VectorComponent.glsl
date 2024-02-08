@@ -1,4 +1,4 @@
-// IFT3100H23_GLSL_VectorComponent.glsl
+// IFT3100H24_GLSL_VectorComponent.glsl
 // Exemples d’accès aux composantes d’un vecteur en GLSL.
 
 // déclaration de variables
