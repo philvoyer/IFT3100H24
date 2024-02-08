@@ -1,4 +1,4 @@
-// IFT3100H23_Move/application.cpp
+// IFT3100H24_Move/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
