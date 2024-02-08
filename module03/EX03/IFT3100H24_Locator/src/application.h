@@ -1,4 +1,4 @@
-// IFT3100H23_Locator/Application.h
+// IFT3100H24_Locator/Application.h
 // Classe principale de l'application.
 
 #pragma once
