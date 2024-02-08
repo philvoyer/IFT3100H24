@@ -1,4 +1,4 @@
-// IFT3100H23_GL_ShaderCompilation.cpp
+// IFT3100H24_GL_ShaderCompilation.cpp
 // Exemple de création, de compilation, d'activation, de rendu et de destruction d'un shader avec OpenGL.
 
 // entrée
