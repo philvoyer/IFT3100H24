@@ -184,8 +184,26 @@ https://www.geeks3d.com/20141201/how-to-rotate-a-vertex-by-a-quaternion-in-glsl/
 Article : Matrices, Handedness, Pre and Post Multiplication, Row vs Column Major, and Notations  
 https://seanmiddleditch.github.io/matrices-handedness-pre-and-post-multiplication-row-vs-column-major-and-notations/
 
+Left- vs. Right-handed coordinate systems  
+https://www.evl.uic.edu/ralph/508S98/coordinates.html
+
 Profiling : measurement and analysis (produit matriciel)  
 https://engineering.riotgames.com/news/profiling-measurement-and-analysis
+
+Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?  
+https://youtu.be/t9dLqfrj7lg
+
+A faster quaternion-vector multiplication  
+https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/
+
+Quaternions - Online visualisation  
+https://quaternions.online
+
+3Blue1Brown - Quaternions and 3d rotation, explained interactively  
+https://www.3blue1brown.com/lessons/quaternions-and-3d-rotation
+
+3Blue1Brown - Visualizing quaternions (4d numbers) with stereographic projection  
+https://www.3blue1brown.com/lessons/quaternions
 
 ## Divers
 
@@ -206,12 +224,3 @@ https://en.wikipedia.org/wiki/Mandelbox
 Mandelbulb  
 https://fr.wikipedia.org/wiki/Mandelbulb  
 https://en.wikipedia.org/wiki/Mandelbulb
-
-Conférence de Fabrice Nonez (Université de Montréal) : Apparemment, les quaternions c'est fly ?  
-https://youtu.be/t9dLqfrj7lg
-
-A faster quaternion-vector multiplication  
-https://blog.molecular-matters.com/2013/05/24/a-faster-quaternion-vector-multiplication/
-
-Left- vs. Right-handed coordinate systems  
-https://www.evl.uic.edu/ralph/508S98/coordinates.html
