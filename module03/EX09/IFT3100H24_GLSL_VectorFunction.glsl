@@ -1,4 +1,4 @@
-// IFT3100H23_GLSL_VectorFunction.glsl
+// IFT3100H24_GLSL_VectorFunction.glsl
 // Exemples de fonctions applicables aux variables de type vecteur en GLSL.
 
 // 1. calculer la magnitude d'un vecteur (sa longueur dans l'espace)
