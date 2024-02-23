@@ -1,4 +1,4 @@
-// IFT3100H23_CameraProjection/renderer.cpp
+// IFT3100H24_CameraProjection/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
@@ -148,8 +148,8 @@ void Renderer::camera_setup_perspective(float width, float height, float fov, fl
   camera_position.y = camera_viewport_y / 2.0f;
   camera_position.z = distance;
 
-  camera_clip_n = near > 0.0f ? near : distance / 10.0f;
-  camera_clip_f = far > 0.0f ? far : distance * 10.0f;
+  camera_clip_n = (near > 0.0f ? near : distance / 10.0f);
+  camera_clip_f = (far > 0.0f ? far : distance * 10.0f);
 
   camera_depth_range = camera_clip_f - camera_clip_n;
 

@@ -1,4 +1,4 @@
-// IFT3100H23_CameraProjection/renderer.h
+// IFT3100H24_CameraProjection/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once

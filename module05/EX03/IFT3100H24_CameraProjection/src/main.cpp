@@ -1,4 +1,4 @@
-// IFT3100H23_CameraProjection/main.cpp
+// IFT3100H24_CameraProjection/main.cpp
 // Exemple d'une scène avec projection en perspective.
 
 #include "ofMain.h"

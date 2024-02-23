@@ -1,4 +1,4 @@
-// IFT3100H23_CameraProjection/application.h
+// IFT3100H24_CameraProjection/application.h
 // Classe principale de l'application.
 
 #pragma once
