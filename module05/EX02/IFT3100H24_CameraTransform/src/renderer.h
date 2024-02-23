@@ -1,4 +1,4 @@
-// IFT3100H23_CameraTransform/renderer.h
+// IFT3100H24_CameraTransform/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once

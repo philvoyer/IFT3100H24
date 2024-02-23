@@ -1,4 +1,4 @@
-// IFT3100H23_CameraTransform/main.cpp
+// IFT3100H24_CameraTransform/main.cpp
 // Exemple d'une scène avec différentes caméras interactives.
 
 #include "ofMain.h"
