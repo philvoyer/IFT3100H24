@@ -128,7 +128,7 @@ float Renderer::compute_zoom_from_fov(float fov)
 }
 
 // fonction qui permet de configurer les attributs d'une caméra en perspective
-void Renderer::camera_setup_perspective(float width, float height, float fov, float near, float far)
+void Renderer::camera_setup_perspective(float width, float height, float fov, float clip_near, float clip_far)
 {
   camera_projection_persp_or_ortho = true;
   camera_vertical_flip = true;
@@ -148,8 +148,8 @@ void Renderer::camera_setup_perspective(float width, float height, float fov, fl
   camera_position.y = camera_viewport_y / 2.0f;
   camera_position.z = distance;
 
-  camera_clip_n = (near > 0.0f ? near : distance / 10.0f);
-  camera_clip_f = (far > 0.0f ? far : distance * 10.0f);
+  camera_clip_n = clip_near > 0.0f ? clip_near : distance / 10.0f;
+  camera_clip_f = clip_far > 0.0f ? clip_far : distance * 10.0f;
 
   camera_depth_range = camera_clip_f - camera_clip_n;
 
