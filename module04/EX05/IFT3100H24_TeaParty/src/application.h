@@ -1,4 +1,4 @@
-// IFT3100H23_TeaParty/application.h
+// IFT3100H24_TeaParty/application.h
 // Classe principale de l'application.
 
 #pragma once
