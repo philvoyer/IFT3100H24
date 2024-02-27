@@ -1,4 +1,4 @@
-// IFT3100H23_BonjourTriangle/application.cpp
+// IFT3100H24_BonjourTriangle/application.cpp
 // Classe principale de l'application.
 
 #include "application.h"
