@@ -1,4 +1,4 @@
-// IFT3100H23_TriangleSoup/application.h
+// IFT3100H24_TriangleSoup/application.h
 // Classe principale de l'application.
 
 #pragma once
