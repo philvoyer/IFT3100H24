@@ -1,4 +1,4 @@
-// IFT3100H23_RegularPolygon/renderer.cpp
+// IFT3100H24_RegularPolygon/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
