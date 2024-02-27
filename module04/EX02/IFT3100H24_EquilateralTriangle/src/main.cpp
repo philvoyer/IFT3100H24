@@ -1,4 +1,4 @@
-// IFT3100H23_EquilateralTriangle/main.cpp
+// IFT3100H24_EquilateralTriangle/main.cpp
 // Exemple de dessin d'un triangle équilatéral et calcul de certaines de ses propriétés.
 
 #include "ofMain.h"
