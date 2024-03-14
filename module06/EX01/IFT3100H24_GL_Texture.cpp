@@ -1,4 +1,4 @@
-// IFT3100H23_GL_Texture.cpp
+// IFT3100H24_GL_Texture.cpp
 // Exemple de sections de code pour configurer et manipuler des textures avec OpenGL.
 
 // 1. ouvrir un fichier image en mode lecture et en extraire les propriétés
