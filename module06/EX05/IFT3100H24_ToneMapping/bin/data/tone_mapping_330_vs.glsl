@@ -1,4 +1,4 @@
-// IFT3100H23 ~ tone_mapping_330_vs.glsl
+// IFT3100H24 ~ tone_mapping_330_vs.glsl
 
 #version 330
 
