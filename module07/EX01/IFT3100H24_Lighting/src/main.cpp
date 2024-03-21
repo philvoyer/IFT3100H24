@@ -1,4 +1,4 @@
-// IFT3100H23_Lighting/main.cpp
+// IFT3100H24_Lighting/main.cpp
 // Démonstration de différents types de lumières et de matériaux du pipeline fixe de OpenGL (version 2.1).
 // La scène contient trois modèles : un cube, une sphère et un teapot.
 // Chaque modèle possède son propre matériau.
