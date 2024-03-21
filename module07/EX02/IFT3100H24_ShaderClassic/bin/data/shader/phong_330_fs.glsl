@@ -1,8 +1,8 @@
-// IFT3100H23 ~ blinn_phong_330_fs.glsl
+// IFT3100H24 ~ phong_330_fs.glsl
 
 #version 330
 
-// attributs interpolés à partir des valeurs en sortie du shader de sommet
+// attributs interpolés à partir des valeurs en sortie du shader de sommets
 in vec3 surface_position;
 in vec3 surface_normal;
 
@@ -40,11 +40,11 @@ void main()
     // calculer la direction de la surface vers la caméra (v)
     vec3 v = normalize(-surface_position);
 
-    // calculer la direction du demi-vecteur de réflection (h) en fonction du vecteur de vue (v) et de lumière (l)
-    vec3 h = normalize(v + l);
+    // calculer la direction de la réflection (r) du rayon incident (-l) en fonction de la normale (n)
+    vec3 r = reflect(-l, n);
 
-    // calculer le niveau de réflexion spéculaire (n • h)
-    reflection_specular = pow(max(dot(n, h), 0.0), brightness);
+    // calculer le niveau de réflexion spéculaire (r • v)
+    reflection_specular = pow(max(dot(v, r), 0.0), brightness);
   }
 
   // calculer la couleur du fragment

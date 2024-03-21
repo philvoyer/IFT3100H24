@@ -1,4 +1,4 @@
-// IFT3100H23_ShaderClassic/main.cpp
+// IFT3100H24_ShaderClassic/main.cpp
 // Démonstration de 5 modèles d'illumination classiques implémentés avec des shaders :
 // - couleur de remplissage uniforme sur toute la surface,
 // - modèle d'illumination de Lambert,

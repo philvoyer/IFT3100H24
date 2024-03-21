@@ -1,4 +1,4 @@
-// IFT3100H23 ~ blinn_phong_330_vs.glsl
+// IFT3100H24 ~ phong_330_vs.glsl
 
 #version 330
 
