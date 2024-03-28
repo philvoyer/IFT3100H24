@@ -1,4 +1,4 @@
-// IFT3100H23_CurveHermite/renderer.cpp
+// IFT3100H24_CurveHermite/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"

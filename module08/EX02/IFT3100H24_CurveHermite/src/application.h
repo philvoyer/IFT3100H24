@@ -1,4 +1,4 @@
-// IFT3100H23_CurveHermite/application.h
+// IFT3100H24_CurveHermite/application.h
 // Classe principale de l'application.
 
 #pragma once

@@ -1,4 +1,4 @@
-// IFT3100H23_CurveHermite/main.cpp
+// IFT3100H24_CurveHermite/main.cpp
 // Exemple d'une courbe de Hermite cubique et d'une courbe de Bézier cubique.
 
 #include "ofMain.h"
