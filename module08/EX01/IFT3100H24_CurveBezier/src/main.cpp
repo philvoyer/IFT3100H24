@@ -1,4 +1,4 @@
-// IFT3100H23_CurveBezier/main.cpp
+// IFT3100H24_CurveBezier/main.cpp
 // Exemple d'une courbe de Bézier quadratique et d'une courbe de Bézier cubique.
 
 #include "ofMain.h"

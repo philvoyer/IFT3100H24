@@ -1,4 +1,4 @@
-// IFT3100H23_CurveBezier/renderer.h
+// IFT3100H24_CurveBezier/renderer.h
 // Classe responsable du rendu de l'application.
 
 #pragma once
