@@ -203,3 +203,7 @@ https://paroj.github.io/gltut/Texturing/Tut15%20Anisotropy.html
 
 tonemapper — A tool for exploring and applying various tonemapping operators  
 https://github.com/tizian/tonemapper
+
+Krzysztof Narkowicz - ACES Filmic Tone Mapping Curve  
+https://knarkowicz.wordpress.com/2016/01/06/aces-filmic-tone-mapping-curve/
+
