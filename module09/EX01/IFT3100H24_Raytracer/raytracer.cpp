@@ -5,6 +5,7 @@
 // run  : ./raytracer image_width image_height ray_per_pixel
 
 // c
+#define _USE_MATH_DEFINES // pour M_PI avec compilateur de Visual Studio
 #include <cmath>    // sqrt pow fabs cos sin
 
 // c++
