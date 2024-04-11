@@ -147,3 +147,6 @@ https://www.youtube.com/watch?v=Qz0KTGYJtUk
 
 CodeParade - How to Make 3D Fractals  
 https://www.youtube.com/watch?v=svLzmFuSBhk
+
+Mouse Picking with Ray Casting  
+https://antongerdelan.net/opengl/raycasting.html
