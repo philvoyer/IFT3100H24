@@ -1,4 +1,4 @@
-// IFT3100H23_PBR/renderer.cpp
+// IFT3100H24_PBR/renderer.cpp
 // Classe responsable du rendu de l'application.
 
 #include "renderer.h"
